@@ -24,17 +24,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KKOpenSSL.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>KSCrash.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>MKNetworkKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OpenSSL.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

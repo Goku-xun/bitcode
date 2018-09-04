@@ -6,7 +6,7 @@ target 'bitcode' do
   # use_frameworks!
   pod 'CocoaLumberjack', '~> 1.9'
   pod 'FMDB'
-  pod 'OpenSSL', git: 'https://github.com/bither/OpenSSL.git'
+  pod 'KKOpenSSL','~> 0.0.5'
   pod 'SSModel'
   pod 'KSCrash', '~> 0.0.3'
   pod 'MKNetworkKit', '~> 0.87'

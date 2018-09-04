@@ -136,7 +136,7 @@ bitcode是一个很简单的比特币钱包模块，我们可以使用它来开�
   # spec.dependency "JSONKit", "~> 1.4"
   spec.dependency "CocoaLumberjack", "~> 1.9"
   spec.dependency "FMDB"
-  spec.dependency "OpenSSL", git: "https://github.com/bither/OpenSSL.git"
+  spec.dependency "KKOpenSSL", "~> 0.0.5"
   spec.dependency "SSModel"
   spec.dependency "KSCrash", "~> 0.0.3"
   spec.dependency "MKNetworkKit", "~> 0.87"
