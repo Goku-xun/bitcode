@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6300DA0DC586D39C8FA2C0BD /* libPods-bitcode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43293A855028BFB1EE5B66A5 /* libPods-bitcode.a */; };
+		EA28C8A2213E2B2300D9198C /* BTAddressManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C83A213E2B2300D9198C /* BTAddressManager.h */; };
+		EA28C8A3213E2B2300D9198C /* BTKeyParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C83B213E2B2300D9198C /* BTKeyParameter.m */; };
+		EA28C8A4213E2B2300D9198C /* BTEncryptData.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C83C213E2B2300D9198C /* BTEncryptData.m */; };
+		EA28C8A5213E2B2300D9198C /* BTBloomFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C83D213E2B2300D9198C /* BTBloomFilter.h */; };
+		EA28C8A6213E2B2300D9198C /* ccMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C83E213E2B2300D9198C /* ccMemory.h */; };
+		EA28C8A7213E2B2300D9198C /* BTTxBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C83F213E2B2300D9198C /* BTTxBuilder.h */; };
+		EA28C8A8213E2B2300D9198C /* BTWordsTypeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C840213E2B2300D9198C /* BTWordsTypeManager.h */; };
+		EA28C8A9213E2B2300D9198C /* BTHDAccountCold.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C841213E2B2300D9198C /* BTHDAccountCold.m */; };
+		EA28C8AA213E2B2300D9198C /* bitcode.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C842213E2B2300D9198C /* bitcode.h */; };
+		EA28C8AB213E2B2300D9198C /* BTQRCodeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C843213E2B2300D9198C /* BTQRCodeUtil.h */; };
+		EA28C8AC213E2B2300D9198C /* BTBIP32Key.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C844213E2B2300D9198C /* BTBIP32Key.m */; };
+		EA28C8AD213E2B2300D9198C /* BTScriptChunk.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C845213E2B2300D9198C /* BTScriptChunk.m */; };
+		EA28C8AE213E2B2300D9198C /* BTHDMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C846213E2B2300D9198C /* BTHDMKeychain.h */; };
+		EA28C8AF213E2B2300D9198C /* BTCompressingLogFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C847213E2B2300D9198C /* BTCompressingLogFileManager.h */; };
+		EA28C8B0213E2B2300D9198C /* BTTxProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C848213E2B2300D9198C /* BTTxProvider.m */; };
+		EA28C8B1213E2B2300D9198C /* BTBlockChain.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C849213E2B2300D9198C /* BTBlockChain.h */; };
+		EA28C8B2213E2B2300D9198C /* BTHDMBid.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C84A213E2B2300D9198C /* BTHDMBid.h */; };
+		EA28C8B3213E2B2300D9198C /* BTHDAccountProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C84B213E2B2300D9198C /* BTHDAccountProvider.m */; };
+		EA28C8B4213E2B2300D9198C /* BTPrivateKeyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C84C213E2B2300D9198C /* BTPrivateKeyUtil.h */; };
+		EA28C8B5213E2B2300D9198C /* BTHDAccountAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C84D213E2B2300D9198C /* BTHDAccountAddress.h */; };
+		EA28C8B6213E2B2300D9198C /* BTOut.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C84E213E2B2300D9198C /* BTOut.m */; };
+		EA28C8B7213E2B2300D9198C /* BTVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C84F213E2B2300D9198C /* BTVersion.m */; };
+		EA28C8B8213E2B2300D9198C /* BTHDAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C850213E2B2300D9198C /* BTHDAccount.m */; };
+		EA28C8B9213E2B2300D9198C /* BTDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C851213E2B2300D9198C /* BTDatabaseManager.m */; };
+		EA28C8BA213E2B2300D9198C /* BTPeer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C852213E2B2300D9198C /* BTPeer.h */; };
+		EA28C8BB213E2B2300D9198C /* BTScriptBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C853213E2B2300D9198C /* BTScriptBuilder.h */; };
+		EA28C8BC213E2B2300D9198C /* BTHDAccountAddressProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C854213E2B2300D9198C /* BTHDAccountAddressProvider.h */; };
+		EA28C8BD213E2B2300D9198C /* BTPeerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C855213E2B2300D9198C /* BTPeerManager.h */; };
+		EA28C8BE213E2B2300D9198C /* BTAddressProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C856213E2B2300D9198C /* BTAddressProvider.h */; };
+		EA28C8BF213E2B2300D9198C /* BTSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C857213E2B2300D9198C /* BTSettings.h */; };
+		EA28C8C0213E2B2300D9198C /* BTBlockProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C858213E2B2300D9198C /* BTBlockProvider.h */; };
+		EA28C8C1213E2B2300D9198C /* BTHDMAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C859213E2B2300D9198C /* BTHDMAddress.h */; };
+		EA28C8C2213E2B2300D9198C /* BTKey.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C85A213E2B2300D9198C /* BTKey.h */; };
+		EA28C8C3213E2B2300D9198C /* NSString+Base58.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C85B213E2B2300D9198C /* NSString+Base58.m */; };
+		EA28C8C4213E2B2300D9198C /* BTBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C85C213E2B2300D9198C /* BTBlock.h */; };
+		EA28C8C5213E2B2300D9198C /* BTHDMKeychainRecover.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C85D213E2B2300D9198C /* BTHDMKeychainRecover.m */; };
+		EA28C8C6213E2B2300D9198C /* BTTxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C85E213E2B2300D9198C /* BTTxHelper.m */; };
+		EA28C8C7213E2B2300D9198C /* BTAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C85F213E2B2300D9198C /* BTAddress.m */; };
+		EA28C8C8213E2B2300D9198C /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C860213E2B2300D9198C /* NSData+Hash.m */; };
+		EA28C8C9213E2B2300D9198C /* BTScriptOpCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C861213E2B2300D9198C /* BTScriptOpCodes.m */; };
+		EA28C8CA213E2B2300D9198C /* BTPasswordSeed.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C862213E2B2300D9198C /* BTPasswordSeed.h */; };
+		EA28C8CB213E2B2300D9198C /* BTIn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C863213E2B2300D9198C /* BTIn.m */; };
+		EA28C8CC213E2B2300D9198C /* NSMutableData+Bitcoin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C864213E2B2300D9198C /* NSMutableData+Bitcoin.m */; };
+		EA28C8CD213E2B2300D9198C /* BTScript.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C865213E2B2300D9198C /* BTScript.m */; };
+		EA28C8CE213E2B2300D9198C /* BTKey+BIP38.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C866213E2B2300D9198C /* BTKey+BIP38.m */; };
+		EA28C8CF213E2B2300D9198C /* NSData+Bitcoin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C867213E2B2300D9198C /* NSData+Bitcoin.m */; };
+		EA28C8D0213E2B2300D9198C /* Bitheri.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C868213E2B2300D9198C /* Bitheri.h */; };
+		EA28C8D1213E2B2300D9198C /* BTBIP39.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C869213E2B2300D9198C /* BTBIP39.h */; };
+		EA28C8D2213E2B2300D9198C /* BTTx.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C86A213E2B2300D9198C /* BTTx.m */; };
+		EA28C8D3213E2B2300D9198C /* BTPeerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C86B213E2B2300D9198C /* BTPeerProvider.h */; };
+		EA28C8D4213E2B2300D9198C /* BTKey+Bitcoinj.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C86C213E2B2300D9198C /* BTKey+Bitcoinj.h */; };
+		EA28C8D5213E2B2300D9198C /* BTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C86D213E2B2300D9198C /* BTUtils.m */; };
+		EA28C8D6213E2B2300D9198C /* KKUTXOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C86E213E2B2300D9198C /* KKUTXOModel.h */; };
+		EA28C8D7213E2B2300D9198C /* BTTxProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C86F213E2B2300D9198C /* BTTxProvider.h */; };
+		EA28C8D8213E2B2300D9198C /* BTCompressingLogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C870213E2B2300D9198C /* BTCompressingLogFileManager.m */; };
+		EA28C8D9213E2B2300D9198C /* BTHDMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C871213E2B2300D9198C /* BTHDMKeychain.m */; };
+		EA28C8DA213E2B2300D9198C /* BTScriptChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C872213E2B2300D9198C /* BTScriptChunk.h */; };
+		EA28C8DB213E2B2300D9198C /* BTBIP32Key.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C873213E2B2300D9198C /* BTBIP32Key.h */; };
+		EA28C8DC213E2B2300D9198C /* BTQRCodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C874213E2B2300D9198C /* BTQRCodeUtil.m */; };
+		EA28C8DD213E2B2300D9198C /* BTHDAccountCold.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C875213E2B2300D9198C /* BTHDAccountCold.h */; };
+		EA28C8DE213E2B2300D9198C /* BTWordsTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C876213E2B2300D9198C /* BTWordsTypeManager.m */; };
+		EA28C8DF213E2B2300D9198C /* BTTxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C877213E2B2300D9198C /* BTTxBuilder.m */; };
+		EA28C8E0213E2B2300D9198C /* BTBloomFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C878213E2B2300D9198C /* BTBloomFilter.m */; };
+		EA28C8E1213E2B2300D9198C /* BTAddressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C879213E2B2300D9198C /* BTAddressManager.m */; };
+		EA28C8E2213E2B2300D9198C /* BTKeyParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C87A213E2B2300D9198C /* BTKeyParameter.h */; };
+		EA28C8E3213E2B2300D9198C /* BTEncryptData.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C87B213E2B2300D9198C /* BTEncryptData.h */; };
+		EA28C8E4213E2B2300D9198C /* BTHDAccountAddressProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C87C213E2B2300D9198C /* BTHDAccountAddressProvider.m */; };
+		EA28C8E5213E2B2300D9198C /* BTScriptBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C87D213E2B2300D9198C /* BTScriptBuilder.m */; };
+		EA28C8E6213E2B2300D9198C /* BTPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C87E213E2B2300D9198C /* BTPeer.m */; };
+		EA28C8E7213E2B2300D9198C /* BTDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C87F213E2B2300D9198C /* BTDatabaseManager.h */; };
+		EA28C8E8213E2B2300D9198C /* BTHDAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C880213E2B2300D9198C /* BTHDAccount.h */; };
+		EA28C8E9213E2B2300D9198C /* BTVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C881213E2B2300D9198C /* BTVersion.h */; };
+		EA28C8EA213E2B2300D9198C /* BTHDAccountAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C882213E2B2300D9198C /* BTHDAccountAddress.m */; };
+		EA28C8EB213E2B2300D9198C /* BTOut.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C883213E2B2300D9198C /* BTOut.h */; };
+		EA28C8EC213E2B2300D9198C /* BTHDAccountProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C884213E2B2300D9198C /* BTHDAccountProvider.h */; };
+		EA28C8ED213E2B2300D9198C /* BTPrivateKeyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C885213E2B2300D9198C /* BTPrivateKeyUtil.m */; };
+		EA28C8EE213E2B2300D9198C /* BTHDMBid.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C886213E2B2300D9198C /* BTHDMBid.m */; };
+		EA28C8EF213E2B2300D9198C /* BTBlockChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C887213E2B2300D9198C /* BTBlockChain.m */; };
+		EA28C8F0213E2B2300D9198C /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C888213E2B2300D9198C /* NSData+Hash.h */; };
+		EA28C8F1213E2B2300D9198C /* BTAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C889213E2B2300D9198C /* BTAddress.h */; };
+		EA28C8F2213E2B2300D9198C /* BTHDMKeychainRecover.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C88A213E2B2300D9198C /* BTHDMKeychainRecover.h */; };
+		EA28C8F3213E2B2300D9198C /* BTTxHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C88B213E2B2300D9198C /* BTTxHelper.h */; };
+		EA28C8F4213E2B2300D9198C /* BTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C88C213E2B2300D9198C /* BTBlock.m */; };
+		EA28C8F5213E2B2300D9198C /* NSString+Base58.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C88D213E2B2300D9198C /* NSString+Base58.h */; };
+		EA28C8F6213E2B2300D9198C /* BTKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C88E213E2B2300D9198C /* BTKey.m */; };
+		EA28C8F7213E2B2300D9198C /* BTBlockProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C88F213E2B2300D9198C /* BTBlockProvider.m */; };
+		EA28C8F8213E2B2300D9198C /* BTHDMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C890213E2B2300D9198C /* BTHDMAddress.m */; };
+		EA28C8F9213E2B2300D9198C /* BTAddressProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C891213E2B2300D9198C /* BTAddressProvider.m */; };
+		EA28C8FA213E2B2300D9198C /* BTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C892213E2B2300D9198C /* BTSettings.m */; };
+		EA28C8FB213E2B2300D9198C /* BTPeerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C893213E2B2300D9198C /* BTPeerManager.m */; };
+		EA28C8FC213E2B2300D9198C /* BTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C894213E2B2300D9198C /* BTUtils.h */; };
+		EA28C8FD213E2B2300D9198C /* KKUTXOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C895213E2B2300D9198C /* KKUTXOModel.m */; };
+		EA28C8FE213E2B2300D9198C /* BTPeerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C896213E2B2300D9198C /* BTPeerProvider.m */; };
+		EA28C8FF213E2B2300D9198C /* BTKey+Bitcoinj.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C897213E2B2300D9198C /* BTKey+Bitcoinj.m */; };
+		EA28C900213E2B2300D9198C /* BTTx.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C898213E2B2300D9198C /* BTTx.h */; };
+		EA28C901213E2B2300D9198C /* BTBIP39.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C899213E2B2300D9198C /* BTBIP39.m */; };
+		EA28C902213E2B2300D9198C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA28C89A213E2B2300D9198C /* Info.plist */; };
+		EA28C903213E2B2300D9198C /* NSData+Bitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89B213E2B2300D9198C /* NSData+Bitcoin.h */; };
+		EA28C904213E2B2300D9198C /* BTKey+BIP38.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89C213E2B2300D9198C /* BTKey+BIP38.h */; };
+		EA28C905213E2B2300D9198C /* NSMutableData+Bitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89D213E2B2300D9198C /* NSMutableData+Bitcoin.h */; };
+		EA28C906213E2B2300D9198C /* BTScript.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89E213E2B2300D9198C /* BTScript.h */; };
+		EA28C907213E2B2300D9198C /* BTScriptOpCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89F213E2B2300D9198C /* BTScriptOpCodes.h */; };
+		EA28C908213E2B2300D9198C /* BTPasswordSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C8A0213E2B2300D9198C /* BTPasswordSeed.m */; };
+		EA28C909213E2B2300D9198C /* BTIn.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C8A1213E2B2300D9198C /* BTIn.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43293A855028BFB1EE5B66A5 /* libPods-bitcode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bitcode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF964ABA552A9F1C97957B /* Pods-bitcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcode.debug.xcconfig"; path = "Target Support Files/Pods-bitcode/Pods-bitcode.debug.xcconfig"; sourceTree = "<group>"; };
+		EA28C611213D269100D9198C /* bitcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bitcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA28C83A213E2B2300D9198C /* BTAddressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAddressManager.h; sourceTree = "<group>"; };
+		EA28C83B213E2B2300D9198C /* BTKeyParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTKeyParameter.m; sourceTree = "<group>"; };
+		EA28C83C213E2B2300D9198C /* BTEncryptData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEncryptData.m; sourceTree = "<group>"; };
+		EA28C83D213E2B2300D9198C /* BTBloomFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBloomFilter.h; sourceTree = "<group>"; };
+		EA28C83E213E2B2300D9198C /* ccMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccMemory.h; sourceTree = "<group>"; };
+		EA28C83F213E2B2300D9198C /* BTTxBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTxBuilder.h; sourceTree = "<group>"; };
+		EA28C840213E2B2300D9198C /* BTWordsTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWordsTypeManager.h; sourceTree = "<group>"; };
+		EA28C841213E2B2300D9198C /* BTHDAccountCold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountCold.m; sourceTree = "<group>"; };
+		EA28C842213E2B2300D9198C /* bitcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitcode.h; sourceTree = "<group>"; };
+		EA28C843213E2B2300D9198C /* BTQRCodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTQRCodeUtil.h; sourceTree = "<group>"; };
+		EA28C844213E2B2300D9198C /* BTBIP32Key.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBIP32Key.m; sourceTree = "<group>"; };
+		EA28C845213E2B2300D9198C /* BTScriptChunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptChunk.m; sourceTree = "<group>"; };
+		EA28C846213E2B2300D9198C /* BTHDMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMKeychain.h; sourceTree = "<group>"; };
+		EA28C847213E2B2300D9198C /* BTCompressingLogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCompressingLogFileManager.h; sourceTree = "<group>"; };
+		EA28C848213E2B2300D9198C /* BTTxProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTxProvider.m; sourceTree = "<group>"; };
+		EA28C849213E2B2300D9198C /* BTBlockChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBlockChain.h; sourceTree = "<group>"; };
+		EA28C84A213E2B2300D9198C /* BTHDMBid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMBid.h; sourceTree = "<group>"; };
+		EA28C84B213E2B2300D9198C /* BTHDAccountProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountProvider.m; sourceTree = "<group>"; };
+		EA28C84C213E2B2300D9198C /* BTPrivateKeyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPrivateKeyUtil.h; sourceTree = "<group>"; };
+		EA28C84D213E2B2300D9198C /* BTHDAccountAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountAddress.h; sourceTree = "<group>"; };
+		EA28C84E213E2B2300D9198C /* BTOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTOut.m; sourceTree = "<group>"; };
+		EA28C84F213E2B2300D9198C /* BTVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTVersion.m; sourceTree = "<group>"; };
+		EA28C850213E2B2300D9198C /* BTHDAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccount.m; sourceTree = "<group>"; };
+		EA28C851213E2B2300D9198C /* BTDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDatabaseManager.m; sourceTree = "<group>"; };
+		EA28C852213E2B2300D9198C /* BTPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeer.h; sourceTree = "<group>"; };
+		EA28C853213E2B2300D9198C /* BTScriptBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScriptBuilder.h; sourceTree = "<group>"; };
+		EA28C854213E2B2300D9198C /* BTHDAccountAddressProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountAddressProvider.h; sourceTree = "<group>"; };
+		EA28C855213E2B2300D9198C /* BTPeerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeerManager.h; sourceTree = "<group>"; };
+		EA28C856213E2B2300D9198C /* BTAddressProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAddressProvider.h; sourceTree = "<group>"; };
+		EA28C857213E2B2300D9198C /* BTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSettings.h; sourceTree = "<group>"; };
+		EA28C858213E2B2300D9198C /* BTBlockProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBlockProvider.h; sourceTree = "<group>"; };
+		EA28C859213E2B2300D9198C /* BTHDMAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMAddress.h; sourceTree = "<group>"; };
+		EA28C85A213E2B2300D9198C /* BTKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTKey.h; sourceTree = "<group>"; };
+		EA28C85B213E2B2300D9198C /* NSString+Base58.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base58.m"; sourceTree = "<group>"; };
+		EA28C85C213E2B2300D9198C /* BTBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBlock.h; sourceTree = "<group>"; };
+		EA28C85D213E2B2300D9198C /* BTHDMKeychainRecover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMKeychainRecover.m; sourceTree = "<group>"; };
+		EA28C85E213E2B2300D9198C /* BTTxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTxHelper.m; sourceTree = "<group>"; };
+		EA28C85F213E2B2300D9198C /* BTAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAddress.m; sourceTree = "<group>"; };
+		EA28C860213E2B2300D9198C /* NSData+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hash.m"; sourceTree = "<group>"; };
+		EA28C861213E2B2300D9198C /* BTScriptOpCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptOpCodes.m; sourceTree = "<group>"; };
+		EA28C862213E2B2300D9198C /* BTPasswordSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPasswordSeed.h; sourceTree = "<group>"; };
+		EA28C863213E2B2300D9198C /* BTIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIn.m; sourceTree = "<group>"; };
+		EA28C864213E2B2300D9198C /* NSMutableData+Bitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Bitcoin.m"; sourceTree = "<group>"; };
+		EA28C865213E2B2300D9198C /* BTScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScript.m; sourceTree = "<group>"; };
+		EA28C866213E2B2300D9198C /* BTKey+BIP38.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTKey+BIP38.m"; sourceTree = "<group>"; };
+		EA28C867213E2B2300D9198C /* NSData+Bitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Bitcoin.m"; sourceTree = "<group>"; };
+		EA28C868213E2B2300D9198C /* Bitheri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bitheri.h; sourceTree = "<group>"; };
+		EA28C869213E2B2300D9198C /* BTBIP39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBIP39.h; sourceTree = "<group>"; };
+		EA28C86A213E2B2300D9198C /* BTTx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTx.m; sourceTree = "<group>"; };
+		EA28C86B213E2B2300D9198C /* BTPeerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeerProvider.h; sourceTree = "<group>"; };
+		EA28C86C213E2B2300D9198C /* BTKey+Bitcoinj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTKey+Bitcoinj.h"; sourceTree = "<group>"; };
+		EA28C86D213E2B2300D9198C /* BTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUtils.m; sourceTree = "<group>"; };
+		EA28C86E213E2B2300D9198C /* KKUTXOModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKUTXOModel.h; sourceTree = "<group>"; };
+		EA28C86F213E2B2300D9198C /* BTTxProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTxProvider.h; sourceTree = "<group>"; };
+		EA28C870213E2B2300D9198C /* BTCompressingLogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCompressingLogFileManager.m; sourceTree = "<group>"; };
+		EA28C871213E2B2300D9198C /* BTHDMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMKeychain.m; sourceTree = "<group>"; };
+		EA28C872213E2B2300D9198C /* BTScriptChunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScriptChunk.h; sourceTree = "<group>"; };
+		EA28C873213E2B2300D9198C /* BTBIP32Key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBIP32Key.h; sourceTree = "<group>"; };
+		EA28C874213E2B2300D9198C /* BTQRCodeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTQRCodeUtil.m; sourceTree = "<group>"; };
+		EA28C875213E2B2300D9198C /* BTHDAccountCold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountCold.h; sourceTree = "<group>"; };
+		EA28C876213E2B2300D9198C /* BTWordsTypeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWordsTypeManager.m; sourceTree = "<group>"; };
+		EA28C877213E2B2300D9198C /* BTTxBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTxBuilder.m; sourceTree = "<group>"; };
+		EA28C878213E2B2300D9198C /* BTBloomFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBloomFilter.m; sourceTree = "<group>"; };
+		EA28C879213E2B2300D9198C /* BTAddressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAddressManager.m; sourceTree = "<group>"; };
+		EA28C87A213E2B2300D9198C /* BTKeyParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTKeyParameter.h; sourceTree = "<group>"; };
+		EA28C87B213E2B2300D9198C /* BTEncryptData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEncryptData.h; sourceTree = "<group>"; };
+		EA28C87C213E2B2300D9198C /* BTHDAccountAddressProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountAddressProvider.m; sourceTree = "<group>"; };
+		EA28C87D213E2B2300D9198C /* BTScriptBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptBuilder.m; sourceTree = "<group>"; };
+		EA28C87E213E2B2300D9198C /* BTPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeer.m; sourceTree = "<group>"; };
+		EA28C87F213E2B2300D9198C /* BTDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDatabaseManager.h; sourceTree = "<group>"; };
+		EA28C880213E2B2300D9198C /* BTHDAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccount.h; sourceTree = "<group>"; };
+		EA28C881213E2B2300D9198C /* BTVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTVersion.h; sourceTree = "<group>"; };
+		EA28C882213E2B2300D9198C /* BTHDAccountAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountAddress.m; sourceTree = "<group>"; };
+		EA28C883213E2B2300D9198C /* BTOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTOut.h; sourceTree = "<group>"; };
+		EA28C884213E2B2300D9198C /* BTHDAccountProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountProvider.h; sourceTree = "<group>"; };
+		EA28C885213E2B2300D9198C /* BTPrivateKeyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPrivateKeyUtil.m; sourceTree = "<group>"; };
+		EA28C886213E2B2300D9198C /* BTHDMBid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMBid.m; sourceTree = "<group>"; };
+		EA28C887213E2B2300D9198C /* BTBlockChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBlockChain.m; sourceTree = "<group>"; };
+		EA28C888213E2B2300D9198C /* NSData+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hash.h"; sourceTree = "<group>"; };
+		EA28C889213E2B2300D9198C /* BTAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAddress.h; sourceTree = "<group>"; };
+		EA28C88A213E2B2300D9198C /* BTHDMKeychainRecover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMKeychainRecover.h; sourceTree = "<group>"; };
+		EA28C88B213E2B2300D9198C /* BTTxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTxHelper.h; sourceTree = "<group>"; };
+		EA28C88C213E2B2300D9198C /* BTBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBlock.m; sourceTree = "<group>"; };
+		EA28C88D213E2B2300D9198C /* NSString+Base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base58.h"; sourceTree = "<group>"; };
+		EA28C88E213E2B2300D9198C /* BTKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTKey.m; sourceTree = "<group>"; };
+		EA28C88F213E2B2300D9198C /* BTBlockProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBlockProvider.m; sourceTree = "<group>"; };
+		EA28C890213E2B2300D9198C /* BTHDMAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMAddress.m; sourceTree = "<group>"; };
+		EA28C891213E2B2300D9198C /* BTAddressProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAddressProvider.m; sourceTree = "<group>"; };
+		EA28C892213E2B2300D9198C /* BTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSettings.m; sourceTree = "<group>"; };
+		EA28C893213E2B2300D9198C /* BTPeerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeerManager.m; sourceTree = "<group>"; };
+		EA28C894213E2B2300D9198C /* BTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUtils.h; sourceTree = "<group>"; };
+		EA28C895213E2B2300D9198C /* KKUTXOModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKUTXOModel.m; sourceTree = "<group>"; };
+		EA28C896213E2B2300D9198C /* BTPeerProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeerProvider.m; sourceTree = "<group>"; };
+		EA28C897213E2B2300D9198C /* BTKey+Bitcoinj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTKey+Bitcoinj.m"; sourceTree = "<group>"; };
+		EA28C898213E2B2300D9198C /* BTTx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTx.h; sourceTree = "<group>"; };
+		EA28C899213E2B2300D9198C /* BTBIP39.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBIP39.m; sourceTree = "<group>"; };
+		EA28C89A213E2B2300D9198C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA28C89B213E2B2300D9198C /* NSData+Bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Bitcoin.h"; sourceTree = "<group>"; };
+		EA28C89C213E2B2300D9198C /* BTKey+BIP38.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTKey+BIP38.h"; sourceTree = "<group>"; };
+		EA28C89D213E2B2300D9198C /* NSMutableData+Bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Bitcoin.h"; sourceTree = "<group>"; };
+		EA28C89E213E2B2300D9198C /* BTScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScript.h; sourceTree = "<group>"; };
+		EA28C89F213E2B2300D9198C /* BTScriptOpCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScriptOpCodes.h; sourceTree = "<group>"; };
+		EA28C8A0213E2B2300D9198C /* BTPasswordSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPasswordSeed.m; sourceTree = "<group>"; };
+		EA28C8A1213E2B2300D9198C /* BTIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIn.h; sourceTree = "<group>"; };
+		FA7DC931C5A2A228BA24C0A3 /* Pods-bitcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcode.release.xcconfig"; path = "Target Support Files/Pods-bitcode/Pods-bitcode.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA28C60D213D269100D9198C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6300DA0DC586D39C8FA2C0BD /* libPods-bitcode.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328348B96BE04731CDED4986 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45BF964ABA552A9F1C97957B /* Pods-bitcode.debug.xcconfig */,
+				FA7DC931C5A2A228BA24C0A3 /* Pods-bitcode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA28C607213D269100D9198C = {
+			isa = PBXGroup;
+			children = (
+				EA28C839213E2B2300D9198C /* bitcode */,
+				EA28C612213D269100D9198C /* Products */,
+				328348B96BE04731CDED4986 /* Pods */,
+				FEF0DD1E991A65E2D137CECF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA28C612213D269100D9198C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA28C611213D269100D9198C /* bitcode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA28C839213E2B2300D9198C /* bitcode */ = {
+			isa = PBXGroup;
+			children = (
+				EA28C83A213E2B2300D9198C /* BTAddressManager.h */,
+				EA28C83B213E2B2300D9198C /* BTKeyParameter.m */,
+				EA28C83C213E2B2300D9198C /* BTEncryptData.m */,
+				EA28C83D213E2B2300D9198C /* BTBloomFilter.h */,
+				EA28C83E213E2B2300D9198C /* ccMemory.h */,
+				EA28C83F213E2B2300D9198C /* BTTxBuilder.h */,
+				EA28C840213E2B2300D9198C /* BTWordsTypeManager.h */,
+				EA28C841213E2B2300D9198C /* BTHDAccountCold.m */,
+				EA28C842213E2B2300D9198C /* bitcode.h */,
+				EA28C843213E2B2300D9198C /* BTQRCodeUtil.h */,
+				EA28C844213E2B2300D9198C /* BTBIP32Key.m */,
+				EA28C845213E2B2300D9198C /* BTScriptChunk.m */,
+				EA28C846213E2B2300D9198C /* BTHDMKeychain.h */,
+				EA28C847213E2B2300D9198C /* BTCompressingLogFileManager.h */,
+				EA28C848213E2B2300D9198C /* BTTxProvider.m */,
+				EA28C849213E2B2300D9198C /* BTBlockChain.h */,
+				EA28C84A213E2B2300D9198C /* BTHDMBid.h */,
+				EA28C84B213E2B2300D9198C /* BTHDAccountProvider.m */,
+				EA28C84C213E2B2300D9198C /* BTPrivateKeyUtil.h */,
+				EA28C84D213E2B2300D9198C /* BTHDAccountAddress.h */,
+				EA28C84E213E2B2300D9198C /* BTOut.m */,
+				EA28C84F213E2B2300D9198C /* BTVersion.m */,
+				EA28C850213E2B2300D9198C /* BTHDAccount.m */,
+				EA28C851213E2B2300D9198C /* BTDatabaseManager.m */,
+				EA28C852213E2B2300D9198C /* BTPeer.h */,
+				EA28C853213E2B2300D9198C /* BTScriptBuilder.h */,
+				EA28C854213E2B2300D9198C /* BTHDAccountAddressProvider.h */,
+				EA28C855213E2B2300D9198C /* BTPeerManager.h */,
+				EA28C856213E2B2300D9198C /* BTAddressProvider.h */,
+				EA28C857213E2B2300D9198C /* BTSettings.h */,
+				EA28C858213E2B2300D9198C /* BTBlockProvider.h */,
+				EA28C859213E2B2300D9198C /* BTHDMAddress.h */,
+				EA28C85A213E2B2300D9198C /* BTKey.h */,
+				EA28C85B213E2B2300D9198C /* NSString+Base58.m */,
+				EA28C85C213E2B2300D9198C /* BTBlock.h */,
+				EA28C85D213E2B2300D9198C /* BTHDMKeychainRecover.m */,
+				EA28C85E213E2B2300D9198C /* BTTxHelper.m */,
+				EA28C85F213E2B2300D9198C /* BTAddress.m */,
+				EA28C860213E2B2300D9198C /* NSData+Hash.m */,
+				EA28C861213E2B2300D9198C /* BTScriptOpCodes.m */,
+				EA28C862213E2B2300D9198C /* BTPasswordSeed.h */,
+				EA28C863213E2B2300D9198C /* BTIn.m */,
+				EA28C864213E2B2300D9198C /* NSMutableData+Bitcoin.m */,
+				EA28C865213E2B2300D9198C /* BTScript.m */,
+				EA28C866213E2B2300D9198C /* BTKey+BIP38.m */,
+				EA28C867213E2B2300D9198C /* NSData+Bitcoin.m */,
+				EA28C868213E2B2300D9198C /* Bitheri.h */,
+				EA28C869213E2B2300D9198C /* BTBIP39.h */,
+				EA28C86A213E2B2300D9198C /* BTTx.m */,
+				EA28C86B213E2B2300D9198C /* BTPeerProvider.h */,
+				EA28C86C213E2B2300D9198C /* BTKey+Bitcoinj.h */,
+				EA28C86D213E2B2300D9198C /* BTUtils.m */,
+				EA28C86E213E2B2300D9198C /* KKUTXOModel.h */,
+				EA28C86F213E2B2300D9198C /* BTTxProvider.h */,
+				EA28C870213E2B2300D9198C /* BTCompressingLogFileManager.m */,
+				EA28C871213E2B2300D9198C /* BTHDMKeychain.m */,
+				EA28C872213E2B2300D9198C /* BTScriptChunk.h */,
+				EA28C873213E2B2300D9198C /* BTBIP32Key.h */,
+				EA28C874213E2B2300D9198C /* BTQRCodeUtil.m */,
+				EA28C875213E2B2300D9198C /* BTHDAccountCold.h */,
+				EA28C876213E2B2300D9198C /* BTWordsTypeManager.m */,
+				EA28C877213E2B2300D9198C /* BTTxBuilder.m */,
+				EA28C878213E2B2300D9198C /* BTBloomFilter.m */,
+				EA28C879213E2B2300D9198C /* BTAddressManager.m */,
+				EA28C87A213E2B2300D9198C /* BTKeyParameter.h */,
+				EA28C87B213E2B2300D9198C /* BTEncryptData.h */,
+				EA28C87C213E2B2300D9198C /* BTHDAccountAddressProvider.m */,
+				EA28C87D213E2B2300D9198C /* BTScriptBuilder.m */,
+				EA28C87E213E2B2300D9198C /* BTPeer.m */,
+				EA28C87F213E2B2300D9198C /* BTDatabaseManager.h */,
+				EA28C880213E2B2300D9198C /* BTHDAccount.h */,
+				EA28C881213E2B2300D9198C /* BTVersion.h */,
+				EA28C882213E2B2300D9198C /* BTHDAccountAddress.m */,
+				EA28C883213E2B2300D9198C /* BTOut.h */,
+				EA28C884213E2B2300D9198C /* BTHDAccountProvider.h */,
+				EA28C885213E2B2300D9198C /* BTPrivateKeyUtil.m */,
+				EA28C886213E2B2300D9198C /* BTHDMBid.m */,
+				EA28C887213E2B2300D9198C /* BTBlockChain.m */,
+				EA28C888213E2B2300D9198C /* NSData+Hash.h */,
+				EA28C889213E2B2300D9198C /* BTAddress.h */,
+				EA28C88A213E2B2300D9198C /* BTHDMKeychainRecover.h */,
+				EA28C88B213E2B2300D9198C /* BTTxHelper.h */,
+				EA28C88C213E2B2300D9198C /* BTBlock.m */,
+				EA28C88D213E2B2300D9198C /* NSString+Base58.h */,
+				EA28C88E213E2B2300D9198C /* BTKey.m */,
+				EA28C88F213E2B2300D9198C /* BTBlockProvider.m */,
+				EA28C890213E2B2300D9198C /* BTHDMAddress.m */,
+				EA28C891213E2B2300D9198C /* BTAddressProvider.m */,
+				EA28C892213E2B2300D9198C /* BTSettings.m */,
+				EA28C893213E2B2300D9198C /* BTPeerManager.m */,
+				EA28C894213E2B2300D9198C /* BTUtils.h */,
+				EA28C895213E2B2300D9198C /* KKUTXOModel.m */,
+				EA28C896213E2B2300D9198C /* BTPeerProvider.m */,
+				EA28C897213E2B2300D9198C /* BTKey+Bitcoinj.m */,
+				EA28C898213E2B2300D9198C /* BTTx.h */,
+				EA28C899213E2B2300D9198C /* BTBIP39.m */,
+				EA28C89A213E2B2300D9198C /* Info.plist */,
+				EA28C89B213E2B2300D9198C /* NSData+Bitcoin.h */,
+				EA28C89C213E2B2300D9198C /* BTKey+BIP38.h */,
+				EA28C89D213E2B2300D9198C /* NSMutableData+Bitcoin.h */,
+				EA28C89E213E2B2300D9198C /* BTScript.h */,
+				EA28C89F213E2B2300D9198C /* BTScriptOpCodes.h */,
+				EA28C8A0213E2B2300D9198C /* BTPasswordSeed.m */,
+				EA28C8A1213E2B2300D9198C /* BTIn.h */,
+			);
+			path = bitcode;
+			sourceTree = "<group>";
+		};
+		FEF0DD1E991A65E2D137CECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43293A855028BFB1EE5B66A5 /* libPods-bitcode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA28C60E213D269100D9198C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA28C8CA213E2B2300D9198C /* BTPasswordSeed.h in Headers */,
+				EA28C8DB213E2B2300D9198C /* BTBIP32Key.h in Headers */,
+				EA28C8DD213E2B2300D9198C /* BTHDAccountCold.h in Headers */,
+				EA28C907213E2B2300D9198C /* BTScriptOpCodes.h in Headers */,
+				EA28C8F1213E2B2300D9198C /* BTAddress.h in Headers */,
+				EA28C903213E2B2300D9198C /* NSData+Bitcoin.h in Headers */,
+				EA28C8BE213E2B2300D9198C /* BTAddressProvider.h in Headers */,
+				EA28C8C4213E2B2300D9198C /* BTBlock.h in Headers */,
+				EA28C8B4213E2B2300D9198C /* BTPrivateKeyUtil.h in Headers */,
+				EA28C904213E2B2300D9198C /* BTKey+BIP38.h in Headers */,
+				EA28C8AE213E2B2300D9198C /* BTHDMKeychain.h in Headers */,
+				EA28C8BC213E2B2300D9198C /* BTHDAccountAddressProvider.h in Headers */,
+				EA28C8E3213E2B2300D9198C /* BTEncryptData.h in Headers */,
+				EA28C906213E2B2300D9198C /* BTScript.h in Headers */,
+				EA28C8D0213E2B2300D9198C /* Bitheri.h in Headers */,
+				EA28C8BA213E2B2300D9198C /* BTPeer.h in Headers */,
+				EA28C909213E2B2300D9198C /* BTIn.h in Headers */,
+				EA28C8D1213E2B2300D9198C /* BTBIP39.h in Headers */,
+				EA28C8EB213E2B2300D9198C /* BTOut.h in Headers */,
+				EA28C8E8213E2B2300D9198C /* BTHDAccount.h in Headers */,
+				EA28C8A7213E2B2300D9198C /* BTTxBuilder.h in Headers */,
+				EA28C8D6213E2B2300D9198C /* KKUTXOModel.h in Headers */,
+				EA28C8D4213E2B2300D9198C /* BTKey+Bitcoinj.h in Headers */,
+				EA28C8F5213E2B2300D9198C /* NSString+Base58.h in Headers */,
+				EA28C8E7213E2B2300D9198C /* BTDatabaseManager.h in Headers */,
+				EA28C8E2213E2B2300D9198C /* BTKeyParameter.h in Headers */,
+				EA28C8A8213E2B2300D9198C /* BTWordsTypeManager.h in Headers */,
+				EA28C8E9213E2B2300D9198C /* BTVersion.h in Headers */,
+				EA28C900213E2B2300D9198C /* BTTx.h in Headers */,
+				EA28C8C0213E2B2300D9198C /* BTBlockProvider.h in Headers */,
+				EA28C8BB213E2B2300D9198C /* BTScriptBuilder.h in Headers */,
+				EA28C8F3213E2B2300D9198C /* BTTxHelper.h in Headers */,
+				EA28C8A5213E2B2300D9198C /* BTBloomFilter.h in Headers */,
+				EA28C8A2213E2B2300D9198C /* BTAddressManager.h in Headers */,
+				EA28C8AB213E2B2300D9198C /* BTQRCodeUtil.h in Headers */,
+				EA28C8D3213E2B2300D9198C /* BTPeerProvider.h in Headers */,
+				EA28C8D7213E2B2300D9198C /* BTTxProvider.h in Headers */,
+				EA28C8C1213E2B2300D9198C /* BTHDMAddress.h in Headers */,
+				EA28C905213E2B2300D9198C /* NSMutableData+Bitcoin.h in Headers */,
+				EA28C8EC213E2B2300D9198C /* BTHDAccountProvider.h in Headers */,
+				EA28C8F2213E2B2300D9198C /* BTHDMKeychainRecover.h in Headers */,
+				EA28C8FC213E2B2300D9198C /* BTUtils.h in Headers */,
+				EA28C8B1213E2B2300D9198C /* BTBlockChain.h in Headers */,
+				EA28C8BD213E2B2300D9198C /* BTPeerManager.h in Headers */,
+				EA28C8BF213E2B2300D9198C /* BTSettings.h in Headers */,
+				EA28C8C2213E2B2300D9198C /* BTKey.h in Headers */,
+				EA28C8B5213E2B2300D9198C /* BTHDAccountAddress.h in Headers */,
+				EA28C8F0213E2B2300D9198C /* NSData+Hash.h in Headers */,
+				EA28C8B2213E2B2300D9198C /* BTHDMBid.h in Headers */,
+				EA28C8A6213E2B2300D9198C /* ccMemory.h in Headers */,
+				EA28C8AF213E2B2300D9198C /* BTCompressingLogFileManager.h in Headers */,
+				EA28C8DA213E2B2300D9198C /* BTScriptChunk.h in Headers */,
+				EA28C8AA213E2B2300D9198C /* bitcode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA28C610213D269100D9198C /* bitcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA28C619213D269100D9198C /* Build configuration list for PBXNativeTarget "bitcode" */;
+			buildPhases = (
+				31B6B7637AB87C9BEF17A9CA /* [CP] Check Pods Manifest.lock */,
+				EA28C60C213D269100D9198C /* Sources */,
+				EA28C60D213D269100D9198C /* Frameworks */,
+				EA28C60E213D269100D9198C /* Headers */,
+				EA28C60F213D269100D9198C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bitcode;
+			productName = bitcode;
+			productReference = EA28C611213D269100D9198C /* bitcode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA28C608213D269100D9198C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = KK;
+				TargetAttributes = {
+					EA28C610213D269100D9198C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EA28C60B213D269100D9198C /* Build configuration list for PBXProject "bitcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA28C607213D269100D9198C;
+			productRefGroup = EA28C612213D269100D9198C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA28C610213D269100D9198C /* bitcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA28C60F213D269100D9198C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA28C902213E2B2300D9198C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31B6B7637AB87C9BEF17A9CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bitcode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA28C60C213D269100D9198C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA28C8DC213E2B2300D9198C /* BTQRCodeUtil.m in Sources */,
+				EA28C908213E2B2300D9198C /* BTPasswordSeed.m in Sources */,
+				EA28C8C5213E2B2300D9198C /* BTHDMKeychainRecover.m in Sources */,
+				EA28C8B6213E2B2300D9198C /* BTOut.m in Sources */,
+				EA28C8CB213E2B2300D9198C /* BTIn.m in Sources */,
+				EA28C8C8213E2B2300D9198C /* NSData+Hash.m in Sources */,
+				EA28C8A3213E2B2300D9198C /* BTKeyParameter.m in Sources */,
+				EA28C8FA213E2B2300D9198C /* BTSettings.m in Sources */,
+				EA28C8C9213E2B2300D9198C /* BTScriptOpCodes.m in Sources */,
+				EA28C8FE213E2B2300D9198C /* BTPeerProvider.m in Sources */,
+				EA28C8E0213E2B2300D9198C /* BTBloomFilter.m in Sources */,
+				EA28C8E5213E2B2300D9198C /* BTScriptBuilder.m in Sources */,
+				EA28C8F7213E2B2300D9198C /* BTBlockProvider.m in Sources */,
+				EA28C8C7213E2B2300D9198C /* BTAddress.m in Sources */,
+				EA28C8B7213E2B2300D9198C /* BTVersion.m in Sources */,
+				EA28C8FD213E2B2300D9198C /* KKUTXOModel.m in Sources */,
+				EA28C8DE213E2B2300D9198C /* BTWordsTypeManager.m in Sources */,
+				EA28C8C3213E2B2300D9198C /* NSString+Base58.m in Sources */,
+				EA28C8ED213E2B2300D9198C /* BTPrivateKeyUtil.m in Sources */,
+				EA28C8CF213E2B2300D9198C /* NSData+Bitcoin.m in Sources */,
+				EA28C8F8213E2B2300D9198C /* BTHDMAddress.m in Sources */,
+				EA28C8CE213E2B2300D9198C /* BTKey+BIP38.m in Sources */,
+				EA28C8EA213E2B2300D9198C /* BTHDAccountAddress.m in Sources */,
+				EA28C8FB213E2B2300D9198C /* BTPeerManager.m in Sources */,
+				EA28C8FF213E2B2300D9198C /* BTKey+Bitcoinj.m in Sources */,
+				EA28C8AD213E2B2300D9198C /* BTScriptChunk.m in Sources */,
+				EA28C8B0213E2B2300D9198C /* BTTxProvider.m in Sources */,
+				EA28C8B8213E2B2300D9198C /* BTHDAccount.m in Sources */,
+				EA28C901213E2B2300D9198C /* BTBIP39.m in Sources */,
+				EA28C8EE213E2B2300D9198C /* BTHDMBid.m in Sources */,
+				EA28C8E1213E2B2300D9198C /* BTAddressManager.m in Sources */,
+				EA28C8CD213E2B2300D9198C /* BTScript.m in Sources */,
+				EA28C8CC213E2B2300D9198C /* NSMutableData+Bitcoin.m in Sources */,
+				EA28C8B9213E2B2300D9198C /* BTDatabaseManager.m in Sources */,
+				EA28C8F6213E2B2300D9198C /* BTKey.m in Sources */,
+				EA28C8A4213E2B2300D9198C /* BTEncryptData.m in Sources */,
+				EA28C8F9213E2B2300D9198C /* BTAddressProvider.m in Sources */,
+				EA28C8E6213E2B2300D9198C /* BTPeer.m in Sources */,
+				EA28C8D8213E2B2300D9198C /* BTCompressingLogFileManager.m in Sources */,
+				EA28C8F4213E2B2300D9198C /* BTBlock.m in Sources */,
+				EA28C8E4213E2B2300D9198C /* BTHDAccountAddressProvider.m in Sources */,
+				EA28C8EF213E2B2300D9198C /* BTBlockChain.m in Sources */,
+				EA28C8AC213E2B2300D9198C /* BTBIP32Key.m in Sources */,
+				EA28C8DF213E2B2300D9198C /* BTTxBuilder.m in Sources */,
+				EA28C8D5213E2B2300D9198C /* BTUtils.m in Sources */,
+				EA28C8A9213E2B2300D9198C /* BTHDAccountCold.m in Sources */,
+				EA28C8D2213E2B2300D9198C /* BTTx.m in Sources */,
+				EA28C8D9213E2B2300D9198C /* BTHDMKeychain.m in Sources */,
+				EA28C8B3213E2B2300D9198C /* BTHDAccountProvider.m in Sources */,
+				EA28C8C6213E2B2300D9198C /* BTTxHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA28C617213D269100D9198C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA28C618213D269100D9198C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA28C61A213D269100D9198C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BF964ABA552A9F1C97957B /* Pods-bitcode.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = bitcode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KuarkWallet.bitcode;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA28C61B213D269100D9198C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7DC931C5A2A228BA24C0A3 /* Pods-bitcode.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = bitcode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KuarkWallet.bitcode;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA28C60B213D269100D9198C /* Build configuration list for PBXProject "bitcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA28C617213D269100D9198C /* Debug */,
+				EA28C618213D269100D9198C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA28C619213D269100D9198C /* Build configuration list for PBXNativeTarget "bitcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA28C61A213D269100D9198C /* Debug */,
+				EA28C61B213D269100D9198C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA28C608213D269100D9198C /* Project object */;
+}
