@@ -1,6 +1,0 @@
-framework module SSModel {
-  umbrella header "SSModel-umbrella.h"
-
-  export *
-  module * { export * }
-}

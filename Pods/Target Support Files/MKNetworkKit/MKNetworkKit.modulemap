@@ -1,6 +1,0 @@
-framework module MKNetworkKit {
-  umbrella header "MKNetworkKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

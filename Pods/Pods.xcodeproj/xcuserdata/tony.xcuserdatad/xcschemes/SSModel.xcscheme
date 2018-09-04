@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BABB265FF583870A0846441EE68FEC32"
+               BlueprintIdentifier = "4F1BD895CFC4A4602EE2DD31ABD45C79"
                BlueprintName = "SSModel"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "SSModel.framework">
+               BuildableName = "libSSModel.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

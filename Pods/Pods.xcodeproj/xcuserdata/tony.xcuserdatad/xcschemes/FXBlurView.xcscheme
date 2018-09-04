@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B0FD1322F4D578F2B0CA016990E1A458"
+               BlueprintIdentifier = "79881FDAA06CF233B3933B9434C606BC"
                BlueprintName = "FXBlurView"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "FXBlurView.framework">
+               BuildableName = "libFXBlurView.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
