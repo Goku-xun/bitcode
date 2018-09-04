@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6300DA0DC586D39C8FA2C0BD /* libPods-bitcode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43293A855028BFB1EE5B66A5 /* libPods-bitcode.a */; };
 		EA28C8A2213E2B2300D9198C /* BTAddressManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C83A213E2B2300D9198C /* BTAddressManager.h */; };
 		EA28C8A3213E2B2300D9198C /* BTKeyParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C83B213E2B2300D9198C /* BTKeyParameter.m */; };
 		EA28C8A4213E2B2300D9198C /* BTEncryptData.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C83C213E2B2300D9198C /* BTEncryptData.m */; };
@@ -112,10 +111,13 @@
 		EA28C907213E2B2300D9198C /* BTScriptOpCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89F213E2B2300D9198C /* BTScriptOpCodes.h */; };
 		EA28C908213E2B2300D9198C /* BTPasswordSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C8A0213E2B2300D9198C /* BTPasswordSeed.m */; };
 		EA28C909213E2B2300D9198C /* BTIn.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C8A1213E2B2300D9198C /* BTIn.h */; };
+		EA28CC39213E7F0D00D9198C /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA28CC37213E7F0D00D9198C /* libssl.a */; };
+		EA28CC3A213E7F0D00D9198C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA28CC38213E7F0D00D9198C /* libcrypto.a */; };
+		EE46B9A76821E7D3A833FAA3 /* Pods_bitcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAA01F4E544033E533434E1 /* Pods_bitcode.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		43293A855028BFB1EE5B66A5 /* libPods-bitcode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bitcode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAA01F4E544033E533434E1 /* Pods_bitcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF964ABA552A9F1C97957B /* Pods-bitcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcode.debug.xcconfig"; path = "Target Support Files/Pods-bitcode/Pods-bitcode.debug.xcconfig"; sourceTree = "<group>"; };
 		EA28C611213D269100D9198C /* bitcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bitcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA28C83A213E2B2300D9198C /* BTAddressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAddressManager.h; sourceTree = "<group>"; };
@@ -222,6 +224,8 @@
 		EA28C89F213E2B2300D9198C /* BTScriptOpCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScriptOpCodes.h; sourceTree = "<group>"; };
 		EA28C8A0213E2B2300D9198C /* BTPasswordSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPasswordSeed.m; sourceTree = "<group>"; };
 		EA28C8A1213E2B2300D9198C /* BTIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIn.h; sourceTree = "<group>"; };
+		EA28CC37213E7F0D00D9198C /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		EA28CC38213E7F0D00D9198C /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		FA7DC931C5A2A228BA24C0A3 /* Pods-bitcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcode.release.xcconfig"; path = "Target Support Files/Pods-bitcode/Pods-bitcode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -230,7 +234,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6300DA0DC586D39C8FA2C0BD /* libPods-bitcode.a in Frameworks */,
+				EA28CC39213E7F0D00D9198C /* libssl.a in Frameworks */,
+				EA28CC3A213E7F0D00D9198C /* libcrypto.a in Frameworks */,
+				EE46B9A76821E7D3A833FAA3 /* Pods_bitcode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +384,9 @@
 		FEF0DD1E991A65E2D137CECF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				43293A855028BFB1EE5B66A5 /* libPods-bitcode.a */,
+				EA28CC38213E7F0D00D9198C /* libcrypto.a */,
+				EA28CC37213E7F0D00D9198C /* libssl.a */,
+				3AAA01F4E544033E533434E1 /* Pods_bitcode.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -729,6 +737,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = KuarkWallet.bitcode;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -756,6 +768,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KuarkWallet.bitcode;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

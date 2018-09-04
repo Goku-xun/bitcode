@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3C3BE4DFE5F37F683217B2E961437C1"
+               BlueprintIdentifier = "038AAE2AC57450137F9F0AC7B8B6637D"
                BlueprintName = "KSCrash"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libKSCrash.a">
+               BuildableName = "KSCrash.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
