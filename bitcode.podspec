@@ -142,6 +142,6 @@ bitcode是一个很简单的比特币钱包模块，我们可以使用它来开�
   spec.dependency "MKNetworkKit", "~> 0.87"
   spec.dependency "AFNetworking", "~> 2.0"
   spec.dependency "RegexKitLite", "~> 4.0"
-  spec.dependency "SimpleKeychain", "~> 1.9"
+  spec.dependency "SimpleKeychain"
   spec.dependency "FXBlurView"
 end
