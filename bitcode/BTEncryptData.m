@@ -24,7 +24,7 @@
 #import "NSData+Hash.h"
 #import "ccMemory.h"
 #import <CommonCrypto/CommonCrypto.h>
-#import <openssl/ecdsa.h>
+#import <ecdsa.h>
 
 #define BITCOINJ_SCRYPT_N        16384
 #define BITCOINJ_SCRYPT_R        8
