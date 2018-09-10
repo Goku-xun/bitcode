@@ -39,7 +39,7 @@
 #import "NSString+Base58.h"
 #import "NSData+Hash.h"
 #import "NSMutableData+Bitcoin.h"
-#import "bn.h"
+#import <openssl/bn.h>
 
 #define SCRIPT_SUFFIX "\x88\xAC" // OP_EQUALVERIFY OP_CHECKSIG
 

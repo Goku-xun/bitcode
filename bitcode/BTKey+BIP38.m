@@ -41,8 +41,8 @@
 #import "NSData+Hash.h"
 #import "NSMutableData+Bitcoin.h"
 #import <CommonCrypto/CommonCrypto.h>
-#import <ecdsa.h>
-#import <obj_mac.h>
+#import <openssl/ecdsa.h>
+#import <openssl/obj_mac.h>
 #import "BTSettings.h"
 
 // BIP38 is a method for encrypting private keys with a passphrase

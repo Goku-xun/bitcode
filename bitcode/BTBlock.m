@@ -40,7 +40,7 @@
 #import "NSMutableData+Bitcoin.h"
 #import "NSData+Bitcoin.h"
 #import "NSData+Hash.h"
-#import <bn.h>
+#import <openssl/bn.h>
 #import "BTSettings.h"
 
 //#define MAX_TIME_DRIFT    (2*60*60)     // the furthest in the future a block is allowed to be timestamped

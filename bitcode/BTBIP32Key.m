@@ -43,8 +43,8 @@
 #import "NSData+Hash.h"
 #import "NSData+Bitcoin.h"
 #import <CommonCrypto/CommonHMAC.h>
-#import <ecdsa.h>
-#import <obj_mac.h>
+#import <openssl/ecdsa.h>
+#import <openssl/obj_mac.h>
 
 #define BIP32_HARDEN    0x80000000
 #define BIP32_SEED_KEY "Bitcoin seed"

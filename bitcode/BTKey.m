@@ -41,10 +41,10 @@
 #import "NSData+Hash.h"
 #import "NSMutableData+Bitcoin.h"
 #import <CommonCrypto/CommonHMAC.h>
-#import <ecdsa.h>
-#import <obj_mac.h>
+#import <openssl/ecdsa.h>
+#import <openssl/obj_mac.h>
+#import <openssl/evp.h>
 #import "BTSettings.h"
-#import <evp.h>
 #import "BTKeyParameter.h"
 #import "NSData+Bitcoin.h"
 #import "BTUtils.h"

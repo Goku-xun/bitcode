@@ -29,6 +29,7 @@ PODS:
     - FMDB/standard (= 2.7.2)
   - FMDB/standard (2.7.2)
   - FXBlurView (1.6.4)
+  - KKOpenSSL (0.0.7)
   - KSCrash (0.0.9):
     - KSCrash/Installations (= 0.0.9)
     - KSCrash/no-arc (= 0.0.9)
@@ -96,6 +97,7 @@ DEPENDENCIES:
   - CocoaLumberjack (~> 1.9)
   - FMDB
   - FXBlurView
+  - KKOpenSSL (~> 0.0.5)
   - KSCrash (~> 0.0.3)
   - MKNetworkKit (~> 0.87)
   - RegexKitLite (~> 4.0)
@@ -108,6 +110,7 @@ SPEC REPOS:
     - CocoaLumberjack
     - FMDB
     - FXBlurView
+    - KKOpenSSL
     - KSCrash
     - MKNetworkKit
     - Reachability
@@ -120,6 +123,7 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  KKOpenSSL: b48cc915eff526cdd2a5aaca2c68ec6a914644c4
   KSCrash: 2ca11262cd88571992ada7861639a6eb224c6c2a
   MKNetworkKit: 60ad3c83b62183e40ba75ce772c9427c25b520de
   Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
@@ -127,6 +131,6 @@ SPEC CHECKSUMS:
   SimpleKeychain: e2485c28d82fcece35e9e41faeac42ebfe614815
   SSModel: c05a021dd5bfe302b7c9ea7940ba435197866c73
 
-PODFILE CHECKSUM: f0b128bde14e93b8f988d15d3298190987c4d506
+PODFILE CHECKSUM: bb13c56244bad2ec299fa4e6f291992c319f0c07
 
 COCOAPODS: 1.6.0.beta.1
