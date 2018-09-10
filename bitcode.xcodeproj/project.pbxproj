@@ -8,220 +8,604 @@
 
 /* Begin PBXBuildFile section */
 		E46D836F11CB6ED2778509A4 /* Pods_bitcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B3C38FB24A5DA1C33C36D5 /* Pods_bitcode.framework */; };
-		EA28C8A2213E2B2300D9198C /* BTAddressManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C83A213E2B2300D9198C /* BTAddressManager.h */; };
-		EA28C8A3213E2B2300D9198C /* BTKeyParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C83B213E2B2300D9198C /* BTKeyParameter.m */; };
-		EA28C8A4213E2B2300D9198C /* BTEncryptData.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C83C213E2B2300D9198C /* BTEncryptData.m */; };
-		EA28C8A5213E2B2300D9198C /* BTBloomFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C83D213E2B2300D9198C /* BTBloomFilter.h */; };
-		EA28C8A6213E2B2300D9198C /* ccMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C83E213E2B2300D9198C /* ccMemory.h */; };
-		EA28C8A7213E2B2300D9198C /* BTTxBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C83F213E2B2300D9198C /* BTTxBuilder.h */; };
-		EA28C8A8213E2B2300D9198C /* BTWordsTypeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C840213E2B2300D9198C /* BTWordsTypeManager.h */; };
-		EA28C8A9213E2B2300D9198C /* BTHDAccountCold.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C841213E2B2300D9198C /* BTHDAccountCold.m */; };
-		EA28C8AA213E2B2300D9198C /* bitcode.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C842213E2B2300D9198C /* bitcode.h */; };
-		EA28C8AB213E2B2300D9198C /* BTQRCodeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C843213E2B2300D9198C /* BTQRCodeUtil.h */; };
-		EA28C8AC213E2B2300D9198C /* BTBIP32Key.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C844213E2B2300D9198C /* BTBIP32Key.m */; };
-		EA28C8AD213E2B2300D9198C /* BTScriptChunk.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C845213E2B2300D9198C /* BTScriptChunk.m */; };
-		EA28C8AE213E2B2300D9198C /* BTHDMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C846213E2B2300D9198C /* BTHDMKeychain.h */; };
-		EA28C8AF213E2B2300D9198C /* BTCompressingLogFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C847213E2B2300D9198C /* BTCompressingLogFileManager.h */; };
-		EA28C8B0213E2B2300D9198C /* BTTxProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C848213E2B2300D9198C /* BTTxProvider.m */; };
-		EA28C8B1213E2B2300D9198C /* BTBlockChain.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C849213E2B2300D9198C /* BTBlockChain.h */; };
-		EA28C8B2213E2B2300D9198C /* BTHDMBid.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C84A213E2B2300D9198C /* BTHDMBid.h */; };
-		EA28C8B3213E2B2300D9198C /* BTHDAccountProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C84B213E2B2300D9198C /* BTHDAccountProvider.m */; };
-		EA28C8B4213E2B2300D9198C /* BTPrivateKeyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C84C213E2B2300D9198C /* BTPrivateKeyUtil.h */; };
-		EA28C8B5213E2B2300D9198C /* BTHDAccountAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C84D213E2B2300D9198C /* BTHDAccountAddress.h */; };
-		EA28C8B6213E2B2300D9198C /* BTOut.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C84E213E2B2300D9198C /* BTOut.m */; };
-		EA28C8B7213E2B2300D9198C /* BTVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C84F213E2B2300D9198C /* BTVersion.m */; };
-		EA28C8B8213E2B2300D9198C /* BTHDAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C850213E2B2300D9198C /* BTHDAccount.m */; };
-		EA28C8B9213E2B2300D9198C /* BTDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C851213E2B2300D9198C /* BTDatabaseManager.m */; };
-		EA28C8BA213E2B2300D9198C /* BTPeer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C852213E2B2300D9198C /* BTPeer.h */; };
-		EA28C8BB213E2B2300D9198C /* BTScriptBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C853213E2B2300D9198C /* BTScriptBuilder.h */; };
-		EA28C8BC213E2B2300D9198C /* BTHDAccountAddressProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C854213E2B2300D9198C /* BTHDAccountAddressProvider.h */; };
-		EA28C8BD213E2B2300D9198C /* BTPeerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C855213E2B2300D9198C /* BTPeerManager.h */; };
-		EA28C8BE213E2B2300D9198C /* BTAddressProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C856213E2B2300D9198C /* BTAddressProvider.h */; };
-		EA28C8BF213E2B2300D9198C /* BTSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C857213E2B2300D9198C /* BTSettings.h */; };
-		EA28C8C0213E2B2300D9198C /* BTBlockProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C858213E2B2300D9198C /* BTBlockProvider.h */; };
-		EA28C8C1213E2B2300D9198C /* BTHDMAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C859213E2B2300D9198C /* BTHDMAddress.h */; };
-		EA28C8C2213E2B2300D9198C /* BTKey.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C85A213E2B2300D9198C /* BTKey.h */; };
-		EA28C8C3213E2B2300D9198C /* NSString+Base58.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C85B213E2B2300D9198C /* NSString+Base58.m */; };
-		EA28C8C4213E2B2300D9198C /* BTBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C85C213E2B2300D9198C /* BTBlock.h */; };
-		EA28C8C5213E2B2300D9198C /* BTHDMKeychainRecover.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C85D213E2B2300D9198C /* BTHDMKeychainRecover.m */; };
-		EA28C8C6213E2B2300D9198C /* BTTxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C85E213E2B2300D9198C /* BTTxHelper.m */; };
-		EA28C8C7213E2B2300D9198C /* BTAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C85F213E2B2300D9198C /* BTAddress.m */; };
-		EA28C8C8213E2B2300D9198C /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C860213E2B2300D9198C /* NSData+Hash.m */; };
-		EA28C8C9213E2B2300D9198C /* BTScriptOpCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C861213E2B2300D9198C /* BTScriptOpCodes.m */; };
-		EA28C8CA213E2B2300D9198C /* BTPasswordSeed.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C862213E2B2300D9198C /* BTPasswordSeed.h */; };
-		EA28C8CB213E2B2300D9198C /* BTIn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C863213E2B2300D9198C /* BTIn.m */; };
-		EA28C8CC213E2B2300D9198C /* NSMutableData+Bitcoin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C864213E2B2300D9198C /* NSMutableData+Bitcoin.m */; };
-		EA28C8CD213E2B2300D9198C /* BTScript.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C865213E2B2300D9198C /* BTScript.m */; };
-		EA28C8CE213E2B2300D9198C /* BTKey+BIP38.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C866213E2B2300D9198C /* BTKey+BIP38.m */; };
-		EA28C8CF213E2B2300D9198C /* NSData+Bitcoin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C867213E2B2300D9198C /* NSData+Bitcoin.m */; };
-		EA28C8D0213E2B2300D9198C /* Bitheri.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C868213E2B2300D9198C /* Bitheri.h */; };
-		EA28C8D1213E2B2300D9198C /* BTBIP39.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C869213E2B2300D9198C /* BTBIP39.h */; };
-		EA28C8D2213E2B2300D9198C /* BTTx.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C86A213E2B2300D9198C /* BTTx.m */; };
-		EA28C8D3213E2B2300D9198C /* BTPeerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C86B213E2B2300D9198C /* BTPeerProvider.h */; };
-		EA28C8D4213E2B2300D9198C /* BTKey+Bitcoinj.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C86C213E2B2300D9198C /* BTKey+Bitcoinj.h */; };
-		EA28C8D5213E2B2300D9198C /* BTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C86D213E2B2300D9198C /* BTUtils.m */; };
-		EA28C8D6213E2B2300D9198C /* KKUTXOModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C86E213E2B2300D9198C /* KKUTXOModel.h */; };
-		EA28C8D7213E2B2300D9198C /* BTTxProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C86F213E2B2300D9198C /* BTTxProvider.h */; };
-		EA28C8D8213E2B2300D9198C /* BTCompressingLogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C870213E2B2300D9198C /* BTCompressingLogFileManager.m */; };
-		EA28C8D9213E2B2300D9198C /* BTHDMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C871213E2B2300D9198C /* BTHDMKeychain.m */; };
-		EA28C8DA213E2B2300D9198C /* BTScriptChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C872213E2B2300D9198C /* BTScriptChunk.h */; };
-		EA28C8DB213E2B2300D9198C /* BTBIP32Key.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C873213E2B2300D9198C /* BTBIP32Key.h */; };
-		EA28C8DC213E2B2300D9198C /* BTQRCodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C874213E2B2300D9198C /* BTQRCodeUtil.m */; };
-		EA28C8DD213E2B2300D9198C /* BTHDAccountCold.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C875213E2B2300D9198C /* BTHDAccountCold.h */; };
-		EA28C8DE213E2B2300D9198C /* BTWordsTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C876213E2B2300D9198C /* BTWordsTypeManager.m */; };
-		EA28C8DF213E2B2300D9198C /* BTTxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C877213E2B2300D9198C /* BTTxBuilder.m */; };
-		EA28C8E0213E2B2300D9198C /* BTBloomFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C878213E2B2300D9198C /* BTBloomFilter.m */; };
-		EA28C8E1213E2B2300D9198C /* BTAddressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C879213E2B2300D9198C /* BTAddressManager.m */; };
-		EA28C8E2213E2B2300D9198C /* BTKeyParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C87A213E2B2300D9198C /* BTKeyParameter.h */; };
-		EA28C8E3213E2B2300D9198C /* BTEncryptData.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C87B213E2B2300D9198C /* BTEncryptData.h */; };
-		EA28C8E4213E2B2300D9198C /* BTHDAccountAddressProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C87C213E2B2300D9198C /* BTHDAccountAddressProvider.m */; };
-		EA28C8E5213E2B2300D9198C /* BTScriptBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C87D213E2B2300D9198C /* BTScriptBuilder.m */; };
-		EA28C8E6213E2B2300D9198C /* BTPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C87E213E2B2300D9198C /* BTPeer.m */; };
-		EA28C8E7213E2B2300D9198C /* BTDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C87F213E2B2300D9198C /* BTDatabaseManager.h */; };
-		EA28C8E8213E2B2300D9198C /* BTHDAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C880213E2B2300D9198C /* BTHDAccount.h */; };
-		EA28C8E9213E2B2300D9198C /* BTVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C881213E2B2300D9198C /* BTVersion.h */; };
-		EA28C8EA213E2B2300D9198C /* BTHDAccountAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C882213E2B2300D9198C /* BTHDAccountAddress.m */; };
-		EA28C8EB213E2B2300D9198C /* BTOut.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C883213E2B2300D9198C /* BTOut.h */; };
-		EA28C8EC213E2B2300D9198C /* BTHDAccountProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C884213E2B2300D9198C /* BTHDAccountProvider.h */; };
-		EA28C8ED213E2B2300D9198C /* BTPrivateKeyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C885213E2B2300D9198C /* BTPrivateKeyUtil.m */; };
-		EA28C8EE213E2B2300D9198C /* BTHDMBid.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C886213E2B2300D9198C /* BTHDMBid.m */; };
-		EA28C8EF213E2B2300D9198C /* BTBlockChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C887213E2B2300D9198C /* BTBlockChain.m */; };
-		EA28C8F0213E2B2300D9198C /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C888213E2B2300D9198C /* NSData+Hash.h */; };
-		EA28C8F1213E2B2300D9198C /* BTAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C889213E2B2300D9198C /* BTAddress.h */; };
-		EA28C8F2213E2B2300D9198C /* BTHDMKeychainRecover.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C88A213E2B2300D9198C /* BTHDMKeychainRecover.h */; };
-		EA28C8F3213E2B2300D9198C /* BTTxHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C88B213E2B2300D9198C /* BTTxHelper.h */; };
-		EA28C8F4213E2B2300D9198C /* BTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C88C213E2B2300D9198C /* BTBlock.m */; };
-		EA28C8F5213E2B2300D9198C /* NSString+Base58.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C88D213E2B2300D9198C /* NSString+Base58.h */; };
-		EA28C8F6213E2B2300D9198C /* BTKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C88E213E2B2300D9198C /* BTKey.m */; };
-		EA28C8F7213E2B2300D9198C /* BTBlockProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C88F213E2B2300D9198C /* BTBlockProvider.m */; };
-		EA28C8F8213E2B2300D9198C /* BTHDMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C890213E2B2300D9198C /* BTHDMAddress.m */; };
-		EA28C8F9213E2B2300D9198C /* BTAddressProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C891213E2B2300D9198C /* BTAddressProvider.m */; };
-		EA28C8FA213E2B2300D9198C /* BTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C892213E2B2300D9198C /* BTSettings.m */; };
-		EA28C8FB213E2B2300D9198C /* BTPeerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C893213E2B2300D9198C /* BTPeerManager.m */; };
-		EA28C8FC213E2B2300D9198C /* BTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C894213E2B2300D9198C /* BTUtils.h */; };
-		EA28C8FD213E2B2300D9198C /* KKUTXOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C895213E2B2300D9198C /* KKUTXOModel.m */; };
-		EA28C8FE213E2B2300D9198C /* BTPeerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C896213E2B2300D9198C /* BTPeerProvider.m */; };
-		EA28C8FF213E2B2300D9198C /* BTKey+Bitcoinj.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C897213E2B2300D9198C /* BTKey+Bitcoinj.m */; };
-		EA28C900213E2B2300D9198C /* BTTx.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C898213E2B2300D9198C /* BTTx.h */; };
-		EA28C901213E2B2300D9198C /* BTBIP39.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C899213E2B2300D9198C /* BTBIP39.m */; };
-		EA28C902213E2B2300D9198C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA28C89A213E2B2300D9198C /* Info.plist */; };
-		EA28C903213E2B2300D9198C /* NSData+Bitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89B213E2B2300D9198C /* NSData+Bitcoin.h */; };
-		EA28C904213E2B2300D9198C /* BTKey+BIP38.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89C213E2B2300D9198C /* BTKey+BIP38.h */; };
-		EA28C905213E2B2300D9198C /* NSMutableData+Bitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89D213E2B2300D9198C /* NSMutableData+Bitcoin.h */; };
-		EA28C906213E2B2300D9198C /* BTScript.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89E213E2B2300D9198C /* BTScript.h */; };
-		EA28C907213E2B2300D9198C /* BTScriptOpCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C89F213E2B2300D9198C /* BTScriptOpCodes.h */; };
-		EA28C908213E2B2300D9198C /* BTPasswordSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28C8A0213E2B2300D9198C /* BTPasswordSeed.m */; };
-		EA28C909213E2B2300D9198C /* BTIn.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28C8A1213E2B2300D9198C /* BTIn.h */; };
+		EA5D6E822146244C00217635 /* BTAddressManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D582146244B00217635 /* BTAddressManager.h */; };
+		EA5D6E832146244C00217635 /* BTKeyParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D592146244B00217635 /* BTKeyParameter.m */; };
+		EA5D6E842146244C00217635 /* BitherTime.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D5A2146244B00217635 /* BitherTime.h */; };
+		EA5D6E852146244C00217635 /* BTEncryptData.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D5B2146244B00217635 /* BTEncryptData.m */; };
+		EA5D6E862146244C00217635 /* Ticker.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D5C2146244B00217635 /* Ticker.m */; };
+		EA5D6E872146244C00217635 /* TransactionsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D5D2146244B00217635 /* TransactionsUtil.m */; };
+		EA5D6E882146244C00217635 /* BTBloomFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D5E2146244B00217635 /* BTBloomFilter.h */; };
+		EA5D6E892146244C00217635 /* KeychainBackupUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D5F2146244B00217635 /* KeychainBackupUtil.h */; };
+		EA5D6E8A2146244C00217635 /* ccMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D602146244B00217635 /* ccMemory.h */; };
+		EA5D6E8B2146244C00217635 /* NSDictionary+Fromat.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D612146244B00217635 /* NSDictionary+Fromat.m */; };
+		EA5D6E8C2146244C00217635 /* BTTxBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D622146244B00217635 /* BTTxBuilder.h */; };
+		EA5D6E8D2146244C00217635 /* BTWordsTypeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D632146244B00217635 /* BTWordsTypeManager.h */; };
+		EA5D6E8E2146244C00217635 /* BTHDAccountCold.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D642146244B00217635 /* BTHDAccountCold.m */; };
+		EA5D6E8F2146244C00217635 /* TotalBalanceHideUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D652146244B00217635 /* TotalBalanceHideUtil.h */; };
+		EA5D6E902146244C00217635 /* MarketUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D662146244B00217635 /* MarketUtil.h */; };
+		EA5D6E912146244C00217635 /* BTQRCodeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D672146244B00217635 /* BTQRCodeUtil.h */; };
+		EA5D6E922146244C00217635 /* QRCodeThemeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D682146244B00217635 /* QRCodeThemeUtil.h */; };
+		EA5D6E932146244C00217635 /* PushTxThirdParty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D692146244B00217635 /* PushTxThirdParty.m */; };
+		EA5D6E942146244C00217635 /* MonitorSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D6A2146244B00217635 /* MonitorSetting.h */; };
+		EA5D6E952146244C00217635 /* PlaySoundUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D6B2146244B00217635 /* PlaySoundUtil.h */; };
+		EA5D6E962146244C00217635 /* BTBIP32Key.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D6C2146244B00217635 /* BTBIP32Key.m */; };
+		EA5D6E972146244C00217635 /* BTScriptChunk.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D6D2146244B00217635 /* BTScriptChunk.m */; };
+		EA5D6E982146244C00217635 /* BTHDMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D6E2146244B00217635 /* BTHDMKeychain.h */; };
+		EA5D6E992146244C00217635 /* GCCrashInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D6F2146244B00217635 /* GCCrashInstallation.h */; };
+		EA5D6E9A2146244C00217635 /* HDMKeychainRecoverUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D702146244B00217635 /* HDMKeychainRecoverUtil.h */; };
+		EA5D6E9B2146244C00217635 /* UEntropySensor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D712146244B00217635 /* UEntropySensor.m */; };
+		EA5D6E9C2146244C00217635 /* BitherSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D722146244B00217635 /* BitherSetting.m */; };
+		EA5D6E9D2146244C00217635 /* NSError+HDMHttpErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D732146244B00217635 /* NSError+HDMHttpErrorMessage.h */; };
+		EA5D6E9E2146244C00217635 /* UIImage+ImageRenderToColor.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D742146244B00217635 /* UIImage+ImageRenderToColor.h */; };
+		EA5D6E9F2146244C00217635 /* BlockUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D752146244B00217635 /* BlockUtil.m */; };
+		EA5D6EA02146244C00217635 /* BTCompressingLogFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D762146244B00217635 /* BTCompressingLogFileManager.h */; };
+		EA5D6EA12146244C00217635 /* HDMHotAddUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D772146244B00217635 /* HDMHotAddUtil.m */; };
+		EA5D6EA22146244C00217635 /* HDMApi.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D782146244B00217635 /* HDMApi.m */; };
+		EA5D6EA32146244C00217635 /* TouchIdIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D792146244B00217635 /* TouchIdIntegration.m */; };
+		EA5D6EA42146244C00217635 /* GetSplitSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D7A2146244B00217635 /* GetSplitSetting.h */; };
+		EA5D6EA52146244C00217635 /* BTTxProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D7B2146244B00217635 /* BTTxProvider.m */; };
+		EA5D6EA62146244C00217635 /* BTBlockChain.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D7C2146244B00217635 /* BTBlockChain.h */; };
+		EA5D6EA72146244C00217635 /* GroupUserDefaultUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D7D2146244B00217635 /* GroupUserDefaultUtil.h */; };
+		EA5D6EA82146244C00217635 /* BTHDMBid.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D7E2146244B00217635 /* BTHDMBid.h */; };
+		EA5D6EA92146244C00217635 /* HDMResetServerPasswordUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D7F2146244B00217635 /* HDMResetServerPasswordUtil.m */; };
+		EA5D6EAA2146244C00217635 /* TrendingGraphicData.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D802146244B00217635 /* TrendingGraphicData.m */; };
+		EA5D6EAB2146244C00217635 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D812146244B00217635 /* JRSwizzle.h */; };
+		EA5D6EAC2146244C00217635 /* GroupFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D822146244B00217635 /* GroupFileUtil.m */; };
+		EA5D6EAD2146244C00217635 /* BTHDAccountProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D832146244B00217635 /* BTHDAccountProvider.m */; };
+		EA5D6EAE2146244C00217635 /* NetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D842146244B00217635 /* NetworkUtil.m */; };
+		EA5D6EAF2146244C00217635 /* BTPrivateKeyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D852146244B00217635 /* BTPrivateKeyUtil.h */; };
+		EA5D6EB02146244C00217635 /* HDMRecoverSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D862146244B00217635 /* HDMRecoverSetting.m */; };
+		EA5D6EB12146244C00217635 /* FixedPeers.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6D872146244B00217635 /* FixedPeers.plist */; };
+		EA5D6EB22146244C00217635 /* BTHDAccountAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D882146244B00217635 /* BTHDAccountAddress.h */; };
+		EA5D6EB32146244C00217635 /* HDMSingular.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D892146244B00217635 /* HDMSingular.h */; };
+		EA5D6EB42146244C00217635 /* BTOut.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D8A2146244B00217635 /* BTOut.m */; };
+		EA5D6EB52146244C00217635 /* NSAttributedString+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D8B2146244B00217635 /* NSAttributedString+Size.h */; };
+		EA5D6EB62146244C00217635 /* QRCodeTxTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D8C2146244B00217635 /* QRCodeTxTransport.m */; };
+		EA5D6EB72146244C00217635 /* GCCrashReportSink.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D8D2146244B00217635 /* GCCrashReportSink.m */; };
+		EA5D6EB82146244C00217635 /* ExchangeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D8E2146244B00217635 /* ExchangeUtil.h */; };
+		EA5D6EB92146244C00217635 /* BaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D8F2146244B00217635 /* BaseApi.m */; };
+		EA5D6EBA2146244C00217635 /* KeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D902146244B00217635 /* KeyboardController.m */; };
+		EA5D6EBB2146244C00217635 /* UnitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D912146244B00217635 /* UnitUtil.m */; };
+		EA5D6EBC2146244C00217635 /* BTVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D922146244B00217635 /* BTVersion.m */; };
+		EA5D6EBD2146244C00217635 /* AvatarSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D932146244B00217635 /* AvatarSetting.h */; };
+		EA5D6EBE2146244C00217635 /* ImportHDMCold.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D942146244B00217635 /* ImportHDMCold.m */; };
+		EA5D6EBF2146244C00217635 /* BTHDAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D952146244B00217635 /* BTHDAccount.m */; };
+		EA5D6EC02146244C00217635 /* PeerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D962146244B00217635 /* PeerUtil.h */; };
+		EA5D6EC12146244C00217635 /* SplitCoinUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D972146244B00217635 /* SplitCoinUtil.h */; };
+		EA5D6EC22146244C00217635 /* AdUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D982146244B00217635 /* AdUtil.m */; };
+		EA5D6EC32146244C00217635 /* BTHDMBid+Api.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D992146244B00217635 /* BTHDMBid+Api.h */; };
+		EA5D6EC42146244C00217635 /* BTDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D9A2146244B00217635 /* BTDatabaseManager.m */; };
+		EA5D6EC52146244C00217635 /* ColdWalletCloneSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D9B2146244B00217635 /* ColdWalletCloneSetting.h */; };
+		EA5D6EC62146244C00217635 /* BTPeer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D9C2146244B00217635 /* BTPeer.h */; };
+		EA5D6EC72146244C00217635 /* BTScriptBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D9D2146244B00217635 /* BTScriptBuilder.h */; };
+		EA5D6EC82146244C00217635 /* UploadAndDowloadFileFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6D9E2146244B00217635 /* UploadAndDowloadFileFactory.h */; };
+		EA5D6EC92146244C00217635 /* GCCrashReportFilterTrim.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6D9F2146244B00217635 /* GCCrashReportFilterTrim.m */; };
+		EA5D6ECA2146244C00217635 /* UIImage+ImageWithColor.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DA02146244B00217635 /* UIImage+ImageWithColor.h */; };
+		EA5D6ECB2146244C00217635 /* BTHDAccountAddressProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DA12146244B00217635 /* BTHDAccountAddressProvider.h */; };
+		EA5D6ECC2146244C00217635 /* BitherEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DA22146244B00217635 /* BitherEngine.h */; };
+		EA5D6ECD2146244C00217635 /* AudioVisualizerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DA32146244B00217635 /* AudioVisualizerView.h */; };
+		EA5D6ECE2146244C00217635 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DA42146244B00217635 /* UIView+Extension.h */; };
+		EA5D6ECF2146244C00217635 /* KeyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DA52146244B00217635 /* KeyUtil.h */; };
+		EA5D6ED02146244C00217635 /* UEntropyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DA62146244B00217635 /* UEntropyViewController.h */; };
+		EA5D6ED12146244C00217635 /* PinCodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DA72146244B00217635 /* PinCodeUtil.m */; };
+		EA5D6ED22146244C00217635 /* SystemUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DA82146244B00217635 /* SystemUtil.h */; };
+		EA5D6ED32146244C00217635 /* BTPeerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DA92146244B00217635 /* BTPeerManager.h */; };
+		EA5D6ED42146244C00217635 /* CrashLog.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DAA2146244B00217635 /* CrashLog.h */; };
+		EA5D6ED52146244C00217635 /* BTAddressProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DAB2146244B00217635 /* BTAddressProvider.h */; };
+		EA5D6ED62146244C00217635 /* PasswordStrengthUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DAC2146244B00217635 /* PasswordStrengthUtil.m */; };
+		EA5D6ED72146244C00217635 /* BTSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DAD2146244B00217635 /* BTSettings.h */; };
+		EA5D6ED82146244C00217635 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DAE2146244B00217635 /* DateUtil.m */; };
+		EA5D6ED92146244C00217635 /* BTBlockProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DAF2146244B00217635 /* BTBlockProvider.h */; };
+		EA5D6EDA2146244C00217635 /* SignTransactionScanSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DB02146244B00217635 /* SignTransactionScanSetting.h */; };
+		EA5D6EDB2146244C00217635 /* BTHDMAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DB12146244B00217635 /* BTHDMAddress.h */; };
+		EA5D6EDC2146244C00217635 /* ImportPrivateKeySetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DB22146244B00217635 /* ImportPrivateKeySetting.m */; };
+		EA5D6EDD2146244C00217635 /* FileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DB32146244B00217635 /* FileUtil.h */; };
+		EA5D6EDE2146244C00217635 /* ReloadTxSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DB42146244B00217635 /* ReloadTxSetting.m */; };
+		EA5D6EDF2146244C00217635 /* UEntropyCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DB52146244B00217635 /* UEntropyCollector.h */; };
+		EA5D6EE02146244C00217635 /* BTKey.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DB62146244B00217635 /* BTKey.h */; };
+		EA5D6EE12146244C00217635 /* UIResponder+KKCurnt1stResponsor.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DB72146244B00217635 /* UIResponder+KKCurnt1stResponsor.h */; };
+		EA5D6EE22146244C00217635 /* PasswordGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DB82146244B00217635 /* PasswordGetter.m */; };
+		EA5D6EE32146244C00217635 /* NSString+Base58.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DB92146244B00217635 /* NSString+Base58.m */; };
+		EA5D6EE42146244C00217635 /* UIImageExt.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DBA2146244B00217635 /* UIImageExt.m */; };
+		EA5D6EE52146244C00217635 /* Market.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DBB2146244B00217635 /* Market.m */; };
+		EA5D6EE62146244C00217635 /* BTBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DBC2146244B00217635 /* BTBlock.h */; };
+		EA5D6EE72146244C00217635 /* MonitorHDAccountSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DBD2146244B00217635 /* MonitorHDAccountSetting.h */; };
+		EA5D6EE82146244C00217635 /* BTHDMKeychainRecover.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DBE2146244B00217635 /* BTHDMKeychainRecover.m */; };
+		EA5D6EE92146244C00217635 /* BTTxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DBF2146244B00217635 /* BTTxHelper.m */; };
+		EA5D6EEA2146244C00217635 /* BTAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DC02146244B00217635 /* BTAddress.m */; };
+		EA5D6EEB2146244C00217635 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DC12146244B00217635 /* NSData+Hash.m */; };
+		EA5D6EEC2146244C00217635 /* DonationSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DC22146244B00217635 /* DonationSetting.h */; };
+		EA5D6EED2146244C00217635 /* PaymentAddressSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DC32146244B00217635 /* PaymentAddressSetting.h */; };
+		EA5D6EEE2146244C00217635 /* Depth.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DC42146244B00217635 /* Depth.m */; };
+		EA5D6EEF2146244C00217635 /* MessageSigningSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DC52146244B00217635 /* MessageSigningSetting.m */; };
+		EA5D6EF02146244C00217635 /* UpgradeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DC62146244B00217635 /* UpgradeUtil.h */; };
+		EA5D6EF12146244C00217635 /* ImportPrivateKey.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DC72146244B00217635 /* ImportPrivateKey.h */; };
+		EA5D6EF22146244C00217635 /* XRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DC82146244B00217635 /* XRandom.m */; };
+		EA5D6EF32146244C00217635 /* BIP39ZhCNWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6DC92146244B00217635 /* BIP39ZhCNWords.plist */; };
+		EA5D6EF42146244C00217635 /* SensorVisualizerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DCA2146244B00217635 /* SensorVisualizerView.h */; };
+		EA5D6EF52146244C00217635 /* BTScriptOpCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DCB2146244B00217635 /* BTScriptOpCodes.m */; };
+		EA5D6EF62146244C00217635 /* BTPasswordSeed.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DCC2146244B00217635 /* BTPasswordSeed.h */; };
+		EA5D6EF72146244C00217635 /* BTIn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DCD2146244B00217635 /* BTIn.m */; };
+		EA5D6EF82146244C00217635 /* UserDefaultsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DCE2146244B00217635 /* UserDefaultsUtil.h */; };
+		EA5D6EF92146244C00217635 /* NSMutableData+Bitcoin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DCF2146244B00217635 /* NSMutableData+Bitcoin.m */; };
+		EA5D6EFA2146244C00217635 /* KeychainSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DD02146244B00217635 /* KeychainSetting.h */; };
+		EA5D6EFB2146244C00217635 /* BitherApi.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DD12146244B00217635 /* BitherApi.h */; };
+		EA5D6EFC2146244C00217635 /* BTScript.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DD22146244B00217635 /* BTScript.m */; };
+		EA5D6EFD2146244C00217635 /* BTKey+BIP38.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DD32146244B00217635 /* BTKey+BIP38.m */; };
+		EA5D6EFE2146244C00217635 /* GroupUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DD42146244B00217635 /* GroupUtil.h */; };
+		EA5D6EFF2146244C00217635 /* DataCheckUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DD52146244B00217635 /* DataCheckUtil.h */; };
+		EA5D6F002146244C00217635 /* StringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DD62146244B00217635 /* StringUtil.h */; };
+		EA5D6F012146244C00217635 /* NSData+Bitcoin.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DD72146244B00217635 /* NSData+Bitcoin.m */; };
+		EA5D6F022146244C00217635 /* SettingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DD82146244B00217635 /* SettingUtil.m */; };
+		EA5D6F032146244C00217635 /* Bitheri.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DD92146244B00217635 /* Bitheri.h */; };
+		EA5D6F042146244C00217635 /* PinCodeSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DDA2146244B00217635 /* PinCodeSetting.m */; };
+		EA5D6F052146244C00217635 /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DDB2146244B00217635 /* Setting.m */; };
+		EA5D6F062146244C00217635 /* CacheUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DDC2146244B00217635 /* CacheUtil.h */; };
+		EA5D6F072146244C00217635 /* NSString+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DDD2146244B00217635 /* NSString+Size.h */; };
+		EA5D6F082146244C00217635 /* BTBIP39.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DDE2146244B00217635 /* BTBIP39.h */; };
+		EA5D6F092146244C00217635 /* CloneQrCodeSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DDF2146244B00217635 /* CloneQrCodeSetting.m */; };
+		EA5D6F0A2146244C00217635 /* UEntropyCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DE02146244B00217635 /* UEntropyCamera.m */; };
+		EA5D6F0B2146244C00217635 /* UEntropyAnimatedTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DE12146244B00217635 /* UEntropyAnimatedTransition.h */; };
+		EA5D6F0C2146244C00217635 /* NotificationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DE22146244B00217635 /* NotificationUtil.h */; };
+		EA5D6F0D2146244C00217635 /* BTTx.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DE32146244B00217635 /* BTTx.m */; };
+		EA5D6F0E2146244C00217635 /* ApiConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DE42146244B00217635 /* ApiConfig.h */; };
+		EA5D6F0F2146244C00217635 /* BTPeerProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DE52146244B00217635 /* BTPeerProvider.h */; };
+		EA5D6F102146244C00217635 /* BTKey+Bitcoinj.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DE62146244B00217635 /* BTKey+Bitcoinj.h */; };
+		EA5D6F112146244C00217635 /* BTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DE72146244B00217635 /* BTUtils.m */; };
+		EA5D6F122146244C00217635 /* ImportBip38PrivateKeySetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DE82146244B00217635 /* ImportBip38PrivateKeySetting.m */; };
+		EA5D6F132146244C00217635 /* QRCodeTransportPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DE92146244B00217635 /* QRCodeTransportPage.m */; };
+		EA5D6F142146244C00217635 /* UEntropyMic.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DEA2146244B00217635 /* UEntropyMic.m */; };
+		EA5D6F152146244C00217635 /* BTTxProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DEB2146244B00217635 /* BTTxProvider.h */; };
+		EA5D6F162146244C00217635 /* GetSplitSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DEC2146244B00217635 /* GetSplitSetting.m */; };
+		EA5D6F172146244C00217635 /* TouchIdIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DED2146244B00217635 /* TouchIdIntegration.h */; };
+		EA5D6F182146244C00217635 /* BTCompressingLogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DEE2146244B00217635 /* BTCompressingLogFileManager.m */; };
+		EA5D6F192146244C00217635 /* HDMHotAddUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DEF2146244B00217635 /* HDMHotAddUtil.h */; };
+		EA5D6F1A2146244C00217635 /* HDMApi.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DF02146244B00217635 /* HDMApi.h */; };
+		EA5D6F1B2146244C00217635 /* BitherSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DF12146244B00217635 /* BitherSetting.h */; };
+		EA5D6F1C2146244C00217635 /* NSError+HDMHttpErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DF22146244B00217635 /* NSError+HDMHttpErrorMessage.m */; };
+		EA5D6F1D2146244C00217635 /* BlockUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DF32146244B00217635 /* BlockUtil.h */; };
+		EA5D6F1E2146244C00217635 /* UIImage+ImageRenderToColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DF42146244B00217635 /* UIImage+ImageRenderToColor.m */; };
+		EA5D6F1F2146244C00217635 /* GCCrashInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DF52146244B00217635 /* GCCrashInstallation.m */; };
+		EA5D6F202146244C00217635 /* UEntropySensor.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DF62146244B00217635 /* UEntropySensor.h */; };
+		EA5D6F212146244C00217635 /* HDMKeychainRecoverUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DF72146244B00217635 /* HDMKeychainRecoverUtil.m */; };
+		EA5D6F222146244C00217635 /* BTHDMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DF82146244B00217635 /* BTHDMKeychain.m */; };
+		EA5D6F232146244C00217635 /* BTScriptChunk.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DF92146244B00217635 /* BTScriptChunk.h */; };
+		EA5D6F242146244C00217635 /* PushTxThirdParty.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DFA2146244B00217635 /* PushTxThirdParty.h */; };
+		EA5D6F252146244C00217635 /* MonitorSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DFB2146244B00217635 /* MonitorSetting.m */; };
+		EA5D6F262146244C00217635 /* QRCodeThemeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DFC2146244B00217635 /* QRCodeThemeUtil.m */; };
+		EA5D6F272146244C00217635 /* BTBIP32Key.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6DFD2146244B00217635 /* BTBIP32Key.h */; };
+		EA5D6F282146244C00217635 /* PlaySoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DFE2146244B00217635 /* PlaySoundUtil.m */; };
+		EA5D6F292146244C00217635 /* BTQRCodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6DFF2146244B00217635 /* BTQRCodeUtil.m */; };
+		EA5D6F2A2146244C00217635 /* BIP39EnglishWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E002146244B00217635 /* BIP39EnglishWords.plist */; };
+		EA5D6F2B2146244C00217635 /* BTHDAccountCold.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E012146244B00217635 /* BTHDAccountCold.h */; };
+		EA5D6F2C2146244C00217635 /* TotalBalanceHideUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E022146244B00217635 /* TotalBalanceHideUtil.m */; };
+		EA5D6F2D2146244C00217635 /* MarketUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E032146244B00217635 /* MarketUtil.m */; };
+		EA5D6F2E2146244C00217635 /* BTWordsTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E042146244B00217635 /* BTWordsTypeManager.m */; };
+		EA5D6F2F2146244C00217635 /* BTTxBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E052146244B00217635 /* BTTxBuilder.m */; };
+		EA5D6F302146244C00217635 /* NSDictionary+Fromat.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E062146244B00217635 /* NSDictionary+Fromat.h */; };
+		EA5D6F312146244C00217635 /* TransactionsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E072146244B00217635 /* TransactionsUtil.h */; };
+		EA5D6F322146244C00217635 /* Ticker.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E082146244B00217635 /* Ticker.h */; };
+		EA5D6F332146244C00217635 /* KeychainBackupUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E092146244B00217635 /* KeychainBackupUtil.m */; };
+		EA5D6F342146244C00217635 /* BTBloomFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E0A2146244B00217635 /* BTBloomFilter.m */; };
+		EA5D6F352146244C00217635 /* BTAddressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E0B2146244B00217635 /* BTAddressManager.m */; };
+		EA5D6F362146244C00217635 /* BitherTime.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E0C2146244B00217635 /* BitherTime.m */; };
+		EA5D6F372146244C00217635 /* BTKeyParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E0D2146244B00217635 /* BTKeyParameter.h */; };
+		EA5D6F382146244C00217635 /* BTEncryptData.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E0E2146244B00217635 /* BTEncryptData.h */; };
+		EA5D6F392146244C00217635 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E0F2146244B00217635 /* UIImage+ImageWithColor.m */; };
+		EA5D6F3A2146244C00217635 /* BTHDAccountAddressProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E102146244B00217635 /* BTHDAccountAddressProvider.m */; };
+		EA5D6F3B2146244C00217635 /* BitherEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E112146244B00217635 /* BitherEngine.m */; };
+		EA5D6F3C2146244C00217635 /* AudioVisualizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E122146244B00217635 /* AudioVisualizerView.m */; };
+		EA5D6F3D2146244C00217635 /* UploadAndDowloadFileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E132146244B00217635 /* UploadAndDowloadFileFactory.m */; };
+		EA5D6F3E2146244C00217635 /* coins_received.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E162146244B00217635 /* coins_received.wav */; };
+		EA5D6F3F2146244C00217635 /* xrandom_close_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E172146244B00217635 /* xrandom_close_sound.mp3 */; };
+		EA5D6F402146244C00217635 /* qr_code_scanned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E182146244B00217635 /* qr_code_scanned.mp3 */; };
+		EA5D6F412146244C00217635 /* xrandom_open_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E192146244B00217635 /* xrandom_open_sound.mp3 */; };
+		EA5D6F422146244C00217635 /* GCCrashReportFilterTrim.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E1A2146244B00217635 /* GCCrashReportFilterTrim.h */; };
+		EA5D6F432146244C00217635 /* BTScriptBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E1B2146244B00217635 /* BTScriptBuilder.m */; };
+		EA5D6F442146244C00217635 /* BTPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E1C2146244B00217635 /* BTPeer.m */; };
+		EA5D6F452146244C00217635 /* ColdWalletCloneSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E1D2146244B00217635 /* ColdWalletCloneSetting.m */; };
+		EA5D6F462146244C00217635 /* AdUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E1E2146244B00217635 /* AdUtil.h */; };
+		EA5D6F472146244C00217635 /* BTHDMBid+Api.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E1F2146244B00217635 /* BTHDMBid+Api.m */; };
+		EA5D6F482146244C00217635 /* BTDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E202146244B00217635 /* BTDatabaseManager.h */; };
+		EA5D6F492146244C00217635 /* PeerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E212146244B00217635 /* PeerUtil.m */; };
+		EA5D6F4A2146244C00217635 /* SplitCoinUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E222146244B00217635 /* SplitCoinUtil.m */; };
+		EA5D6F4B2146244C00217635 /* ImportHDMCold.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E232146244B00217635 /* ImportHDMCold.h */; };
+		EA5D6F4C2146244C00217635 /* BIP39ZhTWWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E242146244B00217635 /* BIP39ZhTWWords.plist */; };
+		EA5D6F4D2146244C00217635 /* BTHDAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E252146244B00217635 /* BTHDAccount.h */; };
+		EA5D6F4E2146244C00217635 /* BTVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E262146244B00217635 /* BTVersion.h */; };
+		EA5D6F4F2146244C00217635 /* UnitUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E272146244B00217635 /* UnitUtil.h */; };
+		EA5D6F502146244C00217635 /* AvatarSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E282146244B00217635 /* AvatarSetting.m */; };
+		EA5D6F512146244C00217635 /* BaseApi.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E292146244B00217635 /* BaseApi.h */; };
+		EA5D6F522146244C00217635 /* KeyboardController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E2A2146244B00217635 /* KeyboardController.h */; };
+		EA5D6F532146244C00217635 /* NSAttributedString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E2B2146244B00217635 /* NSAttributedString+Size.m */; };
+		EA5D6F542146244C00217635 /* GCCrashReportSink.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E2C2146244B00217635 /* GCCrashReportSink.h */; };
+		EA5D6F552146244C00217635 /* QRCodeTxTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E2D2146244B00217635 /* QRCodeTxTransport.h */; };
+		EA5D6F562146244C00217635 /* ExchangeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E2E2146244B00217635 /* ExchangeUtil.m */; };
+		EA5D6F572146244C00217635 /* BTHDAccountAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E2F2146244B00217635 /* BTHDAccountAddress.m */; };
+		EA5D6F582146244C00217635 /* HDMSingular.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E302146244B00217635 /* HDMSingular.m */; };
+		EA5D6F592146244C00217635 /* BTOut.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E312146244B00217635 /* BTOut.h */; };
+		EA5D6F5A2146244C00217635 /* HDMRecoverSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E322146244B00217635 /* HDMRecoverSetting.h */; };
+		EA5D6F5B2146244C00217635 /* GroupFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E332146244B00217635 /* GroupFileUtil.h */; };
+		EA5D6F5C2146244C00217635 /* NetworkUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E342146244B00217635 /* NetworkUtil.h */; };
+		EA5D6F5D2146244C00217635 /* BTHDAccountProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E352146244B00217635 /* BTHDAccountProvider.h */; };
+		EA5D6F5E2146244C00217635 /* BTPrivateKeyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E362146244B00217635 /* BTPrivateKeyUtil.m */; };
+		EA5D6F5F2146244C00217635 /* BTHDMBid.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E372146244B00217635 /* BTHDMBid.m */; };
+		EA5D6F602146244C00217635 /* HDMResetServerPasswordUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E382146244B00217635 /* HDMResetServerPasswordUtil.h */; };
+		EA5D6F612146244C00217635 /* BTBlockChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E392146244B00217635 /* BTBlockChain.m */; };
+		EA5D6F622146244C00217635 /* GroupUserDefaultUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E3A2146244B00217635 /* GroupUserDefaultUtil.m */; };
+		EA5D6F632146244C00217635 /* TrendingGraphicData.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E3B2146244B00217635 /* TrendingGraphicData.h */; };
+		EA5D6F642146244C00217635 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E3C2146244B00217635 /* JRSwizzle.m */; };
+		EA5D6F652146244C00217635 /* ImportPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E3D2146244B00217635 /* ImportPrivateKey.m */; };
+		EA5D6F662146244C00217635 /* Depth.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E3E2146244B00217635 /* Depth.h */; };
+		EA5D6F672146244C00217635 /* UpgradeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E3F2146244B00217635 /* UpgradeUtil.m */; };
+		EA5D6F682146244C00217635 /* MessageSigningSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E402146244B00217635 /* MessageSigningSetting.h */; };
+		EA5D6F692146244C00217635 /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E412146244B00217635 /* NSData+Hash.h */; };
+		EA5D6F6A2146244C00217635 /* DonationSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E422146244B00217635 /* DonationSetting.m */; };
+		EA5D6F6B2146244C00217635 /* PaymentAddressSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E432146244B00217635 /* PaymentAddressSetting.m */; };
+		EA5D6F6C2146244C00217635 /* BTAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E442146244B00217635 /* BTAddress.h */; };
+		EA5D6F6D2146244C00217635 /* BTHDMKeychainRecover.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E452146244B00217635 /* BTHDMKeychainRecover.h */; };
+		EA5D6F6E2146244C00217635 /* BTTxHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E462146244B00217635 /* BTTxHelper.h */; };
+		EA5D6F6F2146244C00217635 /* MonitorHDAccountSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E472146244B00217635 /* MonitorHDAccountSetting.m */; };
+		EA5D6F702146244C00217635 /* BTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E482146244B00217635 /* BTBlock.m */; };
+		EA5D6F712146244C00217635 /* UIImageExt.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E492146244B00217635 /* UIImageExt.h */; };
+		EA5D6F722146244C00217635 /* NSString+Base58.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E4A2146244B00217635 /* NSString+Base58.h */; };
+		EA5D6F732146244C00217635 /* Market.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E4B2146244B00217635 /* Market.h */; };
+		EA5D6F742146244C00217635 /* UIResponder+KKCurnt1stResponsor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E4C2146244B00217635 /* UIResponder+KKCurnt1stResponsor.m */; };
+		EA5D6F752146244C00217635 /* PasswordGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E4D2146244B00217635 /* PasswordGetter.h */; };
+		EA5D6F762146244C00217635 /* ReloadTxSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E4E2146244B00217635 /* ReloadTxSetting.h */; };
+		EA5D6F772146244C00217635 /* UEntropyCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E4F2146244B00217635 /* UEntropyCollector.m */; };
+		EA5D6F782146244C00217635 /* BTKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E502146244B00217635 /* BTKey.m */; };
+		EA5D6F792146244C00217635 /* ImportPrivateKeySetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E512146244B00217635 /* ImportPrivateKeySetting.h */; };
+		EA5D6F7A2146244C00217635 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E522146244B00217635 /* FileUtil.m */; };
+		EA5D6F7B2146244C00217635 /* SignTransactionScanSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E532146244B00217635 /* SignTransactionScanSetting.m */; };
+		EA5D6F7C2146244C00217635 /* BTBlockProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E542146244B00217635 /* BTBlockProvider.m */; };
+		EA5D6F7D2146244C00217635 /* BTHDMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E552146244B00217635 /* BTHDMAddress.m */; };
+		EA5D6F7E2146244C00217635 /* DateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E562146244B00217635 /* DateUtil.h */; };
+		EA5D6F7F2146244C00217635 /* BTAddressProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E572146244B00217635 /* BTAddressProvider.m */; };
+		EA5D6F802146244C00217635 /* BTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E582146244B00217635 /* BTSettings.m */; };
+		EA5D6F812146244C00217635 /* PasswordStrengthUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E592146244B00217635 /* PasswordStrengthUtil.h */; };
+		EA5D6F822146244C00217635 /* CrashLog.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E5A2146244B00217635 /* CrashLog.m */; };
+		EA5D6F832146244C00217635 /* BTPeerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E5B2146244B00217635 /* BTPeerManager.m */; };
+		EA5D6F842146244C00217635 /* SystemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E5C2146244B00217635 /* SystemUtil.m */; };
+		EA5D6F852146244C00217635 /* UEntropyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E5D2146244B00217635 /* UEntropyViewController.m */; };
+		EA5D6F862146244C00217635 /* KeyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E5E2146244B00217635 /* KeyUtil.m */; };
+		EA5D6F872146244C00217635 /* PinCodeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E5F2146244B00217635 /* PinCodeUtil.h */; };
+		EA5D6F882146244C00217635 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E602146244B00217635 /* UIView+Extension.m */; };
+		EA5D6F892146244C00217635 /* QRCodeTransportPage.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E612146244B00217635 /* QRCodeTransportPage.h */; };
+		EA5D6F8A2146244C00217635 /* UEntropyMic.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E622146244B00217635 /* UEntropyMic.h */; };
+		EA5D6F8B2146244C00217635 /* BTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E632146244B00217635 /* BTUtils.h */; };
+		EA5D6F8C2146244C00217635 /* ImportBip38PrivateKeySetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E642146244B00217635 /* ImportBip38PrivateKeySetting.h */; };
+		EA5D6F8D2146244C00217635 /* BTPeerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E652146244B00217635 /* BTPeerProvider.m */; };
+		EA5D6F8E2146244C00217635 /* BTKey+Bitcoinj.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E662146244B00217635 /* BTKey+Bitcoinj.m */; };
+		EA5D6F8F2146244C00217635 /* BTTx.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E672146244B00217635 /* BTTx.h */; };
+		EA5D6F902146244C00217635 /* UEntropyAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E682146244B00217635 /* UEntropyAnimatedTransition.m */; };
+		EA5D6F912146244C00217635 /* UEntropyCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E692146244B00217635 /* UEntropyCamera.h */; };
+		EA5D6F922146244C00217635 /* NotificationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E6A2146244B00217635 /* NotificationUtil.m */; };
+		EA5D6F932146244C00217635 /* BTBIP39.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E6B2146244B00217635 /* BTBIP39.m */; };
+		EA5D6F942146244C00217635 /* CloneQrCodeSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E6C2146244B00217635 /* CloneQrCodeSetting.h */; };
+		EA5D6F952146244C00217635 /* CacheUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E6D2146244B00217635 /* CacheUtil.m */; };
+		EA5D6F962146244C00217635 /* hdm.bither.net.cer in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E6E2146244B00217635 /* hdm.bither.net.cer */; };
+		EA5D6F972146244C00217635 /* Setting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E6F2146244B00217635 /* Setting.h */; };
+		EA5D6F982146244C00217635 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E702146244B00217635 /* NSString+Size.m */; };
+		EA5D6F992146244C00217635 /* PinCodeSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E712146244B00217635 /* PinCodeSetting.h */; };
+		EA5D6F9A2146244C00217635 /* SettingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E722146244B00217635 /* SettingUtil.h */; };
+		EA5D6F9B2146244C00217635 /* DataCheckUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E732146244B00217635 /* DataCheckUtil.m */; };
+		EA5D6F9C2146244C00217635 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E742146244B00217635 /* StringUtil.m */; };
+		EA5D6F9D2146244C00217635 /* NSData+Bitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E752146244B00217635 /* NSData+Bitcoin.h */; };
+		EA5D6F9E2146244C00217635 /* GroupUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E762146244B00217635 /* GroupUtil.m */; };
+		EA5D6F9F2146244C00217635 /* BTKey+BIP38.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E772146244B00217635 /* BTKey+BIP38.h */; };
+		EA5D6FA02146244C00217635 /* KeychainSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E782146244B00217635 /* KeychainSetting.m */; };
+		EA5D6FA12146244C00217635 /* NSMutableData+Bitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E792146244B00217635 /* NSMutableData+Bitcoin.h */; };
+		EA5D6FA22146244C00217635 /* BitherApi.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E7A2146244B00217635 /* BitherApi.m */; };
+		EA5D6FA32146244C00217635 /* BTScript.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E7B2146244B00217635 /* BTScript.h */; };
+		EA5D6FA42146244C00217635 /* UserDefaultsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E7C2146244B00217635 /* UserDefaultsUtil.m */; };
+		EA5D6FA52146244C00217635 /* SensorVisualizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E7D2146244B00217635 /* SensorVisualizerView.m */; };
+		EA5D6FA62146244C00217635 /* BTScriptOpCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E7E2146244B00217635 /* BTScriptOpCodes.h */; };
+		EA5D6FA72146244C00217635 /* BTPasswordSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D6E7F2146244B00217635 /* BTPasswordSeed.m */; };
+		EA5D6FA82146244C00217635 /* BTIn.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E802146244B00217635 /* BTIn.h */; };
+		EA5D6FA92146244C00217635 /* XRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D6E812146244B00217635 /* XRandom.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31B3C38FB24A5DA1C33C36D5 /* Pods_bitcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BF964ABA552A9F1C97957B /* Pods-bitcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcode.debug.xcconfig"; path = "Target Support Files/Pods-bitcode/Pods-bitcode.debug.xcconfig"; sourceTree = "<group>"; };
 		EA28C611213D269100D9198C /* bitcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bitcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA28C83A213E2B2300D9198C /* BTAddressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAddressManager.h; sourceTree = "<group>"; };
-		EA28C83B213E2B2300D9198C /* BTKeyParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTKeyParameter.m; sourceTree = "<group>"; };
-		EA28C83C213E2B2300D9198C /* BTEncryptData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEncryptData.m; sourceTree = "<group>"; };
-		EA28C83D213E2B2300D9198C /* BTBloomFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBloomFilter.h; sourceTree = "<group>"; };
-		EA28C83E213E2B2300D9198C /* ccMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccMemory.h; sourceTree = "<group>"; };
-		EA28C83F213E2B2300D9198C /* BTTxBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTxBuilder.h; sourceTree = "<group>"; };
-		EA28C840213E2B2300D9198C /* BTWordsTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWordsTypeManager.h; sourceTree = "<group>"; };
-		EA28C841213E2B2300D9198C /* BTHDAccountCold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountCold.m; sourceTree = "<group>"; };
-		EA28C842213E2B2300D9198C /* bitcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitcode.h; sourceTree = "<group>"; };
-		EA28C843213E2B2300D9198C /* BTQRCodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTQRCodeUtil.h; sourceTree = "<group>"; };
-		EA28C844213E2B2300D9198C /* BTBIP32Key.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBIP32Key.m; sourceTree = "<group>"; };
-		EA28C845213E2B2300D9198C /* BTScriptChunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptChunk.m; sourceTree = "<group>"; };
-		EA28C846213E2B2300D9198C /* BTHDMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMKeychain.h; sourceTree = "<group>"; };
-		EA28C847213E2B2300D9198C /* BTCompressingLogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCompressingLogFileManager.h; sourceTree = "<group>"; };
-		EA28C848213E2B2300D9198C /* BTTxProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTxProvider.m; sourceTree = "<group>"; };
-		EA28C849213E2B2300D9198C /* BTBlockChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBlockChain.h; sourceTree = "<group>"; };
-		EA28C84A213E2B2300D9198C /* BTHDMBid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMBid.h; sourceTree = "<group>"; };
-		EA28C84B213E2B2300D9198C /* BTHDAccountProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountProvider.m; sourceTree = "<group>"; };
-		EA28C84C213E2B2300D9198C /* BTPrivateKeyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPrivateKeyUtil.h; sourceTree = "<group>"; };
-		EA28C84D213E2B2300D9198C /* BTHDAccountAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountAddress.h; sourceTree = "<group>"; };
-		EA28C84E213E2B2300D9198C /* BTOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTOut.m; sourceTree = "<group>"; };
-		EA28C84F213E2B2300D9198C /* BTVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTVersion.m; sourceTree = "<group>"; };
-		EA28C850213E2B2300D9198C /* BTHDAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccount.m; sourceTree = "<group>"; };
-		EA28C851213E2B2300D9198C /* BTDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDatabaseManager.m; sourceTree = "<group>"; };
-		EA28C852213E2B2300D9198C /* BTPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeer.h; sourceTree = "<group>"; };
-		EA28C853213E2B2300D9198C /* BTScriptBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScriptBuilder.h; sourceTree = "<group>"; };
-		EA28C854213E2B2300D9198C /* BTHDAccountAddressProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountAddressProvider.h; sourceTree = "<group>"; };
-		EA28C855213E2B2300D9198C /* BTPeerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeerManager.h; sourceTree = "<group>"; };
-		EA28C856213E2B2300D9198C /* BTAddressProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAddressProvider.h; sourceTree = "<group>"; };
-		EA28C857213E2B2300D9198C /* BTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSettings.h; sourceTree = "<group>"; };
-		EA28C858213E2B2300D9198C /* BTBlockProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBlockProvider.h; sourceTree = "<group>"; };
-		EA28C859213E2B2300D9198C /* BTHDMAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMAddress.h; sourceTree = "<group>"; };
-		EA28C85A213E2B2300D9198C /* BTKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTKey.h; sourceTree = "<group>"; };
-		EA28C85B213E2B2300D9198C /* NSString+Base58.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base58.m"; sourceTree = "<group>"; };
-		EA28C85C213E2B2300D9198C /* BTBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBlock.h; sourceTree = "<group>"; };
-		EA28C85D213E2B2300D9198C /* BTHDMKeychainRecover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMKeychainRecover.m; sourceTree = "<group>"; };
-		EA28C85E213E2B2300D9198C /* BTTxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTxHelper.m; sourceTree = "<group>"; };
-		EA28C85F213E2B2300D9198C /* BTAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAddress.m; sourceTree = "<group>"; };
-		EA28C860213E2B2300D9198C /* NSData+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hash.m"; sourceTree = "<group>"; };
-		EA28C861213E2B2300D9198C /* BTScriptOpCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptOpCodes.m; sourceTree = "<group>"; };
-		EA28C862213E2B2300D9198C /* BTPasswordSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPasswordSeed.h; sourceTree = "<group>"; };
-		EA28C863213E2B2300D9198C /* BTIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIn.m; sourceTree = "<group>"; };
-		EA28C864213E2B2300D9198C /* NSMutableData+Bitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Bitcoin.m"; sourceTree = "<group>"; };
-		EA28C865213E2B2300D9198C /* BTScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScript.m; sourceTree = "<group>"; };
-		EA28C866213E2B2300D9198C /* BTKey+BIP38.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTKey+BIP38.m"; sourceTree = "<group>"; };
-		EA28C867213E2B2300D9198C /* NSData+Bitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Bitcoin.m"; sourceTree = "<group>"; };
-		EA28C868213E2B2300D9198C /* Bitheri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bitheri.h; sourceTree = "<group>"; };
-		EA28C869213E2B2300D9198C /* BTBIP39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBIP39.h; sourceTree = "<group>"; };
-		EA28C86A213E2B2300D9198C /* BTTx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTx.m; sourceTree = "<group>"; };
-		EA28C86B213E2B2300D9198C /* BTPeerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeerProvider.h; sourceTree = "<group>"; };
-		EA28C86C213E2B2300D9198C /* BTKey+Bitcoinj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTKey+Bitcoinj.h"; sourceTree = "<group>"; };
-		EA28C86D213E2B2300D9198C /* BTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUtils.m; sourceTree = "<group>"; };
-		EA28C86E213E2B2300D9198C /* KKUTXOModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKUTXOModel.h; sourceTree = "<group>"; };
-		EA28C86F213E2B2300D9198C /* BTTxProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTxProvider.h; sourceTree = "<group>"; };
-		EA28C870213E2B2300D9198C /* BTCompressingLogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCompressingLogFileManager.m; sourceTree = "<group>"; };
-		EA28C871213E2B2300D9198C /* BTHDMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMKeychain.m; sourceTree = "<group>"; };
-		EA28C872213E2B2300D9198C /* BTScriptChunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScriptChunk.h; sourceTree = "<group>"; };
-		EA28C873213E2B2300D9198C /* BTBIP32Key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBIP32Key.h; sourceTree = "<group>"; };
-		EA28C874213E2B2300D9198C /* BTQRCodeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTQRCodeUtil.m; sourceTree = "<group>"; };
-		EA28C875213E2B2300D9198C /* BTHDAccountCold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountCold.h; sourceTree = "<group>"; };
-		EA28C876213E2B2300D9198C /* BTWordsTypeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWordsTypeManager.m; sourceTree = "<group>"; };
-		EA28C877213E2B2300D9198C /* BTTxBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTxBuilder.m; sourceTree = "<group>"; };
-		EA28C878213E2B2300D9198C /* BTBloomFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBloomFilter.m; sourceTree = "<group>"; };
-		EA28C879213E2B2300D9198C /* BTAddressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAddressManager.m; sourceTree = "<group>"; };
-		EA28C87A213E2B2300D9198C /* BTKeyParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTKeyParameter.h; sourceTree = "<group>"; };
-		EA28C87B213E2B2300D9198C /* BTEncryptData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEncryptData.h; sourceTree = "<group>"; };
-		EA28C87C213E2B2300D9198C /* BTHDAccountAddressProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountAddressProvider.m; sourceTree = "<group>"; };
-		EA28C87D213E2B2300D9198C /* BTScriptBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptBuilder.m; sourceTree = "<group>"; };
-		EA28C87E213E2B2300D9198C /* BTPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeer.m; sourceTree = "<group>"; };
-		EA28C87F213E2B2300D9198C /* BTDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDatabaseManager.h; sourceTree = "<group>"; };
-		EA28C880213E2B2300D9198C /* BTHDAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccount.h; sourceTree = "<group>"; };
-		EA28C881213E2B2300D9198C /* BTVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTVersion.h; sourceTree = "<group>"; };
-		EA28C882213E2B2300D9198C /* BTHDAccountAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountAddress.m; sourceTree = "<group>"; };
-		EA28C883213E2B2300D9198C /* BTOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTOut.h; sourceTree = "<group>"; };
-		EA28C884213E2B2300D9198C /* BTHDAccountProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountProvider.h; sourceTree = "<group>"; };
-		EA28C885213E2B2300D9198C /* BTPrivateKeyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPrivateKeyUtil.m; sourceTree = "<group>"; };
-		EA28C886213E2B2300D9198C /* BTHDMBid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMBid.m; sourceTree = "<group>"; };
-		EA28C887213E2B2300D9198C /* BTBlockChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBlockChain.m; sourceTree = "<group>"; };
-		EA28C888213E2B2300D9198C /* NSData+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hash.h"; sourceTree = "<group>"; };
-		EA28C889213E2B2300D9198C /* BTAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAddress.h; sourceTree = "<group>"; };
-		EA28C88A213E2B2300D9198C /* BTHDMKeychainRecover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMKeychainRecover.h; sourceTree = "<group>"; };
-		EA28C88B213E2B2300D9198C /* BTTxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTxHelper.h; sourceTree = "<group>"; };
-		EA28C88C213E2B2300D9198C /* BTBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBlock.m; sourceTree = "<group>"; };
-		EA28C88D213E2B2300D9198C /* NSString+Base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base58.h"; sourceTree = "<group>"; };
-		EA28C88E213E2B2300D9198C /* BTKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTKey.m; sourceTree = "<group>"; };
-		EA28C88F213E2B2300D9198C /* BTBlockProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBlockProvider.m; sourceTree = "<group>"; };
-		EA28C890213E2B2300D9198C /* BTHDMAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMAddress.m; sourceTree = "<group>"; };
-		EA28C891213E2B2300D9198C /* BTAddressProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAddressProvider.m; sourceTree = "<group>"; };
-		EA28C892213E2B2300D9198C /* BTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSettings.m; sourceTree = "<group>"; };
-		EA28C893213E2B2300D9198C /* BTPeerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeerManager.m; sourceTree = "<group>"; };
-		EA28C894213E2B2300D9198C /* BTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUtils.h; sourceTree = "<group>"; };
-		EA28C895213E2B2300D9198C /* KKUTXOModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKUTXOModel.m; sourceTree = "<group>"; };
-		EA28C896213E2B2300D9198C /* BTPeerProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeerProvider.m; sourceTree = "<group>"; };
-		EA28C897213E2B2300D9198C /* BTKey+Bitcoinj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTKey+Bitcoinj.m"; sourceTree = "<group>"; };
-		EA28C898213E2B2300D9198C /* BTTx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTx.h; sourceTree = "<group>"; };
-		EA28C899213E2B2300D9198C /* BTBIP39.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBIP39.m; sourceTree = "<group>"; };
-		EA28C89A213E2B2300D9198C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA28C89B213E2B2300D9198C /* NSData+Bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Bitcoin.h"; sourceTree = "<group>"; };
-		EA28C89C213E2B2300D9198C /* BTKey+BIP38.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTKey+BIP38.h"; sourceTree = "<group>"; };
-		EA28C89D213E2B2300D9198C /* NSMutableData+Bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Bitcoin.h"; sourceTree = "<group>"; };
-		EA28C89E213E2B2300D9198C /* BTScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScript.h; sourceTree = "<group>"; };
-		EA28C89F213E2B2300D9198C /* BTScriptOpCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScriptOpCodes.h; sourceTree = "<group>"; };
-		EA28C8A0213E2B2300D9198C /* BTPasswordSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPasswordSeed.m; sourceTree = "<group>"; };
-		EA28C8A1213E2B2300D9198C /* BTIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIn.h; sourceTree = "<group>"; };
+		EA5D6D582146244B00217635 /* BTAddressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAddressManager.h; sourceTree = "<group>"; };
+		EA5D6D592146244B00217635 /* BTKeyParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTKeyParameter.m; sourceTree = "<group>"; };
+		EA5D6D5A2146244B00217635 /* BitherTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitherTime.h; sourceTree = "<group>"; };
+		EA5D6D5B2146244B00217635 /* BTEncryptData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEncryptData.m; sourceTree = "<group>"; };
+		EA5D6D5C2146244B00217635 /* Ticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ticker.m; sourceTree = "<group>"; };
+		EA5D6D5D2146244B00217635 /* TransactionsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsUtil.m; sourceTree = "<group>"; };
+		EA5D6D5E2146244B00217635 /* BTBloomFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBloomFilter.h; sourceTree = "<group>"; };
+		EA5D6D5F2146244B00217635 /* KeychainBackupUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainBackupUtil.h; sourceTree = "<group>"; };
+		EA5D6D602146244B00217635 /* ccMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccMemory.h; sourceTree = "<group>"; };
+		EA5D6D612146244B00217635 /* NSDictionary+Fromat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Fromat.m"; sourceTree = "<group>"; };
+		EA5D6D622146244B00217635 /* BTTxBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTxBuilder.h; sourceTree = "<group>"; };
+		EA5D6D632146244B00217635 /* BTWordsTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWordsTypeManager.h; sourceTree = "<group>"; };
+		EA5D6D642146244B00217635 /* BTHDAccountCold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountCold.m; sourceTree = "<group>"; };
+		EA5D6D652146244B00217635 /* TotalBalanceHideUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalBalanceHideUtil.h; sourceTree = "<group>"; };
+		EA5D6D662146244B00217635 /* MarketUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketUtil.h; sourceTree = "<group>"; };
+		EA5D6D672146244B00217635 /* BTQRCodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTQRCodeUtil.h; sourceTree = "<group>"; };
+		EA5D6D682146244B00217635 /* QRCodeThemeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeThemeUtil.h; sourceTree = "<group>"; };
+		EA5D6D692146244B00217635 /* PushTxThirdParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushTxThirdParty.m; sourceTree = "<group>"; };
+		EA5D6D6A2146244B00217635 /* MonitorSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorSetting.h; sourceTree = "<group>"; };
+		EA5D6D6B2146244B00217635 /* PlaySoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaySoundUtil.h; sourceTree = "<group>"; };
+		EA5D6D6C2146244B00217635 /* BTBIP32Key.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBIP32Key.m; sourceTree = "<group>"; };
+		EA5D6D6D2146244B00217635 /* BTScriptChunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptChunk.m; sourceTree = "<group>"; };
+		EA5D6D6E2146244B00217635 /* BTHDMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMKeychain.h; sourceTree = "<group>"; };
+		EA5D6D6F2146244B00217635 /* GCCrashInstallation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCrashInstallation.h; sourceTree = "<group>"; };
+		EA5D6D702146244B00217635 /* HDMKeychainRecoverUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMKeychainRecoverUtil.h; sourceTree = "<group>"; };
+		EA5D6D712146244B00217635 /* UEntropySensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEntropySensor.m; sourceTree = "<group>"; };
+		EA5D6D722146244B00217635 /* BitherSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitherSetting.m; sourceTree = "<group>"; };
+		EA5D6D732146244B00217635 /* NSError+HDMHttpErrorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+HDMHttpErrorMessage.h"; sourceTree = "<group>"; };
+		EA5D6D742146244B00217635 /* UIImage+ImageRenderToColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageRenderToColor.h"; sourceTree = "<group>"; };
+		EA5D6D752146244B00217635 /* BlockUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockUtil.m; sourceTree = "<group>"; };
+		EA5D6D762146244B00217635 /* BTCompressingLogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCompressingLogFileManager.h; sourceTree = "<group>"; };
+		EA5D6D772146244B00217635 /* HDMHotAddUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMHotAddUtil.m; sourceTree = "<group>"; };
+		EA5D6D782146244B00217635 /* HDMApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMApi.m; sourceTree = "<group>"; };
+		EA5D6D792146244B00217635 /* TouchIdIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIdIntegration.m; sourceTree = "<group>"; };
+		EA5D6D7A2146244B00217635 /* GetSplitSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSplitSetting.h; sourceTree = "<group>"; };
+		EA5D6D7B2146244B00217635 /* BTTxProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTxProvider.m; sourceTree = "<group>"; };
+		EA5D6D7C2146244B00217635 /* BTBlockChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBlockChain.h; sourceTree = "<group>"; };
+		EA5D6D7D2146244B00217635 /* GroupUserDefaultUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupUserDefaultUtil.h; sourceTree = "<group>"; };
+		EA5D6D7E2146244B00217635 /* BTHDMBid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMBid.h; sourceTree = "<group>"; };
+		EA5D6D7F2146244B00217635 /* HDMResetServerPasswordUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMResetServerPasswordUtil.m; sourceTree = "<group>"; };
+		EA5D6D802146244B00217635 /* TrendingGraphicData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendingGraphicData.m; sourceTree = "<group>"; };
+		EA5D6D812146244B00217635 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		EA5D6D822146244B00217635 /* GroupFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupFileUtil.m; sourceTree = "<group>"; };
+		EA5D6D832146244B00217635 /* BTHDAccountProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountProvider.m; sourceTree = "<group>"; };
+		EA5D6D842146244B00217635 /* NetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtil.m; sourceTree = "<group>"; };
+		EA5D6D852146244B00217635 /* BTPrivateKeyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPrivateKeyUtil.h; sourceTree = "<group>"; };
+		EA5D6D862146244B00217635 /* HDMRecoverSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMRecoverSetting.m; sourceTree = "<group>"; };
+		EA5D6D872146244B00217635 /* FixedPeers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FixedPeers.plist; sourceTree = "<group>"; };
+		EA5D6D882146244B00217635 /* BTHDAccountAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountAddress.h; sourceTree = "<group>"; };
+		EA5D6D892146244B00217635 /* HDMSingular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMSingular.h; sourceTree = "<group>"; };
+		EA5D6D8A2146244B00217635 /* BTOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTOut.m; sourceTree = "<group>"; };
+		EA5D6D8B2146244B00217635 /* NSAttributedString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Size.h"; sourceTree = "<group>"; };
+		EA5D6D8C2146244B00217635 /* QRCodeTxTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeTxTransport.m; sourceTree = "<group>"; };
+		EA5D6D8D2146244B00217635 /* GCCrashReportSink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCrashReportSink.m; sourceTree = "<group>"; };
+		EA5D6D8E2146244B00217635 /* ExchangeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeUtil.h; sourceTree = "<group>"; };
+		EA5D6D8F2146244B00217635 /* BaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseApi.m; sourceTree = "<group>"; };
+		EA5D6D902146244B00217635 /* KeyboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardController.m; sourceTree = "<group>"; };
+		EA5D6D912146244B00217635 /* UnitUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitUtil.m; sourceTree = "<group>"; };
+		EA5D6D922146244B00217635 /* BTVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTVersion.m; sourceTree = "<group>"; };
+		EA5D6D932146244B00217635 /* AvatarSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarSetting.h; sourceTree = "<group>"; };
+		EA5D6D942146244B00217635 /* ImportHDMCold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportHDMCold.m; sourceTree = "<group>"; };
+		EA5D6D952146244B00217635 /* BTHDAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccount.m; sourceTree = "<group>"; };
+		EA5D6D962146244B00217635 /* PeerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerUtil.h; sourceTree = "<group>"; };
+		EA5D6D972146244B00217635 /* SplitCoinUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitCoinUtil.h; sourceTree = "<group>"; };
+		EA5D6D982146244B00217635 /* AdUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdUtil.m; sourceTree = "<group>"; };
+		EA5D6D992146244B00217635 /* BTHDMBid+Api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTHDMBid+Api.h"; sourceTree = "<group>"; };
+		EA5D6D9A2146244B00217635 /* BTDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDatabaseManager.m; sourceTree = "<group>"; };
+		EA5D6D9B2146244B00217635 /* ColdWalletCloneSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColdWalletCloneSetting.h; sourceTree = "<group>"; };
+		EA5D6D9C2146244B00217635 /* BTPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeer.h; sourceTree = "<group>"; };
+		EA5D6D9D2146244B00217635 /* BTScriptBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScriptBuilder.h; sourceTree = "<group>"; };
+		EA5D6D9E2146244B00217635 /* UploadAndDowloadFileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadAndDowloadFileFactory.h; sourceTree = "<group>"; };
+		EA5D6D9F2146244B00217635 /* GCCrashReportFilterTrim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCrashReportFilterTrim.m; sourceTree = "<group>"; };
+		EA5D6DA02146244B00217635 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		EA5D6DA12146244B00217635 /* BTHDAccountAddressProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountAddressProvider.h; sourceTree = "<group>"; };
+		EA5D6DA22146244B00217635 /* BitherEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitherEngine.h; sourceTree = "<group>"; };
+		EA5D6DA32146244B00217635 /* AudioVisualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioVisualizerView.h; sourceTree = "<group>"; };
+		EA5D6DA42146244B00217635 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EA5D6DA52146244B00217635 /* KeyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyUtil.h; sourceTree = "<group>"; };
+		EA5D6DA62146244B00217635 /* UEntropyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEntropyViewController.h; sourceTree = "<group>"; };
+		EA5D6DA72146244B00217635 /* PinCodeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinCodeUtil.m; sourceTree = "<group>"; };
+		EA5D6DA82146244B00217635 /* SystemUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemUtil.h; sourceTree = "<group>"; };
+		EA5D6DA92146244B00217635 /* BTPeerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeerManager.h; sourceTree = "<group>"; };
+		EA5D6DAA2146244B00217635 /* CrashLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashLog.h; sourceTree = "<group>"; };
+		EA5D6DAB2146244B00217635 /* BTAddressProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAddressProvider.h; sourceTree = "<group>"; };
+		EA5D6DAC2146244B00217635 /* PasswordStrengthUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordStrengthUtil.m; sourceTree = "<group>"; };
+		EA5D6DAD2146244B00217635 /* BTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSettings.h; sourceTree = "<group>"; };
+		EA5D6DAE2146244B00217635 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		EA5D6DAF2146244B00217635 /* BTBlockProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBlockProvider.h; sourceTree = "<group>"; };
+		EA5D6DB02146244B00217635 /* SignTransactionScanSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignTransactionScanSetting.h; sourceTree = "<group>"; };
+		EA5D6DB12146244B00217635 /* BTHDMAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMAddress.h; sourceTree = "<group>"; };
+		EA5D6DB22146244B00217635 /* ImportPrivateKeySetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportPrivateKeySetting.m; sourceTree = "<group>"; };
+		EA5D6DB32146244B00217635 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		EA5D6DB42146244B00217635 /* ReloadTxSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReloadTxSetting.m; sourceTree = "<group>"; };
+		EA5D6DB52146244B00217635 /* UEntropyCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEntropyCollector.h; sourceTree = "<group>"; };
+		EA5D6DB62146244B00217635 /* BTKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTKey.h; sourceTree = "<group>"; };
+		EA5D6DB72146244B00217635 /* UIResponder+KKCurnt1stResponsor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+KKCurnt1stResponsor.h"; sourceTree = "<group>"; };
+		EA5D6DB82146244B00217635 /* PasswordGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordGetter.m; sourceTree = "<group>"; };
+		EA5D6DB92146244B00217635 /* NSString+Base58.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base58.m"; sourceTree = "<group>"; };
+		EA5D6DBA2146244B00217635 /* UIImageExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExt.m; sourceTree = "<group>"; };
+		EA5D6DBB2146244B00217635 /* Market.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Market.m; sourceTree = "<group>"; };
+		EA5D6DBC2146244B00217635 /* BTBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBlock.h; sourceTree = "<group>"; };
+		EA5D6DBD2146244B00217635 /* MonitorHDAccountSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorHDAccountSetting.h; sourceTree = "<group>"; };
+		EA5D6DBE2146244B00217635 /* BTHDMKeychainRecover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMKeychainRecover.m; sourceTree = "<group>"; };
+		EA5D6DBF2146244B00217635 /* BTTxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTxHelper.m; sourceTree = "<group>"; };
+		EA5D6DC02146244B00217635 /* BTAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAddress.m; sourceTree = "<group>"; };
+		EA5D6DC12146244B00217635 /* NSData+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hash.m"; sourceTree = "<group>"; };
+		EA5D6DC22146244B00217635 /* DonationSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationSetting.h; sourceTree = "<group>"; };
+		EA5D6DC32146244B00217635 /* PaymentAddressSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentAddressSetting.h; sourceTree = "<group>"; };
+		EA5D6DC42146244B00217635 /* Depth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Depth.m; sourceTree = "<group>"; };
+		EA5D6DC52146244B00217635 /* MessageSigningSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageSigningSetting.m; sourceTree = "<group>"; };
+		EA5D6DC62146244B00217635 /* UpgradeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpgradeUtil.h; sourceTree = "<group>"; };
+		EA5D6DC72146244B00217635 /* ImportPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportPrivateKey.h; sourceTree = "<group>"; };
+		EA5D6DC82146244B00217635 /* XRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRandom.m; sourceTree = "<group>"; };
+		EA5D6DC92146244B00217635 /* BIP39ZhCNWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39ZhCNWords.plist; sourceTree = "<group>"; };
+		EA5D6DCA2146244B00217635 /* SensorVisualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorVisualizerView.h; sourceTree = "<group>"; };
+		EA5D6DCB2146244B00217635 /* BTScriptOpCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptOpCodes.m; sourceTree = "<group>"; };
+		EA5D6DCC2146244B00217635 /* BTPasswordSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPasswordSeed.h; sourceTree = "<group>"; };
+		EA5D6DCD2146244B00217635 /* BTIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIn.m; sourceTree = "<group>"; };
+		EA5D6DCE2146244B00217635 /* UserDefaultsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsUtil.h; sourceTree = "<group>"; };
+		EA5D6DCF2146244B00217635 /* NSMutableData+Bitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Bitcoin.m"; sourceTree = "<group>"; };
+		EA5D6DD02146244B00217635 /* KeychainSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainSetting.h; sourceTree = "<group>"; };
+		EA5D6DD12146244B00217635 /* BitherApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitherApi.h; sourceTree = "<group>"; };
+		EA5D6DD22146244B00217635 /* BTScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScript.m; sourceTree = "<group>"; };
+		EA5D6DD32146244B00217635 /* BTKey+BIP38.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTKey+BIP38.m"; sourceTree = "<group>"; };
+		EA5D6DD42146244B00217635 /* GroupUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupUtil.h; sourceTree = "<group>"; };
+		EA5D6DD52146244B00217635 /* DataCheckUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCheckUtil.h; sourceTree = "<group>"; };
+		EA5D6DD62146244B00217635 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		EA5D6DD72146244B00217635 /* NSData+Bitcoin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Bitcoin.m"; sourceTree = "<group>"; };
+		EA5D6DD82146244B00217635 /* SettingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingUtil.m; sourceTree = "<group>"; };
+		EA5D6DD92146244B00217635 /* Bitheri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bitheri.h; sourceTree = "<group>"; };
+		EA5D6DDA2146244B00217635 /* PinCodeSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinCodeSetting.m; sourceTree = "<group>"; };
+		EA5D6DDB2146244B00217635 /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+		EA5D6DDC2146244B00217635 /* CacheUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheUtil.h; sourceTree = "<group>"; };
+		EA5D6DDD2146244B00217635 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		EA5D6DDE2146244B00217635 /* BTBIP39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBIP39.h; sourceTree = "<group>"; };
+		EA5D6DDF2146244B00217635 /* CloneQrCodeSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloneQrCodeSetting.m; sourceTree = "<group>"; };
+		EA5D6DE02146244B00217635 /* UEntropyCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEntropyCamera.m; sourceTree = "<group>"; };
+		EA5D6DE12146244B00217635 /* UEntropyAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEntropyAnimatedTransition.h; sourceTree = "<group>"; };
+		EA5D6DE22146244B00217635 /* NotificationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationUtil.h; sourceTree = "<group>"; };
+		EA5D6DE32146244B00217635 /* BTTx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTx.m; sourceTree = "<group>"; };
+		EA5D6DE42146244B00217635 /* ApiConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConfig.h; sourceTree = "<group>"; };
+		EA5D6DE52146244B00217635 /* BTPeerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeerProvider.h; sourceTree = "<group>"; };
+		EA5D6DE62146244B00217635 /* BTKey+Bitcoinj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTKey+Bitcoinj.h"; sourceTree = "<group>"; };
+		EA5D6DE72146244B00217635 /* BTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUtils.m; sourceTree = "<group>"; };
+		EA5D6DE82146244B00217635 /* ImportBip38PrivateKeySetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportBip38PrivateKeySetting.m; sourceTree = "<group>"; };
+		EA5D6DE92146244B00217635 /* QRCodeTransportPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeTransportPage.m; sourceTree = "<group>"; };
+		EA5D6DEA2146244B00217635 /* UEntropyMic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEntropyMic.m; sourceTree = "<group>"; };
+		EA5D6DEB2146244B00217635 /* BTTxProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTxProvider.h; sourceTree = "<group>"; };
+		EA5D6DEC2146244B00217635 /* GetSplitSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSplitSetting.m; sourceTree = "<group>"; };
+		EA5D6DED2146244B00217635 /* TouchIdIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIdIntegration.h; sourceTree = "<group>"; };
+		EA5D6DEE2146244B00217635 /* BTCompressingLogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCompressingLogFileManager.m; sourceTree = "<group>"; };
+		EA5D6DEF2146244B00217635 /* HDMHotAddUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMHotAddUtil.h; sourceTree = "<group>"; };
+		EA5D6DF02146244B00217635 /* HDMApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMApi.h; sourceTree = "<group>"; };
+		EA5D6DF12146244B00217635 /* BitherSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitherSetting.h; sourceTree = "<group>"; };
+		EA5D6DF22146244B00217635 /* NSError+HDMHttpErrorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+HDMHttpErrorMessage.m"; sourceTree = "<group>"; };
+		EA5D6DF32146244B00217635 /* BlockUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockUtil.h; sourceTree = "<group>"; };
+		EA5D6DF42146244B00217635 /* UIImage+ImageRenderToColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageRenderToColor.m"; sourceTree = "<group>"; };
+		EA5D6DF52146244B00217635 /* GCCrashInstallation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCrashInstallation.m; sourceTree = "<group>"; };
+		EA5D6DF62146244B00217635 /* UEntropySensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEntropySensor.h; sourceTree = "<group>"; };
+		EA5D6DF72146244B00217635 /* HDMKeychainRecoverUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMKeychainRecoverUtil.m; sourceTree = "<group>"; };
+		EA5D6DF82146244B00217635 /* BTHDMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMKeychain.m; sourceTree = "<group>"; };
+		EA5D6DF92146244B00217635 /* BTScriptChunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScriptChunk.h; sourceTree = "<group>"; };
+		EA5D6DFA2146244B00217635 /* PushTxThirdParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushTxThirdParty.h; sourceTree = "<group>"; };
+		EA5D6DFB2146244B00217635 /* MonitorSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorSetting.m; sourceTree = "<group>"; };
+		EA5D6DFC2146244B00217635 /* QRCodeThemeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeThemeUtil.m; sourceTree = "<group>"; };
+		EA5D6DFD2146244B00217635 /* BTBIP32Key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBIP32Key.h; sourceTree = "<group>"; };
+		EA5D6DFE2146244B00217635 /* PlaySoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaySoundUtil.m; sourceTree = "<group>"; };
+		EA5D6DFF2146244B00217635 /* BTQRCodeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTQRCodeUtil.m; sourceTree = "<group>"; };
+		EA5D6E002146244B00217635 /* BIP39EnglishWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39EnglishWords.plist; sourceTree = "<group>"; };
+		EA5D6E012146244B00217635 /* BTHDAccountCold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountCold.h; sourceTree = "<group>"; };
+		EA5D6E022146244B00217635 /* TotalBalanceHideUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalBalanceHideUtil.m; sourceTree = "<group>"; };
+		EA5D6E032146244B00217635 /* MarketUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketUtil.m; sourceTree = "<group>"; };
+		EA5D6E042146244B00217635 /* BTWordsTypeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWordsTypeManager.m; sourceTree = "<group>"; };
+		EA5D6E052146244B00217635 /* BTTxBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTxBuilder.m; sourceTree = "<group>"; };
+		EA5D6E062146244B00217635 /* NSDictionary+Fromat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Fromat.h"; sourceTree = "<group>"; };
+		EA5D6E072146244B00217635 /* TransactionsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsUtil.h; sourceTree = "<group>"; };
+		EA5D6E082146244B00217635 /* Ticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticker.h; sourceTree = "<group>"; };
+		EA5D6E092146244B00217635 /* KeychainBackupUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainBackupUtil.m; sourceTree = "<group>"; };
+		EA5D6E0A2146244B00217635 /* BTBloomFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBloomFilter.m; sourceTree = "<group>"; };
+		EA5D6E0B2146244B00217635 /* BTAddressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAddressManager.m; sourceTree = "<group>"; };
+		EA5D6E0C2146244B00217635 /* BitherTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitherTime.m; sourceTree = "<group>"; };
+		EA5D6E0D2146244B00217635 /* BTKeyParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTKeyParameter.h; sourceTree = "<group>"; };
+		EA5D6E0E2146244B00217635 /* BTEncryptData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEncryptData.h; sourceTree = "<group>"; };
+		EA5D6E0F2146244B00217635 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		EA5D6E102146244B00217635 /* BTHDAccountAddressProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountAddressProvider.m; sourceTree = "<group>"; };
+		EA5D6E112146244B00217635 /* BitherEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitherEngine.m; sourceTree = "<group>"; };
+		EA5D6E122146244B00217635 /* AudioVisualizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioVisualizerView.m; sourceTree = "<group>"; };
+		EA5D6E132146244B00217635 /* UploadAndDowloadFileFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadAndDowloadFileFactory.m; sourceTree = "<group>"; };
+		EA5D6E162146244B00217635 /* coins_received.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coins_received.wav; sourceTree = "<group>"; };
+		EA5D6E172146244B00217635 /* xrandom_close_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xrandom_close_sound.mp3; sourceTree = "<group>"; };
+		EA5D6E182146244B00217635 /* qr_code_scanned.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qr_code_scanned.mp3; sourceTree = "<group>"; };
+		EA5D6E192146244B00217635 /* xrandom_open_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xrandom_open_sound.mp3; sourceTree = "<group>"; };
+		EA5D6E1A2146244B00217635 /* GCCrashReportFilterTrim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCrashReportFilterTrim.h; sourceTree = "<group>"; };
+		EA5D6E1B2146244B00217635 /* BTScriptBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptBuilder.m; sourceTree = "<group>"; };
+		EA5D6E1C2146244B00217635 /* BTPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeer.m; sourceTree = "<group>"; };
+		EA5D6E1D2146244B00217635 /* ColdWalletCloneSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColdWalletCloneSetting.m; sourceTree = "<group>"; };
+		EA5D6E1E2146244B00217635 /* AdUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdUtil.h; sourceTree = "<group>"; };
+		EA5D6E1F2146244B00217635 /* BTHDMBid+Api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTHDMBid+Api.m"; sourceTree = "<group>"; };
+		EA5D6E202146244B00217635 /* BTDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDatabaseManager.h; sourceTree = "<group>"; };
+		EA5D6E212146244B00217635 /* PeerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeerUtil.m; sourceTree = "<group>"; };
+		EA5D6E222146244B00217635 /* SplitCoinUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitCoinUtil.m; sourceTree = "<group>"; };
+		EA5D6E232146244B00217635 /* ImportHDMCold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportHDMCold.h; sourceTree = "<group>"; };
+		EA5D6E242146244B00217635 /* BIP39ZhTWWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39ZhTWWords.plist; sourceTree = "<group>"; };
+		EA5D6E252146244B00217635 /* BTHDAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccount.h; sourceTree = "<group>"; };
+		EA5D6E262146244B00217635 /* BTVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTVersion.h; sourceTree = "<group>"; };
+		EA5D6E272146244B00217635 /* UnitUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitUtil.h; sourceTree = "<group>"; };
+		EA5D6E282146244B00217635 /* AvatarSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarSetting.m; sourceTree = "<group>"; };
+		EA5D6E292146244B00217635 /* BaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseApi.h; sourceTree = "<group>"; };
+		EA5D6E2A2146244B00217635 /* KeyboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardController.h; sourceTree = "<group>"; };
+		EA5D6E2B2146244B00217635 /* NSAttributedString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Size.m"; sourceTree = "<group>"; };
+		EA5D6E2C2146244B00217635 /* GCCrashReportSink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCrashReportSink.h; sourceTree = "<group>"; };
+		EA5D6E2D2146244B00217635 /* QRCodeTxTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeTxTransport.h; sourceTree = "<group>"; };
+		EA5D6E2E2146244B00217635 /* ExchangeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeUtil.m; sourceTree = "<group>"; };
+		EA5D6E2F2146244B00217635 /* BTHDAccountAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDAccountAddress.m; sourceTree = "<group>"; };
+		EA5D6E302146244B00217635 /* HDMSingular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMSingular.m; sourceTree = "<group>"; };
+		EA5D6E312146244B00217635 /* BTOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTOut.h; sourceTree = "<group>"; };
+		EA5D6E322146244B00217635 /* HDMRecoverSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMRecoverSetting.h; sourceTree = "<group>"; };
+		EA5D6E332146244B00217635 /* GroupFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupFileUtil.h; sourceTree = "<group>"; };
+		EA5D6E342146244B00217635 /* NetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtil.h; sourceTree = "<group>"; };
+		EA5D6E352146244B00217635 /* BTHDAccountProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountProvider.h; sourceTree = "<group>"; };
+		EA5D6E362146244B00217635 /* BTPrivateKeyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPrivateKeyUtil.m; sourceTree = "<group>"; };
+		EA5D6E372146244B00217635 /* BTHDMBid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMBid.m; sourceTree = "<group>"; };
+		EA5D6E382146244B00217635 /* HDMResetServerPasswordUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMResetServerPasswordUtil.h; sourceTree = "<group>"; };
+		EA5D6E392146244B00217635 /* BTBlockChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBlockChain.m; sourceTree = "<group>"; };
+		EA5D6E3A2146244B00217635 /* GroupUserDefaultUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupUserDefaultUtil.m; sourceTree = "<group>"; };
+		EA5D6E3B2146244B00217635 /* TrendingGraphicData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendingGraphicData.h; sourceTree = "<group>"; };
+		EA5D6E3C2146244B00217635 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		EA5D6E3D2146244B00217635 /* ImportPrivateKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportPrivateKey.m; sourceTree = "<group>"; };
+		EA5D6E3E2146244B00217635 /* Depth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Depth.h; sourceTree = "<group>"; };
+		EA5D6E3F2146244B00217635 /* UpgradeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpgradeUtil.m; sourceTree = "<group>"; };
+		EA5D6E402146244B00217635 /* MessageSigningSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageSigningSetting.h; sourceTree = "<group>"; };
+		EA5D6E412146244B00217635 /* NSData+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hash.h"; sourceTree = "<group>"; };
+		EA5D6E422146244B00217635 /* DonationSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationSetting.m; sourceTree = "<group>"; };
+		EA5D6E432146244B00217635 /* PaymentAddressSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentAddressSetting.m; sourceTree = "<group>"; };
+		EA5D6E442146244B00217635 /* BTAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTAddress.h; sourceTree = "<group>"; };
+		EA5D6E452146244B00217635 /* BTHDMKeychainRecover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDMKeychainRecover.h; sourceTree = "<group>"; };
+		EA5D6E462146244B00217635 /* BTTxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTxHelper.h; sourceTree = "<group>"; };
+		EA5D6E472146244B00217635 /* MonitorHDAccountSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorHDAccountSetting.m; sourceTree = "<group>"; };
+		EA5D6E482146244B00217635 /* BTBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBlock.m; sourceTree = "<group>"; };
+		EA5D6E492146244B00217635 /* UIImageExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExt.h; sourceTree = "<group>"; };
+		EA5D6E4A2146244B00217635 /* NSString+Base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base58.h"; sourceTree = "<group>"; };
+		EA5D6E4B2146244B00217635 /* Market.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Market.h; sourceTree = "<group>"; };
+		EA5D6E4C2146244B00217635 /* UIResponder+KKCurnt1stResponsor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+KKCurnt1stResponsor.m"; sourceTree = "<group>"; };
+		EA5D6E4D2146244B00217635 /* PasswordGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordGetter.h; sourceTree = "<group>"; };
+		EA5D6E4E2146244B00217635 /* ReloadTxSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReloadTxSetting.h; sourceTree = "<group>"; };
+		EA5D6E4F2146244B00217635 /* UEntropyCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEntropyCollector.m; sourceTree = "<group>"; };
+		EA5D6E502146244B00217635 /* BTKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTKey.m; sourceTree = "<group>"; };
+		EA5D6E512146244B00217635 /* ImportPrivateKeySetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportPrivateKeySetting.h; sourceTree = "<group>"; };
+		EA5D6E522146244B00217635 /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
+		EA5D6E532146244B00217635 /* SignTransactionScanSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignTransactionScanSetting.m; sourceTree = "<group>"; };
+		EA5D6E542146244B00217635 /* BTBlockProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBlockProvider.m; sourceTree = "<group>"; };
+		EA5D6E552146244B00217635 /* BTHDMAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTHDMAddress.m; sourceTree = "<group>"; };
+		EA5D6E562146244B00217635 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		EA5D6E572146244B00217635 /* BTAddressProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTAddressProvider.m; sourceTree = "<group>"; };
+		EA5D6E582146244B00217635 /* BTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSettings.m; sourceTree = "<group>"; };
+		EA5D6E592146244B00217635 /* PasswordStrengthUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordStrengthUtil.h; sourceTree = "<group>"; };
+		EA5D6E5A2146244B00217635 /* CrashLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashLog.m; sourceTree = "<group>"; };
+		EA5D6E5B2146244B00217635 /* BTPeerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeerManager.m; sourceTree = "<group>"; };
+		EA5D6E5C2146244B00217635 /* SystemUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemUtil.m; sourceTree = "<group>"; };
+		EA5D6E5D2146244B00217635 /* UEntropyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEntropyViewController.m; sourceTree = "<group>"; };
+		EA5D6E5E2146244B00217635 /* KeyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyUtil.m; sourceTree = "<group>"; };
+		EA5D6E5F2146244B00217635 /* PinCodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinCodeUtil.h; sourceTree = "<group>"; };
+		EA5D6E602146244B00217635 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EA5D6E612146244B00217635 /* QRCodeTransportPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeTransportPage.h; sourceTree = "<group>"; };
+		EA5D6E622146244B00217635 /* UEntropyMic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEntropyMic.h; sourceTree = "<group>"; };
+		EA5D6E632146244B00217635 /* BTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUtils.h; sourceTree = "<group>"; };
+		EA5D6E642146244B00217635 /* ImportBip38PrivateKeySetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportBip38PrivateKeySetting.h; sourceTree = "<group>"; };
+		EA5D6E652146244B00217635 /* BTPeerProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeerProvider.m; sourceTree = "<group>"; };
+		EA5D6E662146244B00217635 /* BTKey+Bitcoinj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTKey+Bitcoinj.m"; sourceTree = "<group>"; };
+		EA5D6E672146244B00217635 /* BTTx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTx.h; sourceTree = "<group>"; };
+		EA5D6E682146244B00217635 /* UEntropyAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UEntropyAnimatedTransition.m; sourceTree = "<group>"; };
+		EA5D6E692146244B00217635 /* UEntropyCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UEntropyCamera.h; sourceTree = "<group>"; };
+		EA5D6E6A2146244B00217635 /* NotificationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationUtil.m; sourceTree = "<group>"; };
+		EA5D6E6B2146244B00217635 /* BTBIP39.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBIP39.m; sourceTree = "<group>"; };
+		EA5D6E6C2146244B00217635 /* CloneQrCodeSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloneQrCodeSetting.h; sourceTree = "<group>"; };
+		EA5D6E6D2146244B00217635 /* CacheUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheUtil.m; sourceTree = "<group>"; };
+		EA5D6E6E2146244B00217635 /* hdm.bither.net.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = hdm.bither.net.cer; sourceTree = "<group>"; };
+		EA5D6E6F2146244B00217635 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		EA5D6E702146244B00217635 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		EA5D6E712146244B00217635 /* PinCodeSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinCodeSetting.h; sourceTree = "<group>"; };
+		EA5D6E722146244B00217635 /* SettingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingUtil.h; sourceTree = "<group>"; };
+		EA5D6E732146244B00217635 /* DataCheckUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCheckUtil.m; sourceTree = "<group>"; };
+		EA5D6E742146244B00217635 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		EA5D6E752146244B00217635 /* NSData+Bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Bitcoin.h"; sourceTree = "<group>"; };
+		EA5D6E762146244B00217635 /* GroupUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupUtil.m; sourceTree = "<group>"; };
+		EA5D6E772146244B00217635 /* BTKey+BIP38.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTKey+BIP38.h"; sourceTree = "<group>"; };
+		EA5D6E782146244B00217635 /* KeychainSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainSetting.m; sourceTree = "<group>"; };
+		EA5D6E792146244B00217635 /* NSMutableData+Bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Bitcoin.h"; sourceTree = "<group>"; };
+		EA5D6E7A2146244B00217635 /* BitherApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitherApi.m; sourceTree = "<group>"; };
+		EA5D6E7B2146244B00217635 /* BTScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScript.h; sourceTree = "<group>"; };
+		EA5D6E7C2146244B00217635 /* UserDefaultsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsUtil.m; sourceTree = "<group>"; };
+		EA5D6E7D2146244B00217635 /* SensorVisualizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorVisualizerView.m; sourceTree = "<group>"; };
+		EA5D6E7E2146244B00217635 /* BTScriptOpCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScriptOpCodes.h; sourceTree = "<group>"; };
+		EA5D6E7F2146244B00217635 /* BTPasswordSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPasswordSeed.m; sourceTree = "<group>"; };
+		EA5D6E802146244B00217635 /* BTIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIn.h; sourceTree = "<group>"; };
+		EA5D6E812146244B00217635 /* XRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRandom.h; sourceTree = "<group>"; };
 		FA7DC931C5A2A228BA24C0A3 /* Pods-bitcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcode.release.xcconfig"; path = "Target Support Files/Pods-bitcode/Pods-bitcode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -249,7 +633,7 @@
 		EA28C607213D269100D9198C = {
 			isa = PBXGroup;
 			children = (
-				EA28C839213E2B2300D9198C /* bitcode */,
+				EA5D6D562146244B00217635 /* bitcode */,
 				EA28C612213D269100D9198C /* Products */,
 				328348B96BE04731CDED4986 /* Pods */,
 				FEF0DD1E991A65E2D137CECF /* Frameworks */,
@@ -264,115 +648,331 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA28C839213E2B2300D9198C /* bitcode */ = {
+		EA5D6D562146244B00217635 /* bitcode */ = {
 			isa = PBXGroup;
 			children = (
-				EA28C83A213E2B2300D9198C /* BTAddressManager.h */,
-				EA28C83B213E2B2300D9198C /* BTKeyParameter.m */,
-				EA28C83C213E2B2300D9198C /* BTEncryptData.m */,
-				EA28C83D213E2B2300D9198C /* BTBloomFilter.h */,
-				EA28C83E213E2B2300D9198C /* ccMemory.h */,
-				EA28C83F213E2B2300D9198C /* BTTxBuilder.h */,
-				EA28C840213E2B2300D9198C /* BTWordsTypeManager.h */,
-				EA28C841213E2B2300D9198C /* BTHDAccountCold.m */,
-				EA28C842213E2B2300D9198C /* bitcode.h */,
-				EA28C843213E2B2300D9198C /* BTQRCodeUtil.h */,
-				EA28C844213E2B2300D9198C /* BTBIP32Key.m */,
-				EA28C845213E2B2300D9198C /* BTScriptChunk.m */,
-				EA28C846213E2B2300D9198C /* BTHDMKeychain.h */,
-				EA28C847213E2B2300D9198C /* BTCompressingLogFileManager.h */,
-				EA28C848213E2B2300D9198C /* BTTxProvider.m */,
-				EA28C849213E2B2300D9198C /* BTBlockChain.h */,
-				EA28C84A213E2B2300D9198C /* BTHDMBid.h */,
-				EA28C84B213E2B2300D9198C /* BTHDAccountProvider.m */,
-				EA28C84C213E2B2300D9198C /* BTPrivateKeyUtil.h */,
-				EA28C84D213E2B2300D9198C /* BTHDAccountAddress.h */,
-				EA28C84E213E2B2300D9198C /* BTOut.m */,
-				EA28C84F213E2B2300D9198C /* BTVersion.m */,
-				EA28C850213E2B2300D9198C /* BTHDAccount.m */,
-				EA28C851213E2B2300D9198C /* BTDatabaseManager.m */,
-				EA28C852213E2B2300D9198C /* BTPeer.h */,
-				EA28C853213E2B2300D9198C /* BTScriptBuilder.h */,
-				EA28C854213E2B2300D9198C /* BTHDAccountAddressProvider.h */,
-				EA28C855213E2B2300D9198C /* BTPeerManager.h */,
-				EA28C856213E2B2300D9198C /* BTAddressProvider.h */,
-				EA28C857213E2B2300D9198C /* BTSettings.h */,
-				EA28C858213E2B2300D9198C /* BTBlockProvider.h */,
-				EA28C859213E2B2300D9198C /* BTHDMAddress.h */,
-				EA28C85A213E2B2300D9198C /* BTKey.h */,
-				EA28C85B213E2B2300D9198C /* NSString+Base58.m */,
-				EA28C85C213E2B2300D9198C /* BTBlock.h */,
-				EA28C85D213E2B2300D9198C /* BTHDMKeychainRecover.m */,
-				EA28C85E213E2B2300D9198C /* BTTxHelper.m */,
-				EA28C85F213E2B2300D9198C /* BTAddress.m */,
-				EA28C860213E2B2300D9198C /* NSData+Hash.m */,
-				EA28C861213E2B2300D9198C /* BTScriptOpCodes.m */,
-				EA28C862213E2B2300D9198C /* BTPasswordSeed.h */,
-				EA28C863213E2B2300D9198C /* BTIn.m */,
-				EA28C864213E2B2300D9198C /* NSMutableData+Bitcoin.m */,
-				EA28C865213E2B2300D9198C /* BTScript.m */,
-				EA28C866213E2B2300D9198C /* BTKey+BIP38.m */,
-				EA28C867213E2B2300D9198C /* NSData+Bitcoin.m */,
-				EA28C868213E2B2300D9198C /* Bitheri.h */,
-				EA28C869213E2B2300D9198C /* BTBIP39.h */,
-				EA28C86A213E2B2300D9198C /* BTTx.m */,
-				EA28C86B213E2B2300D9198C /* BTPeerProvider.h */,
-				EA28C86C213E2B2300D9198C /* BTKey+Bitcoinj.h */,
-				EA28C86D213E2B2300D9198C /* BTUtils.m */,
-				EA28C86E213E2B2300D9198C /* KKUTXOModel.h */,
-				EA28C86F213E2B2300D9198C /* BTTxProvider.h */,
-				EA28C870213E2B2300D9198C /* BTCompressingLogFileManager.m */,
-				EA28C871213E2B2300D9198C /* BTHDMKeychain.m */,
-				EA28C872213E2B2300D9198C /* BTScriptChunk.h */,
-				EA28C873213E2B2300D9198C /* BTBIP32Key.h */,
-				EA28C874213E2B2300D9198C /* BTQRCodeUtil.m */,
-				EA28C875213E2B2300D9198C /* BTHDAccountCold.h */,
-				EA28C876213E2B2300D9198C /* BTWordsTypeManager.m */,
-				EA28C877213E2B2300D9198C /* BTTxBuilder.m */,
-				EA28C878213E2B2300D9198C /* BTBloomFilter.m */,
-				EA28C879213E2B2300D9198C /* BTAddressManager.m */,
-				EA28C87A213E2B2300D9198C /* BTKeyParameter.h */,
-				EA28C87B213E2B2300D9198C /* BTEncryptData.h */,
-				EA28C87C213E2B2300D9198C /* BTHDAccountAddressProvider.m */,
-				EA28C87D213E2B2300D9198C /* BTScriptBuilder.m */,
-				EA28C87E213E2B2300D9198C /* BTPeer.m */,
-				EA28C87F213E2B2300D9198C /* BTDatabaseManager.h */,
-				EA28C880213E2B2300D9198C /* BTHDAccount.h */,
-				EA28C881213E2B2300D9198C /* BTVersion.h */,
-				EA28C882213E2B2300D9198C /* BTHDAccountAddress.m */,
-				EA28C883213E2B2300D9198C /* BTOut.h */,
-				EA28C884213E2B2300D9198C /* BTHDAccountProvider.h */,
-				EA28C885213E2B2300D9198C /* BTPrivateKeyUtil.m */,
-				EA28C886213E2B2300D9198C /* BTHDMBid.m */,
-				EA28C887213E2B2300D9198C /* BTBlockChain.m */,
-				EA28C888213E2B2300D9198C /* NSData+Hash.h */,
-				EA28C889213E2B2300D9198C /* BTAddress.h */,
-				EA28C88A213E2B2300D9198C /* BTHDMKeychainRecover.h */,
-				EA28C88B213E2B2300D9198C /* BTTxHelper.h */,
-				EA28C88C213E2B2300D9198C /* BTBlock.m */,
-				EA28C88D213E2B2300D9198C /* NSString+Base58.h */,
-				EA28C88E213E2B2300D9198C /* BTKey.m */,
-				EA28C88F213E2B2300D9198C /* BTBlockProvider.m */,
-				EA28C890213E2B2300D9198C /* BTHDMAddress.m */,
-				EA28C891213E2B2300D9198C /* BTAddressProvider.m */,
-				EA28C892213E2B2300D9198C /* BTSettings.m */,
-				EA28C893213E2B2300D9198C /* BTPeerManager.m */,
-				EA28C894213E2B2300D9198C /* BTUtils.h */,
-				EA28C895213E2B2300D9198C /* KKUTXOModel.m */,
-				EA28C896213E2B2300D9198C /* BTPeerProvider.m */,
-				EA28C897213E2B2300D9198C /* BTKey+Bitcoinj.m */,
-				EA28C898213E2B2300D9198C /* BTTx.h */,
-				EA28C899213E2B2300D9198C /* BTBIP39.m */,
-				EA28C89A213E2B2300D9198C /* Info.plist */,
-				EA28C89B213E2B2300D9198C /* NSData+Bitcoin.h */,
-				EA28C89C213E2B2300D9198C /* BTKey+BIP38.h */,
-				EA28C89D213E2B2300D9198C /* NSMutableData+Bitcoin.h */,
-				EA28C89E213E2B2300D9198C /* BTScript.h */,
-				EA28C89F213E2B2300D9198C /* BTScriptOpCodes.h */,
-				EA28C8A0213E2B2300D9198C /* BTPasswordSeed.m */,
-				EA28C8A1213E2B2300D9198C /* BTIn.h */,
+				EA5D6D572146244B00217635 /* bitheriWallet */,
 			);
 			path = bitcode;
+			sourceTree = "<group>";
+		};
+		EA5D6D572146244B00217635 /* bitheriWallet */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D6D582146244B00217635 /* BTAddressManager.h */,
+				EA5D6D592146244B00217635 /* BTKeyParameter.m */,
+				EA5D6D5A2146244B00217635 /* BitherTime.h */,
+				EA5D6D5B2146244B00217635 /* BTEncryptData.m */,
+				EA5D6D5C2146244B00217635 /* Ticker.m */,
+				EA5D6D5D2146244B00217635 /* TransactionsUtil.m */,
+				EA5D6D5E2146244B00217635 /* BTBloomFilter.h */,
+				EA5D6D5F2146244B00217635 /* KeychainBackupUtil.h */,
+				EA5D6D602146244B00217635 /* ccMemory.h */,
+				EA5D6D612146244B00217635 /* NSDictionary+Fromat.m */,
+				EA5D6D622146244B00217635 /* BTTxBuilder.h */,
+				EA5D6D632146244B00217635 /* BTWordsTypeManager.h */,
+				EA5D6D642146244B00217635 /* BTHDAccountCold.m */,
+				EA5D6D652146244B00217635 /* TotalBalanceHideUtil.h */,
+				EA5D6D662146244B00217635 /* MarketUtil.h */,
+				EA5D6D672146244B00217635 /* BTQRCodeUtil.h */,
+				EA5D6D682146244B00217635 /* QRCodeThemeUtil.h */,
+				EA5D6D692146244B00217635 /* PushTxThirdParty.m */,
+				EA5D6D6A2146244B00217635 /* MonitorSetting.h */,
+				EA5D6D6B2146244B00217635 /* PlaySoundUtil.h */,
+				EA5D6D6C2146244B00217635 /* BTBIP32Key.m */,
+				EA5D6D6D2146244B00217635 /* BTScriptChunk.m */,
+				EA5D6D6E2146244B00217635 /* BTHDMKeychain.h */,
+				EA5D6D6F2146244B00217635 /* GCCrashInstallation.h */,
+				EA5D6D702146244B00217635 /* HDMKeychainRecoverUtil.h */,
+				EA5D6D712146244B00217635 /* UEntropySensor.m */,
+				EA5D6D722146244B00217635 /* BitherSetting.m */,
+				EA5D6D732146244B00217635 /* NSError+HDMHttpErrorMessage.h */,
+				EA5D6D742146244B00217635 /* UIImage+ImageRenderToColor.h */,
+				EA5D6D752146244B00217635 /* BlockUtil.m */,
+				EA5D6D762146244B00217635 /* BTCompressingLogFileManager.h */,
+				EA5D6D772146244B00217635 /* HDMHotAddUtil.m */,
+				EA5D6D782146244B00217635 /* HDMApi.m */,
+				EA5D6D792146244B00217635 /* TouchIdIntegration.m */,
+				EA5D6D7A2146244B00217635 /* GetSplitSetting.h */,
+				EA5D6D7B2146244B00217635 /* BTTxProvider.m */,
+				EA5D6D7C2146244B00217635 /* BTBlockChain.h */,
+				EA5D6D7D2146244B00217635 /* GroupUserDefaultUtil.h */,
+				EA5D6D7E2146244B00217635 /* BTHDMBid.h */,
+				EA5D6D7F2146244B00217635 /* HDMResetServerPasswordUtil.m */,
+				EA5D6D802146244B00217635 /* TrendingGraphicData.m */,
+				EA5D6D812146244B00217635 /* JRSwizzle.h */,
+				EA5D6D822146244B00217635 /* GroupFileUtil.m */,
+				EA5D6D832146244B00217635 /* BTHDAccountProvider.m */,
+				EA5D6D842146244B00217635 /* NetworkUtil.m */,
+				EA5D6D852146244B00217635 /* BTPrivateKeyUtil.h */,
+				EA5D6D862146244B00217635 /* HDMRecoverSetting.m */,
+				EA5D6D872146244B00217635 /* FixedPeers.plist */,
+				EA5D6D882146244B00217635 /* BTHDAccountAddress.h */,
+				EA5D6D892146244B00217635 /* HDMSingular.h */,
+				EA5D6D8A2146244B00217635 /* BTOut.m */,
+				EA5D6D8B2146244B00217635 /* NSAttributedString+Size.h */,
+				EA5D6D8C2146244B00217635 /* QRCodeTxTransport.m */,
+				EA5D6D8D2146244B00217635 /* GCCrashReportSink.m */,
+				EA5D6D8E2146244B00217635 /* ExchangeUtil.h */,
+				EA5D6D8F2146244B00217635 /* BaseApi.m */,
+				EA5D6D902146244B00217635 /* KeyboardController.m */,
+				EA5D6D912146244B00217635 /* UnitUtil.m */,
+				EA5D6D922146244B00217635 /* BTVersion.m */,
+				EA5D6D932146244B00217635 /* AvatarSetting.h */,
+				EA5D6D942146244B00217635 /* ImportHDMCold.m */,
+				EA5D6D952146244B00217635 /* BTHDAccount.m */,
+				EA5D6D962146244B00217635 /* PeerUtil.h */,
+				EA5D6D972146244B00217635 /* SplitCoinUtil.h */,
+				EA5D6D982146244B00217635 /* AdUtil.m */,
+				EA5D6D992146244B00217635 /* BTHDMBid+Api.h */,
+				EA5D6D9A2146244B00217635 /* BTDatabaseManager.m */,
+				EA5D6D9B2146244B00217635 /* ColdWalletCloneSetting.h */,
+				EA5D6D9C2146244B00217635 /* BTPeer.h */,
+				EA5D6D9D2146244B00217635 /* BTScriptBuilder.h */,
+				EA5D6D9E2146244B00217635 /* UploadAndDowloadFileFactory.h */,
+				EA5D6D9F2146244B00217635 /* GCCrashReportFilterTrim.m */,
+				EA5D6DA02146244B00217635 /* UIImage+ImageWithColor.h */,
+				EA5D6DA12146244B00217635 /* BTHDAccountAddressProvider.h */,
+				EA5D6DA22146244B00217635 /* BitherEngine.h */,
+				EA5D6DA32146244B00217635 /* AudioVisualizerView.h */,
+				EA5D6DA42146244B00217635 /* UIView+Extension.h */,
+				EA5D6DA52146244B00217635 /* KeyUtil.h */,
+				EA5D6DA62146244B00217635 /* UEntropyViewController.h */,
+				EA5D6DA72146244B00217635 /* PinCodeUtil.m */,
+				EA5D6DA82146244B00217635 /* SystemUtil.h */,
+				EA5D6DA92146244B00217635 /* BTPeerManager.h */,
+				EA5D6DAA2146244B00217635 /* CrashLog.h */,
+				EA5D6DAB2146244B00217635 /* BTAddressProvider.h */,
+				EA5D6DAC2146244B00217635 /* PasswordStrengthUtil.m */,
+				EA5D6DAD2146244B00217635 /* BTSettings.h */,
+				EA5D6DAE2146244B00217635 /* DateUtil.m */,
+				EA5D6DAF2146244B00217635 /* BTBlockProvider.h */,
+				EA5D6DB02146244B00217635 /* SignTransactionScanSetting.h */,
+				EA5D6DB12146244B00217635 /* BTHDMAddress.h */,
+				EA5D6DB22146244B00217635 /* ImportPrivateKeySetting.m */,
+				EA5D6DB32146244B00217635 /* FileUtil.h */,
+				EA5D6DB42146244B00217635 /* ReloadTxSetting.m */,
+				EA5D6DB52146244B00217635 /* UEntropyCollector.h */,
+				EA5D6DB62146244B00217635 /* BTKey.h */,
+				EA5D6DB72146244B00217635 /* UIResponder+KKCurnt1stResponsor.h */,
+				EA5D6DB82146244B00217635 /* PasswordGetter.m */,
+				EA5D6DB92146244B00217635 /* NSString+Base58.m */,
+				EA5D6DBA2146244B00217635 /* UIImageExt.m */,
+				EA5D6DBB2146244B00217635 /* Market.m */,
+				EA5D6DBC2146244B00217635 /* BTBlock.h */,
+				EA5D6DBD2146244B00217635 /* MonitorHDAccountSetting.h */,
+				EA5D6DBE2146244B00217635 /* BTHDMKeychainRecover.m */,
+				EA5D6DBF2146244B00217635 /* BTTxHelper.m */,
+				EA5D6DC02146244B00217635 /* BTAddress.m */,
+				EA5D6DC12146244B00217635 /* NSData+Hash.m */,
+				EA5D6DC22146244B00217635 /* DonationSetting.h */,
+				EA5D6DC32146244B00217635 /* PaymentAddressSetting.h */,
+				EA5D6DC42146244B00217635 /* Depth.m */,
+				EA5D6DC52146244B00217635 /* MessageSigningSetting.m */,
+				EA5D6DC62146244B00217635 /* UpgradeUtil.h */,
+				EA5D6DC72146244B00217635 /* ImportPrivateKey.h */,
+				EA5D6DC82146244B00217635 /* XRandom.m */,
+				EA5D6DC92146244B00217635 /* BIP39ZhCNWords.plist */,
+				EA5D6DCA2146244B00217635 /* SensorVisualizerView.h */,
+				EA5D6DCB2146244B00217635 /* BTScriptOpCodes.m */,
+				EA5D6DCC2146244B00217635 /* BTPasswordSeed.h */,
+				EA5D6DCD2146244B00217635 /* BTIn.m */,
+				EA5D6DCE2146244B00217635 /* UserDefaultsUtil.h */,
+				EA5D6DCF2146244B00217635 /* NSMutableData+Bitcoin.m */,
+				EA5D6DD02146244B00217635 /* KeychainSetting.h */,
+				EA5D6DD12146244B00217635 /* BitherApi.h */,
+				EA5D6DD22146244B00217635 /* BTScript.m */,
+				EA5D6DD32146244B00217635 /* BTKey+BIP38.m */,
+				EA5D6DD42146244B00217635 /* GroupUtil.h */,
+				EA5D6DD52146244B00217635 /* DataCheckUtil.h */,
+				EA5D6DD62146244B00217635 /* StringUtil.h */,
+				EA5D6DD72146244B00217635 /* NSData+Bitcoin.m */,
+				EA5D6DD82146244B00217635 /* SettingUtil.m */,
+				EA5D6DD92146244B00217635 /* Bitheri.h */,
+				EA5D6DDA2146244B00217635 /* PinCodeSetting.m */,
+				EA5D6DDB2146244B00217635 /* Setting.m */,
+				EA5D6DDC2146244B00217635 /* CacheUtil.h */,
+				EA5D6DDD2146244B00217635 /* NSString+Size.h */,
+				EA5D6DDE2146244B00217635 /* BTBIP39.h */,
+				EA5D6DDF2146244B00217635 /* CloneQrCodeSetting.m */,
+				EA5D6DE02146244B00217635 /* UEntropyCamera.m */,
+				EA5D6DE12146244B00217635 /* UEntropyAnimatedTransition.h */,
+				EA5D6DE22146244B00217635 /* NotificationUtil.h */,
+				EA5D6DE32146244B00217635 /* BTTx.m */,
+				EA5D6DE42146244B00217635 /* ApiConfig.h */,
+				EA5D6DE52146244B00217635 /* BTPeerProvider.h */,
+				EA5D6DE62146244B00217635 /* BTKey+Bitcoinj.h */,
+				EA5D6DE72146244B00217635 /* BTUtils.m */,
+				EA5D6DE82146244B00217635 /* ImportBip38PrivateKeySetting.m */,
+				EA5D6DE92146244B00217635 /* QRCodeTransportPage.m */,
+				EA5D6DEA2146244B00217635 /* UEntropyMic.m */,
+				EA5D6DEB2146244B00217635 /* BTTxProvider.h */,
+				EA5D6DEC2146244B00217635 /* GetSplitSetting.m */,
+				EA5D6DED2146244B00217635 /* TouchIdIntegration.h */,
+				EA5D6DEE2146244B00217635 /* BTCompressingLogFileManager.m */,
+				EA5D6DEF2146244B00217635 /* HDMHotAddUtil.h */,
+				EA5D6DF02146244B00217635 /* HDMApi.h */,
+				EA5D6DF12146244B00217635 /* BitherSetting.h */,
+				EA5D6DF22146244B00217635 /* NSError+HDMHttpErrorMessage.m */,
+				EA5D6DF32146244B00217635 /* BlockUtil.h */,
+				EA5D6DF42146244B00217635 /* UIImage+ImageRenderToColor.m */,
+				EA5D6DF52146244B00217635 /* GCCrashInstallation.m */,
+				EA5D6DF62146244B00217635 /* UEntropySensor.h */,
+				EA5D6DF72146244B00217635 /* HDMKeychainRecoverUtil.m */,
+				EA5D6DF82146244B00217635 /* BTHDMKeychain.m */,
+				EA5D6DF92146244B00217635 /* BTScriptChunk.h */,
+				EA5D6DFA2146244B00217635 /* PushTxThirdParty.h */,
+				EA5D6DFB2146244B00217635 /* MonitorSetting.m */,
+				EA5D6DFC2146244B00217635 /* QRCodeThemeUtil.m */,
+				EA5D6DFD2146244B00217635 /* BTBIP32Key.h */,
+				EA5D6DFE2146244B00217635 /* PlaySoundUtil.m */,
+				EA5D6DFF2146244B00217635 /* BTQRCodeUtil.m */,
+				EA5D6E002146244B00217635 /* BIP39EnglishWords.plist */,
+				EA5D6E012146244B00217635 /* BTHDAccountCold.h */,
+				EA5D6E022146244B00217635 /* TotalBalanceHideUtil.m */,
+				EA5D6E032146244B00217635 /* MarketUtil.m */,
+				EA5D6E042146244B00217635 /* BTWordsTypeManager.m */,
+				EA5D6E052146244B00217635 /* BTTxBuilder.m */,
+				EA5D6E062146244B00217635 /* NSDictionary+Fromat.h */,
+				EA5D6E072146244B00217635 /* TransactionsUtil.h */,
+				EA5D6E082146244B00217635 /* Ticker.h */,
+				EA5D6E092146244B00217635 /* KeychainBackupUtil.m */,
+				EA5D6E0A2146244B00217635 /* BTBloomFilter.m */,
+				EA5D6E0B2146244B00217635 /* BTAddressManager.m */,
+				EA5D6E0C2146244B00217635 /* BitherTime.m */,
+				EA5D6E0D2146244B00217635 /* BTKeyParameter.h */,
+				EA5D6E0E2146244B00217635 /* BTEncryptData.h */,
+				EA5D6E0F2146244B00217635 /* UIImage+ImageWithColor.m */,
+				EA5D6E102146244B00217635 /* BTHDAccountAddressProvider.m */,
+				EA5D6E112146244B00217635 /* BitherEngine.m */,
+				EA5D6E122146244B00217635 /* AudioVisualizerView.m */,
+				EA5D6E132146244B00217635 /* UploadAndDowloadFileFactory.m */,
+				EA5D6E142146244B00217635 /* Resouces */,
+				EA5D6E1A2146244B00217635 /* GCCrashReportFilterTrim.h */,
+				EA5D6E1B2146244B00217635 /* BTScriptBuilder.m */,
+				EA5D6E1C2146244B00217635 /* BTPeer.m */,
+				EA5D6E1D2146244B00217635 /* ColdWalletCloneSetting.m */,
+				EA5D6E1E2146244B00217635 /* AdUtil.h */,
+				EA5D6E1F2146244B00217635 /* BTHDMBid+Api.m */,
+				EA5D6E202146244B00217635 /* BTDatabaseManager.h */,
+				EA5D6E212146244B00217635 /* PeerUtil.m */,
+				EA5D6E222146244B00217635 /* SplitCoinUtil.m */,
+				EA5D6E232146244B00217635 /* ImportHDMCold.h */,
+				EA5D6E242146244B00217635 /* BIP39ZhTWWords.plist */,
+				EA5D6E252146244B00217635 /* BTHDAccount.h */,
+				EA5D6E262146244B00217635 /* BTVersion.h */,
+				EA5D6E272146244B00217635 /* UnitUtil.h */,
+				EA5D6E282146244B00217635 /* AvatarSetting.m */,
+				EA5D6E292146244B00217635 /* BaseApi.h */,
+				EA5D6E2A2146244B00217635 /* KeyboardController.h */,
+				EA5D6E2B2146244B00217635 /* NSAttributedString+Size.m */,
+				EA5D6E2C2146244B00217635 /* GCCrashReportSink.h */,
+				EA5D6E2D2146244B00217635 /* QRCodeTxTransport.h */,
+				EA5D6E2E2146244B00217635 /* ExchangeUtil.m */,
+				EA5D6E2F2146244B00217635 /* BTHDAccountAddress.m */,
+				EA5D6E302146244B00217635 /* HDMSingular.m */,
+				EA5D6E312146244B00217635 /* BTOut.h */,
+				EA5D6E322146244B00217635 /* HDMRecoverSetting.h */,
+				EA5D6E332146244B00217635 /* GroupFileUtil.h */,
+				EA5D6E342146244B00217635 /* NetworkUtil.h */,
+				EA5D6E352146244B00217635 /* BTHDAccountProvider.h */,
+				EA5D6E362146244B00217635 /* BTPrivateKeyUtil.m */,
+				EA5D6E372146244B00217635 /* BTHDMBid.m */,
+				EA5D6E382146244B00217635 /* HDMResetServerPasswordUtil.h */,
+				EA5D6E392146244B00217635 /* BTBlockChain.m */,
+				EA5D6E3A2146244B00217635 /* GroupUserDefaultUtil.m */,
+				EA5D6E3B2146244B00217635 /* TrendingGraphicData.h */,
+				EA5D6E3C2146244B00217635 /* JRSwizzle.m */,
+				EA5D6E3D2146244B00217635 /* ImportPrivateKey.m */,
+				EA5D6E3E2146244B00217635 /* Depth.h */,
+				EA5D6E3F2146244B00217635 /* UpgradeUtil.m */,
+				EA5D6E402146244B00217635 /* MessageSigningSetting.h */,
+				EA5D6E412146244B00217635 /* NSData+Hash.h */,
+				EA5D6E422146244B00217635 /* DonationSetting.m */,
+				EA5D6E432146244B00217635 /* PaymentAddressSetting.m */,
+				EA5D6E442146244B00217635 /* BTAddress.h */,
+				EA5D6E452146244B00217635 /* BTHDMKeychainRecover.h */,
+				EA5D6E462146244B00217635 /* BTTxHelper.h */,
+				EA5D6E472146244B00217635 /* MonitorHDAccountSetting.m */,
+				EA5D6E482146244B00217635 /* BTBlock.m */,
+				EA5D6E492146244B00217635 /* UIImageExt.h */,
+				EA5D6E4A2146244B00217635 /* NSString+Base58.h */,
+				EA5D6E4B2146244B00217635 /* Market.h */,
+				EA5D6E4C2146244B00217635 /* UIResponder+KKCurnt1stResponsor.m */,
+				EA5D6E4D2146244B00217635 /* PasswordGetter.h */,
+				EA5D6E4E2146244B00217635 /* ReloadTxSetting.h */,
+				EA5D6E4F2146244B00217635 /* UEntropyCollector.m */,
+				EA5D6E502146244B00217635 /* BTKey.m */,
+				EA5D6E512146244B00217635 /* ImportPrivateKeySetting.h */,
+				EA5D6E522146244B00217635 /* FileUtil.m */,
+				EA5D6E532146244B00217635 /* SignTransactionScanSetting.m */,
+				EA5D6E542146244B00217635 /* BTBlockProvider.m */,
+				EA5D6E552146244B00217635 /* BTHDMAddress.m */,
+				EA5D6E562146244B00217635 /* DateUtil.h */,
+				EA5D6E572146244B00217635 /* BTAddressProvider.m */,
+				EA5D6E582146244B00217635 /* BTSettings.m */,
+				EA5D6E592146244B00217635 /* PasswordStrengthUtil.h */,
+				EA5D6E5A2146244B00217635 /* CrashLog.m */,
+				EA5D6E5B2146244B00217635 /* BTPeerManager.m */,
+				EA5D6E5C2146244B00217635 /* SystemUtil.m */,
+				EA5D6E5D2146244B00217635 /* UEntropyViewController.m */,
+				EA5D6E5E2146244B00217635 /* KeyUtil.m */,
+				EA5D6E5F2146244B00217635 /* PinCodeUtil.h */,
+				EA5D6E602146244B00217635 /* UIView+Extension.m */,
+				EA5D6E612146244B00217635 /* QRCodeTransportPage.h */,
+				EA5D6E622146244B00217635 /* UEntropyMic.h */,
+				EA5D6E632146244B00217635 /* BTUtils.h */,
+				EA5D6E642146244B00217635 /* ImportBip38PrivateKeySetting.h */,
+				EA5D6E652146244B00217635 /* BTPeerProvider.m */,
+				EA5D6E662146244B00217635 /* BTKey+Bitcoinj.m */,
+				EA5D6E672146244B00217635 /* BTTx.h */,
+				EA5D6E682146244B00217635 /* UEntropyAnimatedTransition.m */,
+				EA5D6E692146244B00217635 /* UEntropyCamera.h */,
+				EA5D6E6A2146244B00217635 /* NotificationUtil.m */,
+				EA5D6E6B2146244B00217635 /* BTBIP39.m */,
+				EA5D6E6C2146244B00217635 /* CloneQrCodeSetting.h */,
+				EA5D6E6D2146244B00217635 /* CacheUtil.m */,
+				EA5D6E6E2146244B00217635 /* hdm.bither.net.cer */,
+				EA5D6E6F2146244B00217635 /* Setting.h */,
+				EA5D6E702146244B00217635 /* NSString+Size.m */,
+				EA5D6E712146244B00217635 /* PinCodeSetting.h */,
+				EA5D6E722146244B00217635 /* SettingUtil.h */,
+				EA5D6E732146244B00217635 /* DataCheckUtil.m */,
+				EA5D6E742146244B00217635 /* StringUtil.m */,
+				EA5D6E752146244B00217635 /* NSData+Bitcoin.h */,
+				EA5D6E762146244B00217635 /* GroupUtil.m */,
+				EA5D6E772146244B00217635 /* BTKey+BIP38.h */,
+				EA5D6E782146244B00217635 /* KeychainSetting.m */,
+				EA5D6E792146244B00217635 /* NSMutableData+Bitcoin.h */,
+				EA5D6E7A2146244B00217635 /* BitherApi.m */,
+				EA5D6E7B2146244B00217635 /* BTScript.h */,
+				EA5D6E7C2146244B00217635 /* UserDefaultsUtil.m */,
+				EA5D6E7D2146244B00217635 /* SensorVisualizerView.m */,
+				EA5D6E7E2146244B00217635 /* BTScriptOpCodes.h */,
+				EA5D6E7F2146244B00217635 /* BTPasswordSeed.m */,
+				EA5D6E802146244B00217635 /* BTIn.h */,
+				EA5D6E812146244B00217635 /* XRandom.h */,
+			);
+			path = bitheriWallet;
+			sourceTree = "<group>";
+		};
+		EA5D6E142146244B00217635 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D6E152146244B00217635 /* Sound */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		EA5D6E152146244B00217635 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D6E162146244B00217635 /* coins_received.wav */,
+				EA5D6E172146244B00217635 /* xrandom_close_sound.mp3 */,
+				EA5D6E182146244B00217635 /* qr_code_scanned.mp3 */,
+				EA5D6E192146244B00217635 /* xrandom_open_sound.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 		FEF0DD1E991A65E2D137CECF /* Frameworks */ = {
@@ -390,59 +990,151 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA28C8CA213E2B2300D9198C /* BTPasswordSeed.h in Headers */,
-				EA28C8DB213E2B2300D9198C /* BTBIP32Key.h in Headers */,
-				EA28C8DD213E2B2300D9198C /* BTHDAccountCold.h in Headers */,
-				EA28C907213E2B2300D9198C /* BTScriptOpCodes.h in Headers */,
-				EA28C8F1213E2B2300D9198C /* BTAddress.h in Headers */,
-				EA28C903213E2B2300D9198C /* NSData+Bitcoin.h in Headers */,
-				EA28C8BE213E2B2300D9198C /* BTAddressProvider.h in Headers */,
-				EA28C8C4213E2B2300D9198C /* BTBlock.h in Headers */,
-				EA28C8B4213E2B2300D9198C /* BTPrivateKeyUtil.h in Headers */,
-				EA28C904213E2B2300D9198C /* BTKey+BIP38.h in Headers */,
-				EA28C8AE213E2B2300D9198C /* BTHDMKeychain.h in Headers */,
-				EA28C8BC213E2B2300D9198C /* BTHDAccountAddressProvider.h in Headers */,
-				EA28C8E3213E2B2300D9198C /* BTEncryptData.h in Headers */,
-				EA28C906213E2B2300D9198C /* BTScript.h in Headers */,
-				EA28C8D0213E2B2300D9198C /* Bitheri.h in Headers */,
-				EA28C8BA213E2B2300D9198C /* BTPeer.h in Headers */,
-				EA28C909213E2B2300D9198C /* BTIn.h in Headers */,
-				EA28C8D1213E2B2300D9198C /* BTBIP39.h in Headers */,
-				EA28C8EB213E2B2300D9198C /* BTOut.h in Headers */,
-				EA28C8E8213E2B2300D9198C /* BTHDAccount.h in Headers */,
-				EA28C8A7213E2B2300D9198C /* BTTxBuilder.h in Headers */,
-				EA28C8D6213E2B2300D9198C /* KKUTXOModel.h in Headers */,
-				EA28C8D4213E2B2300D9198C /* BTKey+Bitcoinj.h in Headers */,
-				EA28C8F5213E2B2300D9198C /* NSString+Base58.h in Headers */,
-				EA28C8E7213E2B2300D9198C /* BTDatabaseManager.h in Headers */,
-				EA28C8E2213E2B2300D9198C /* BTKeyParameter.h in Headers */,
-				EA28C8A8213E2B2300D9198C /* BTWordsTypeManager.h in Headers */,
-				EA28C8E9213E2B2300D9198C /* BTVersion.h in Headers */,
-				EA28C900213E2B2300D9198C /* BTTx.h in Headers */,
-				EA28C8C0213E2B2300D9198C /* BTBlockProvider.h in Headers */,
-				EA28C8BB213E2B2300D9198C /* BTScriptBuilder.h in Headers */,
-				EA28C8F3213E2B2300D9198C /* BTTxHelper.h in Headers */,
-				EA28C8A5213E2B2300D9198C /* BTBloomFilter.h in Headers */,
-				EA28C8A2213E2B2300D9198C /* BTAddressManager.h in Headers */,
-				EA28C8AB213E2B2300D9198C /* BTQRCodeUtil.h in Headers */,
-				EA28C8D3213E2B2300D9198C /* BTPeerProvider.h in Headers */,
-				EA28C8D7213E2B2300D9198C /* BTTxProvider.h in Headers */,
-				EA28C8C1213E2B2300D9198C /* BTHDMAddress.h in Headers */,
-				EA28C905213E2B2300D9198C /* NSMutableData+Bitcoin.h in Headers */,
-				EA28C8EC213E2B2300D9198C /* BTHDAccountProvider.h in Headers */,
-				EA28C8F2213E2B2300D9198C /* BTHDMKeychainRecover.h in Headers */,
-				EA28C8FC213E2B2300D9198C /* BTUtils.h in Headers */,
-				EA28C8B1213E2B2300D9198C /* BTBlockChain.h in Headers */,
-				EA28C8BD213E2B2300D9198C /* BTPeerManager.h in Headers */,
-				EA28C8BF213E2B2300D9198C /* BTSettings.h in Headers */,
-				EA28C8C2213E2B2300D9198C /* BTKey.h in Headers */,
-				EA28C8B5213E2B2300D9198C /* BTHDAccountAddress.h in Headers */,
-				EA28C8F0213E2B2300D9198C /* NSData+Hash.h in Headers */,
-				EA28C8B2213E2B2300D9198C /* BTHDMBid.h in Headers */,
-				EA28C8A6213E2B2300D9198C /* ccMemory.h in Headers */,
-				EA28C8AF213E2B2300D9198C /* BTCompressingLogFileManager.h in Headers */,
-				EA28C8DA213E2B2300D9198C /* BTScriptChunk.h in Headers */,
-				EA28C8AA213E2B2300D9198C /* bitcode.h in Headers */,
+				EA5D6F662146244C00217635 /* Depth.h in Headers */,
+				EA5D6ED52146244C00217635 /* BTAddressProvider.h in Headers */,
+				EA5D6F7E2146244C00217635 /* DateUtil.h in Headers */,
+				EA5D6ED32146244C00217635 /* BTPeerManager.h in Headers */,
+				EA5D6F6E2146244C00217635 /* BTTxHelper.h in Headers */,
+				EA5D6F712146244C00217635 /* UIImageExt.h in Headers */,
+				EA5D6FA12146244C00217635 /* NSMutableData+Bitcoin.h in Headers */,
+				EA5D6EE72146244C00217635 /* MonitorHDAccountSetting.h in Headers */,
+				EA5D6EC52146244C00217635 /* ColdWalletCloneSetting.h in Headers */,
+				EA5D6F272146244C00217635 /* BTBIP32Key.h in Headers */,
+				EA5D6F9D2146244C00217635 /* NSData+Bitcoin.h in Headers */,
+				EA5D6E942146244C00217635 /* MonitorSetting.h in Headers */,
+				EA5D6F0C2146244C00217635 /* NotificationUtil.h in Headers */,
+				EA5D6F4E2146244C00217635 /* BTVersion.h in Headers */,
+				EA5D6ED42146244C00217635 /* CrashLog.h in Headers */,
+				EA5D6F372146244C00217635 /* BTKeyParameter.h in Headers */,
+				EA5D6F9F2146244C00217635 /* BTKey+BIP38.h in Headers */,
+				EA5D6F0F2146244C00217635 /* BTPeerProvider.h in Headers */,
+				EA5D6F752146244C00217635 /* PasswordGetter.h in Headers */,
+				EA5D6EE02146244C00217635 /* BTKey.h in Headers */,
+				EA5D6EF02146244C00217635 /* UpgradeUtil.h in Headers */,
+				EA5D6F4B2146244C00217635 /* ImportHDMCold.h in Headers */,
+				EA5D6EC02146244C00217635 /* PeerUtil.h in Headers */,
+				EA5D6EA02146244C00217635 /* BTCompressingLogFileManager.h in Headers */,
+				EA5D6E822146244C00217635 /* BTAddressManager.h in Headers */,
+				EA5D6EB32146244C00217635 /* HDMSingular.h in Headers */,
+				EA5D6F912146244C00217635 /* UEntropyCamera.h in Headers */,
+				EA5D6E882146244C00217635 /* BTBloomFilter.h in Headers */,
+				EA5D6F732146244C00217635 /* Market.h in Headers */,
+				EA5D6E892146244C00217635 /* KeychainBackupUtil.h in Headers */,
+				EA5D6ECC2146244C00217635 /* BitherEngine.h in Headers */,
+				EA5D6E982146244C00217635 /* BTHDMKeychain.h in Headers */,
+				EA5D6F602146244C00217635 /* HDMResetServerPasswordUtil.h in Headers */,
+				EA5D6EF62146244C00217635 /* BTPasswordSeed.h in Headers */,
+				EA5D6F462146244C00217635 /* AdUtil.h in Headers */,
+				EA5D6EC62146244C00217635 /* BTPeer.h in Headers */,
+				EA5D6F482146244C00217635 /* BTDatabaseManager.h in Headers */,
+				EA5D6F542146244C00217635 /* GCCrashReportSink.h in Headers */,
+				EA5D6EC32146244C00217635 /* BTHDMBid+Api.h in Headers */,
+				EA5D6FA32146244C00217635 /* BTScript.h in Headers */,
+				EA5D6E952146244C00217635 /* PlaySoundUtil.h in Headers */,
+				EA5D6F4F2146244C00217635 /* UnitUtil.h in Headers */,
+				EA5D6EDD2146244C00217635 /* FileUtil.h in Headers */,
+				EA5D6EFB2146244C00217635 /* BitherApi.h in Headers */,
+				EA5D6E992146244C00217635 /* GCCrashInstallation.h in Headers */,
+				EA5D6EE62146244C00217635 /* BTBlock.h in Headers */,
+				EA5D6F682146244C00217635 /* MessageSigningSetting.h in Headers */,
+				EA5D6E9A2146244C00217635 /* HDMKeychainRecoverUtil.h in Headers */,
+				EA5D6EA42146244C00217635 /* GetSplitSetting.h in Headers */,
+				EA5D6E8A2146244C00217635 /* ccMemory.h in Headers */,
+				EA5D6E8C2146244C00217635 /* BTTxBuilder.h in Headers */,
+				EA5D6F9A2146244C00217635 /* SettingUtil.h in Headers */,
+				EA5D6F102146244C00217635 /* BTKey+Bitcoinj.h in Headers */,
+				EA5D6F992146244C00217635 /* PinCodeSetting.h in Headers */,
+				EA5D6F8C2146244C00217635 /* ImportBip38PrivateKeySetting.h in Headers */,
+				EA5D6F2B2146244C00217635 /* BTHDAccountCold.h in Headers */,
+				EA5D6F072146244C00217635 /* NSString+Size.h in Headers */,
+				EA5D6F0B2146244C00217635 /* UEntropyAnimatedTransition.h in Headers */,
+				EA5D6EFE2146244C00217635 /* GroupUtil.h in Headers */,
+				EA5D6EC72146244C00217635 /* BTScriptBuilder.h in Headers */,
+				EA5D6EB52146244C00217635 /* NSAttributedString+Size.h in Headers */,
+				EA5D6E922146244C00217635 /* QRCodeThemeUtil.h in Headers */,
+				EA5D6F5A2146244C00217635 /* HDMRecoverSetting.h in Headers */,
+				EA5D6F1D2146244C00217635 /* BlockUtil.h in Headers */,
+				EA5D6F792146244C00217635 /* ImportPrivateKeySetting.h in Headers */,
+				EA5D6F032146244C00217635 /* Bitheri.h in Headers */,
+				EA5D6F8F2146244C00217635 /* BTTx.h in Headers */,
+				EA5D6F942146244C00217635 /* CloneQrCodeSetting.h in Headers */,
+				EA5D6F522146244C00217635 /* KeyboardController.h in Headers */,
+				EA5D6F6D2146244C00217635 /* BTHDMKeychainRecover.h in Headers */,
+				EA5D6F592146244C00217635 /* BTOut.h in Headers */,
+				EA5D6EAB2146244C00217635 /* JRSwizzle.h in Headers */,
+				EA5D6F892146244C00217635 /* QRCodeTransportPage.h in Headers */,
+				EA5D6FA82146244C00217635 /* BTIn.h in Headers */,
+				EA5D6F8B2146244C00217635 /* BTUtils.h in Headers */,
+				EA5D6E8D2146244C00217635 /* BTWordsTypeManager.h in Headers */,
+				EA5D6ED02146244C00217635 /* UEntropyViewController.h in Headers */,
+				EA5D6F1B2146244C00217635 /* BitherSetting.h in Headers */,
+				EA5D6EFA2146244C00217635 /* KeychainSetting.h in Headers */,
+				EA5D6F762146244C00217635 /* ReloadTxSetting.h in Headers */,
+				EA5D6EE12146244C00217635 /* UIResponder+KKCurnt1stResponsor.h in Headers */,
+				EA5D6ECA2146244C00217635 /* UIImage+ImageWithColor.h in Headers */,
+				EA5D6F692146244C00217635 /* NSData+Hash.h in Headers */,
+				EA5D6F082146244C00217635 /* BTBIP39.h in Headers */,
+				EA5D6F232146244C00217635 /* BTScriptChunk.h in Headers */,
+				EA5D6EDA2146244C00217635 /* SignTransactionScanSetting.h in Headers */,
+				EA5D6F002146244C00217635 /* StringUtil.h in Headers */,
+				EA5D6EFF2146244C00217635 /* DataCheckUtil.h in Headers */,
+				EA5D6F202146244C00217635 /* UEntropySensor.h in Headers */,
+				EA5D6EDF2146244C00217635 /* UEntropyCollector.h in Headers */,
+				EA5D6F152146244C00217635 /* BTTxProvider.h in Headers */,
+				EA5D6F5D2146244C00217635 /* BTHDAccountProvider.h in Headers */,
+				EA5D6E9D2146244C00217635 /* NSError+HDMHttpErrorMessage.h in Headers */,
+				EA5D6EF12146244C00217635 /* ImportPrivateKey.h in Headers */,
+				EA5D6EA82146244C00217635 /* BTHDMBid.h in Headers */,
+				EA5D6FA62146244C00217635 /* BTScriptOpCodes.h in Headers */,
+				EA5D6EA72146244C00217635 /* GroupUserDefaultUtil.h in Headers */,
+				EA5D6EF42146244C00217635 /* SensorVisualizerView.h in Headers */,
+				EA5D6E912146244C00217635 /* BTQRCodeUtil.h in Headers */,
+				EA5D6EDB2146244C00217635 /* BTHDMAddress.h in Headers */,
+				EA5D6EA62146244C00217635 /* BTBlockChain.h in Headers */,
+				EA5D6E8F2146244C00217635 /* TotalBalanceHideUtil.h in Headers */,
+				EA5D6EC12146244C00217635 /* SplitCoinUtil.h in Headers */,
+				EA5D6EEC2146244C00217635 /* DonationSetting.h in Headers */,
+				EA5D6ECF2146244C00217635 /* KeyUtil.h in Headers */,
+				EA5D6EC82146244C00217635 /* UploadAndDowloadFileFactory.h in Headers */,
+				EA5D6F1A2146244C00217635 /* HDMApi.h in Headers */,
+				EA5D6F302146244C00217635 /* NSDictionary+Fromat.h in Headers */,
+				EA5D6F5C2146244C00217635 /* NetworkUtil.h in Headers */,
+				EA5D6FA92146244C00217635 /* XRandom.h in Headers */,
+				EA5D6F422146244C00217635 /* GCCrashReportFilterTrim.h in Headers */,
+				EA5D6EB22146244C00217635 /* BTHDAccountAddress.h in Headers */,
+				EA5D6F192146244C00217635 /* HDMHotAddUtil.h in Headers */,
+				EA5D6EAF2146244C00217635 /* BTPrivateKeyUtil.h in Headers */,
+				EA5D6F872146244C00217635 /* PinCodeUtil.h in Headers */,
+				EA5D6F172146244C00217635 /* TouchIdIntegration.h in Headers */,
+				EA5D6EB82146244C00217635 /* ExchangeUtil.h in Headers */,
+				EA5D6F0E2146244C00217635 /* ApiConfig.h in Headers */,
+				EA5D6ED72146244C00217635 /* BTSettings.h in Headers */,
+				EA5D6F322146244C00217635 /* Ticker.h in Headers */,
+				EA5D6ECE2146244C00217635 /* UIView+Extension.h in Headers */,
+				EA5D6E902146244C00217635 /* MarketUtil.h in Headers */,
+				EA5D6F8A2146244C00217635 /* UEntropyMic.h in Headers */,
+				EA5D6EF82146244C00217635 /* UserDefaultsUtil.h in Headers */,
+				EA5D6ECB2146244C00217635 /* BTHDAccountAddressProvider.h in Headers */,
+				EA5D6F512146244C00217635 /* BaseApi.h in Headers */,
+				EA5D6F812146244C00217635 /* PasswordStrengthUtil.h in Headers */,
+				EA5D6F242146244C00217635 /* PushTxThirdParty.h in Headers */,
+				EA5D6F6C2146244C00217635 /* BTAddress.h in Headers */,
+				EA5D6ECD2146244C00217635 /* AudioVisualizerView.h in Headers */,
+				EA5D6F4D2146244C00217635 /* BTHDAccount.h in Headers */,
+				EA5D6E842146244C00217635 /* BitherTime.h in Headers */,
+				EA5D6ED22146244C00217635 /* SystemUtil.h in Headers */,
+				EA5D6F382146244C00217635 /* BTEncryptData.h in Headers */,
+				EA5D6F5B2146244C00217635 /* GroupFileUtil.h in Headers */,
+				EA5D6F062146244C00217635 /* CacheUtil.h in Headers */,
+				EA5D6F552146244C00217635 /* QRCodeTxTransport.h in Headers */,
+				EA5D6ED92146244C00217635 /* BTBlockProvider.h in Headers */,
+				EA5D6F632146244C00217635 /* TrendingGraphicData.h in Headers */,
+				EA5D6EBD2146244C00217635 /* AvatarSetting.h in Headers */,
+				EA5D6E9E2146244C00217635 /* UIImage+ImageRenderToColor.h in Headers */,
+				EA5D6EED2146244C00217635 /* PaymentAddressSetting.h in Headers */,
+				EA5D6F972146244C00217635 /* Setting.h in Headers */,
+				EA5D6F312146244C00217635 /* TransactionsUtil.h in Headers */,
+				EA5D6F722146244C00217635 /* NSString+Base58.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,7 +1196,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA28C902213E2B2300D9198C /* Info.plist in Resources */,
+				EA5D6F3E2146244C00217635 /* coins_received.wav in Resources */,
+				EA5D6F4C2146244C00217635 /* BIP39ZhTWWords.plist in Resources */,
+				EA5D6F402146244C00217635 /* qr_code_scanned.mp3 in Resources */,
+				EA5D6F2A2146244C00217635 /* BIP39EnglishWords.plist in Resources */,
+				EA5D6EB12146244C00217635 /* FixedPeers.plist in Resources */,
+				EA5D6F412146244C00217635 /* xrandom_open_sound.mp3 in Resources */,
+				EA5D6F962146244C00217635 /* hdm.bither.net.cer in Resources */,
+				EA5D6F3F2146244C00217635 /* xrandom_close_sound.mp3 in Resources */,
+				EA5D6EF32146244C00217635 /* BIP39ZhCNWords.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,56 +1236,148 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA28C8DC213E2B2300D9198C /* BTQRCodeUtil.m in Sources */,
-				EA28C908213E2B2300D9198C /* BTPasswordSeed.m in Sources */,
-				EA28C8C5213E2B2300D9198C /* BTHDMKeychainRecover.m in Sources */,
-				EA28C8B6213E2B2300D9198C /* BTOut.m in Sources */,
-				EA28C8CB213E2B2300D9198C /* BTIn.m in Sources */,
-				EA28C8C8213E2B2300D9198C /* NSData+Hash.m in Sources */,
-				EA28C8A3213E2B2300D9198C /* BTKeyParameter.m in Sources */,
-				EA28C8FA213E2B2300D9198C /* BTSettings.m in Sources */,
-				EA28C8C9213E2B2300D9198C /* BTScriptOpCodes.m in Sources */,
-				EA28C8FE213E2B2300D9198C /* BTPeerProvider.m in Sources */,
-				EA28C8E0213E2B2300D9198C /* BTBloomFilter.m in Sources */,
-				EA28C8E5213E2B2300D9198C /* BTScriptBuilder.m in Sources */,
-				EA28C8F7213E2B2300D9198C /* BTBlockProvider.m in Sources */,
-				EA28C8C7213E2B2300D9198C /* BTAddress.m in Sources */,
-				EA28C8B7213E2B2300D9198C /* BTVersion.m in Sources */,
-				EA28C8FD213E2B2300D9198C /* KKUTXOModel.m in Sources */,
-				EA28C8DE213E2B2300D9198C /* BTWordsTypeManager.m in Sources */,
-				EA28C8C3213E2B2300D9198C /* NSString+Base58.m in Sources */,
-				EA28C8ED213E2B2300D9198C /* BTPrivateKeyUtil.m in Sources */,
-				EA28C8CF213E2B2300D9198C /* NSData+Bitcoin.m in Sources */,
-				EA28C8F8213E2B2300D9198C /* BTHDMAddress.m in Sources */,
-				EA28C8CE213E2B2300D9198C /* BTKey+BIP38.m in Sources */,
-				EA28C8EA213E2B2300D9198C /* BTHDAccountAddress.m in Sources */,
-				EA28C8FB213E2B2300D9198C /* BTPeerManager.m in Sources */,
-				EA28C8FF213E2B2300D9198C /* BTKey+Bitcoinj.m in Sources */,
-				EA28C8AD213E2B2300D9198C /* BTScriptChunk.m in Sources */,
-				EA28C8B0213E2B2300D9198C /* BTTxProvider.m in Sources */,
-				EA28C8B8213E2B2300D9198C /* BTHDAccount.m in Sources */,
-				EA28C901213E2B2300D9198C /* BTBIP39.m in Sources */,
-				EA28C8EE213E2B2300D9198C /* BTHDMBid.m in Sources */,
-				EA28C8E1213E2B2300D9198C /* BTAddressManager.m in Sources */,
-				EA28C8CD213E2B2300D9198C /* BTScript.m in Sources */,
-				EA28C8CC213E2B2300D9198C /* NSMutableData+Bitcoin.m in Sources */,
-				EA28C8B9213E2B2300D9198C /* BTDatabaseManager.m in Sources */,
-				EA28C8F6213E2B2300D9198C /* BTKey.m in Sources */,
-				EA28C8A4213E2B2300D9198C /* BTEncryptData.m in Sources */,
-				EA28C8F9213E2B2300D9198C /* BTAddressProvider.m in Sources */,
-				EA28C8E6213E2B2300D9198C /* BTPeer.m in Sources */,
-				EA28C8D8213E2B2300D9198C /* BTCompressingLogFileManager.m in Sources */,
-				EA28C8F4213E2B2300D9198C /* BTBlock.m in Sources */,
-				EA28C8E4213E2B2300D9198C /* BTHDAccountAddressProvider.m in Sources */,
-				EA28C8EF213E2B2300D9198C /* BTBlockChain.m in Sources */,
-				EA28C8AC213E2B2300D9198C /* BTBIP32Key.m in Sources */,
-				EA28C8DF213E2B2300D9198C /* BTTxBuilder.m in Sources */,
-				EA28C8D5213E2B2300D9198C /* BTUtils.m in Sources */,
-				EA28C8A9213E2B2300D9198C /* BTHDAccountCold.m in Sources */,
-				EA28C8D2213E2B2300D9198C /* BTTx.m in Sources */,
-				EA28C8D9213E2B2300D9198C /* BTHDMKeychain.m in Sources */,
-				EA28C8B3213E2B2300D9198C /* BTHDAccountProvider.m in Sources */,
-				EA28C8C6213E2B2300D9198C /* BTTxHelper.m in Sources */,
+				EA5D6F782146244C00217635 /* BTKey.m in Sources */,
+				EA5D6EBE2146244C00217635 /* ImportHDMCold.m in Sources */,
+				EA5D6F2E2146244C00217635 /* BTWordsTypeManager.m in Sources */,
+				EA5D6FA22146244C00217635 /* BitherApi.m in Sources */,
+				EA5D6F642146244C00217635 /* JRSwizzle.m in Sources */,
+				EA5D6F742146244C00217635 /* UIResponder+KKCurnt1stResponsor.m in Sources */,
+				EA5D6F182146244C00217635 /* BTCompressingLogFileManager.m in Sources */,
+				EA5D6F012146244C00217635 /* NSData+Bitcoin.m in Sources */,
+				EA5D6F2F2146244C00217635 /* BTTxBuilder.m in Sources */,
+				EA5D6ED82146244C00217635 /* DateUtil.m in Sources */,
+				EA5D6F0D2146244C00217635 /* BTTx.m in Sources */,
+				EA5D6EAC2146244C00217635 /* GroupFileUtil.m in Sources */,
+				EA5D6F862146244C00217635 /* KeyUtil.m in Sources */,
+				EA5D6EF92146244C00217635 /* NSMutableData+Bitcoin.m in Sources */,
+				EA5D6F622146244C00217635 /* GroupUserDefaultUtil.m in Sources */,
+				EA5D6EBC2146244C00217635 /* BTVersion.m in Sources */,
+				EA5D6EFD2146244C00217635 /* BTKey+BIP38.m in Sources */,
+				EA5D6FA52146244C00217635 /* SensorVisualizerView.m in Sources */,
+				EA5D6F5F2146244C00217635 /* BTHDMBid.m in Sources */,
+				EA5D6F672146244C00217635 /* UpgradeUtil.m in Sources */,
+				EA5D6F802146244C00217635 /* BTSettings.m in Sources */,
+				EA5D6E872146244C00217635 /* TransactionsUtil.m in Sources */,
+				EA5D6F052146244C00217635 /* Setting.m in Sources */,
+				EA5D6E8B2146244C00217635 /* NSDictionary+Fromat.m in Sources */,
+				EA5D6F6A2146244C00217635 /* DonationSetting.m in Sources */,
+				EA5D6EB02146244C00217635 /* HDMRecoverSetting.m in Sources */,
+				EA5D6F8D2146244C00217635 /* BTPeerProvider.m in Sources */,
+				EA5D6EC42146244C00217635 /* BTDatabaseManager.m in Sources */,
+				EA5D6F852146244C00217635 /* UEntropyViewController.m in Sources */,
+				EA5D6F702146244C00217635 /* BTBlock.m in Sources */,
+				EA5D6EC22146244C00217635 /* AdUtil.m in Sources */,
+				EA5D6F252146244C00217635 /* MonitorSetting.m in Sources */,
+				EA5D6EF22146244C00217635 /* XRandom.m in Sources */,
+				EA5D6E832146244C00217635 /* BTKeyParameter.m in Sources */,
+				EA5D6EEF2146244C00217635 /* MessageSigningSetting.m in Sources */,
+				EA5D6ED12146244C00217635 /* PinCodeUtil.m in Sources */,
+				EA5D6EE42146244C00217635 /* UIImageExt.m in Sources */,
+				EA5D6EB62146244C00217635 /* QRCodeTxTransport.m in Sources */,
+				EA5D6EB72146244C00217635 /* GCCrashReportSink.m in Sources */,
+				EA5D6EAA2146244C00217635 /* TrendingGraphicData.m in Sources */,
+				EA5D6F3C2146244C00217635 /* AudioVisualizerView.m in Sources */,
+				EA5D6E9F2146244C00217635 /* BlockUtil.m in Sources */,
+				EA5D6F342146244C00217635 /* BTBloomFilter.m in Sources */,
+				EA5D6F332146244C00217635 /* KeychainBackupUtil.m in Sources */,
+				EA5D6F3B2146244C00217635 /* BitherEngine.m in Sources */,
+				EA5D6F562146244C00217635 /* ExchangeUtil.m in Sources */,
+				EA5D6EBF2146244C00217635 /* BTHDAccount.m in Sources */,
+				EA5D6F262146244C00217635 /* QRCodeThemeUtil.m in Sources */,
+				EA5D6E932146244C00217635 /* PushTxThirdParty.m in Sources */,
+				EA5D6EE22146244C00217635 /* PasswordGetter.m in Sources */,
+				EA5D6F432146244C00217635 /* BTScriptBuilder.m in Sources */,
+				EA5D6F902146244C00217635 /* UEntropyAnimatedTransition.m in Sources */,
+				EA5D6F3A2146244C00217635 /* BTHDAccountAddressProvider.m in Sources */,
+				EA5D6F772146244C00217635 /* UEntropyCollector.m in Sources */,
+				EA5D6F502146244C00217635 /* AvatarSetting.m in Sources */,
+				EA5D6EDC2146244C00217635 /* ImportPrivateKeySetting.m in Sources */,
+				EA5D6F572146244C00217635 /* BTHDAccountAddress.m in Sources */,
+				EA5D6E862146244C00217635 /* Ticker.m in Sources */,
+				EA5D6F7A2146244C00217635 /* FileUtil.m in Sources */,
+				EA5D6F122146244C00217635 /* ImportBip38PrivateKeySetting.m in Sources */,
+				EA5D6EBB2146244C00217635 /* UnitUtil.m in Sources */,
+				EA5D6F532146244C00217635 /* NSAttributedString+Size.m in Sources */,
+				EA5D6F652146244C00217635 /* ImportPrivateKey.m in Sources */,
+				EA5D6EA52146244C00217635 /* BTTxProvider.m in Sources */,
+				EA5D6E972146244C00217635 /* BTScriptChunk.m in Sources */,
+				EA5D6F022146244C00217635 /* SettingUtil.m in Sources */,
+				EA5D6EF72146244C00217635 /* BTIn.m in Sources */,
+				EA5D6EA12146244C00217635 /* HDMHotAddUtil.m in Sources */,
+				EA5D6F112146244C00217635 /* BTUtils.m in Sources */,
+				EA5D6FA72146244C00217635 /* BTPasswordSeed.m in Sources */,
+				EA5D6F6F2146244C00217635 /* MonitorHDAccountSetting.m in Sources */,
+				EA5D6F362146244C00217635 /* BitherTime.m in Sources */,
+				EA5D6EAE2146244C00217635 /* NetworkUtil.m in Sources */,
+				EA5D6F0A2146244C00217635 /* UEntropyCamera.m in Sources */,
+				EA5D6F452146244C00217635 /* ColdWalletCloneSetting.m in Sources */,
+				EA5D6F832146244C00217635 /* BTPeerManager.m in Sources */,
+				EA5D6F932146244C00217635 /* BTBIP39.m in Sources */,
+				EA5D6F5E2146244C00217635 /* BTPrivateKeyUtil.m in Sources */,
+				EA5D6EA22146244C00217635 /* HDMApi.m in Sources */,
+				EA5D6F7F2146244C00217635 /* BTAddressProvider.m in Sources */,
+				EA5D6E852146244C00217635 /* BTEncryptData.m in Sources */,
+				EA5D6FA02146244C00217635 /* KeychainSetting.m in Sources */,
+				EA5D6EBA2146244C00217635 /* KeyboardController.m in Sources */,
+				EA5D6F142146244C00217635 /* UEntropyMic.m in Sources */,
+				EA5D6E9B2146244C00217635 /* UEntropySensor.m in Sources */,
+				EA5D6F212146244C00217635 /* HDMKeychainRecoverUtil.m in Sources */,
+				EA5D6EFC2146244C00217635 /* BTScript.m in Sources */,
+				EA5D6EE82146244C00217635 /* BTHDMKeychainRecover.m in Sources */,
+				EA5D6F042146244C00217635 /* PinCodeSetting.m in Sources */,
+				EA5D6EDE2146244C00217635 /* ReloadTxSetting.m in Sources */,
+				EA5D6F1F2146244C00217635 /* GCCrashInstallation.m in Sources */,
+				EA5D6F1E2146244C00217635 /* UIImage+ImageRenderToColor.m in Sources */,
+				EA5D6F7B2146244C00217635 /* SignTransactionScanSetting.m in Sources */,
+				EA5D6EAD2146244C00217635 /* BTHDAccountProvider.m in Sources */,
+				EA5D6E9C2146244C00217635 /* BitherSetting.m in Sources */,
+				EA5D6F8E2146244C00217635 /* BTKey+Bitcoinj.m in Sources */,
+				EA5D6F222146244C00217635 /* BTHDMKeychain.m in Sources */,
+				EA5D6EE32146244C00217635 /* NSString+Base58.m in Sources */,
+				EA5D6F2D2146244C00217635 /* MarketUtil.m in Sources */,
+				EA5D6F7D2146244C00217635 /* BTHDMAddress.m in Sources */,
+				EA5D6F292146244C00217635 /* BTQRCodeUtil.m in Sources */,
+				EA5D6EC92146244C00217635 /* GCCrashReportFilterTrim.m in Sources */,
+				EA5D6EF52146244C00217635 /* BTScriptOpCodes.m in Sources */,
+				EA5D6F9B2146244C00217635 /* DataCheckUtil.m in Sources */,
+				EA5D6F132146244C00217635 /* QRCodeTransportPage.m in Sources */,
+				EA5D6EA32146244C00217635 /* TouchIdIntegration.m in Sources */,
+				EA5D6E962146244C00217635 /* BTBIP32Key.m in Sources */,
+				EA5D6F492146244C00217635 /* PeerUtil.m in Sources */,
+				EA5D6FA42146244C00217635 /* UserDefaultsUtil.m in Sources */,
+				EA5D6F2C2146244C00217635 /* TotalBalanceHideUtil.m in Sources */,
+				EA5D6F922146244C00217635 /* NotificationUtil.m in Sources */,
+				EA5D6E8E2146244C00217635 /* BTHDAccountCold.m in Sources */,
+				EA5D6F582146244C00217635 /* HDMSingular.m in Sources */,
+				EA5D6F3D2146244C00217635 /* UploadAndDowloadFileFactory.m in Sources */,
+				EA5D6EEE2146244C00217635 /* Depth.m in Sources */,
+				EA5D6EB92146244C00217635 /* BaseApi.m in Sources */,
+				EA5D6F352146244C00217635 /* BTAddressManager.m in Sources */,
+				EA5D6EE92146244C00217635 /* BTTxHelper.m in Sources */,
+				EA5D6F822146244C00217635 /* CrashLog.m in Sources */,
+				EA5D6F882146244C00217635 /* UIView+Extension.m in Sources */,
+				EA5D6EE52146244C00217635 /* Market.m in Sources */,
+				EA5D6F9C2146244C00217635 /* StringUtil.m in Sources */,
+				EA5D6F7C2146244C00217635 /* BTBlockProvider.m in Sources */,
+				EA5D6F282146244C00217635 /* PlaySoundUtil.m in Sources */,
+				EA5D6EEB2146244C00217635 /* NSData+Hash.m in Sources */,
+				EA5D6F162146244C00217635 /* GetSplitSetting.m in Sources */,
+				EA5D6F392146244C00217635 /* UIImage+ImageWithColor.m in Sources */,
+				EA5D6F442146244C00217635 /* BTPeer.m in Sources */,
+				EA5D6ED62146244C00217635 /* PasswordStrengthUtil.m in Sources */,
+				EA5D6F982146244C00217635 /* NSString+Size.m in Sources */,
+				EA5D6F842146244C00217635 /* SystemUtil.m in Sources */,
+				EA5D6F472146244C00217635 /* BTHDMBid+Api.m in Sources */,
+				EA5D6F092146244C00217635 /* CloneQrCodeSetting.m in Sources */,
+				EA5D6F1C2146244C00217635 /* NSError+HDMHttpErrorMessage.m in Sources */,
+				EA5D6F6B2146244C00217635 /* PaymentAddressSetting.m in Sources */,
+				EA5D6EB42146244C00217635 /* BTOut.m in Sources */,
+				EA5D6F4A2146244C00217635 /* SplitCoinUtil.m in Sources */,
+				EA5D6F612146244C00217635 /* BTBlockChain.m in Sources */,
+				EA5D6F9E2146244C00217635 /* GroupUtil.m in Sources */,
+				EA5D6F952146244C00217635 /* CacheUtil.m in Sources */,
+				EA5D6EEA2146244C00217635 /* BTAddress.m in Sources */,
+				EA5D6EA92146244C00217635 /* HDMResetServerPasswordUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
