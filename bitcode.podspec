@@ -92,12 +92,9 @@ bitcode是一个很简单的比特币钱包模块，我们可以使用它来开�
   #
 
   spec.source_files  = "bitcode/*"
-  spec.source_files  = "include-ios/openssl/*"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
-  spec.ios.preserve_paths      = 'lib-ios/libcrypto.a', 'lib-ios/libssl.a'
-  spec.ios.vendored_libraries  = 'lib-ios/libcrypto.a', 'lib-ios/libssl.a'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -140,6 +137,7 @@ bitcode是一个很简单的比特币钱包模块，我们可以使用它来开�
   # spec.dependency "JSONKit", "~> 1.4"
   spec.dependency "CocoaLumberjack", "~> 1.9"
   spec.dependency "FMDB"
+  spec.dependency 'KKOpenSSL','~> 0.0.5'
   spec.dependency "SSModel"
   spec.dependency "KSCrash", "~> 0.0.3"
   spec.dependency "MKNetworkKit", "~> 0.87"
