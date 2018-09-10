@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "bitcode"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "bitcode是一个很简单的比特币钱包模块."
 
   # This description is used to generate tags and improve search results.
@@ -92,9 +92,9 @@ bitcode是一个很简单的比特币钱包模块，我们可以使用它来开�
   #
 
   spec.source_files  = "bitcode/*"
-  spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "Classes/Resouces/Sound/*"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "bitcode/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
