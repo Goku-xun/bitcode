@@ -17,6 +17,7 @@
 
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface UIImage (UIImageExt)
 - (UIImage *)scaleToSize:(CGSize)size;

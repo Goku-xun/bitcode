@@ -43,8 +43,8 @@
 #import <CommonCrypto/CommonHMAC.h>
 #import <openssl/ecdsa.h>
 #import <openssl/obj_mac.h>
-#import "BTSettings.h"
 #import <openssl/evp.h>
+#import "BTSettings.h"
 #import "BTKeyParameter.h"
 #import "NSData+Bitcoin.h"
 #import "BTUtils.h"

@@ -17,7 +17,6 @@
 //  limitations under the License.
 
 #import "PinCodeUtil.h"
-#import "AppDelegate.h"
 #import "UserDefaultsUtil.h"
 #import "FXBlurView/FXBlurView.h"
 

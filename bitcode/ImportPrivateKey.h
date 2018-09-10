@@ -17,6 +17,7 @@
 //  limitations under the License.
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 typedef enum {
     PrivateText, BitherQrcode, Bip38

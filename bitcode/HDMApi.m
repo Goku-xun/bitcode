@@ -55,15 +55,14 @@ static HDMApi *hdmApi;
 
 - (void)getHDMPasswordRandomWithHDMBid:(NSString *)hdmBid callback:(IdResponseBlock)callback andErrorCallBack:(ErrorHandler)errorCallback; {
     NSString *url = [NSString stringWithFormat:@"https://hdm.bither.net/api/v1/%@/hdm/password", hdmBid];
-
-    [manager GET:url parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager GET:url parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         NSNumber *random = @([responseObject longLongValue]);
         if (callback != nil) {
             callback(random);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         if (errorCallback) {
-
+            
         }
     }];
     
@@ -75,10 +74,7 @@ static HDMApi *hdmApi;
     NSDictionary *params = @{@"password" : [password base64EncodedString], @"signature" : signature,
             @"hot_address" : hotAddress};
     NSString *url = [NSString stringWithFormat:@"https://hdm.bither.net/api/v1/%@/hdm/password", hdmBid];
-    
-    [manager POST:url parameters:params progress:^(NSProgress * _Nonnull uploadProgress) {
-       
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager POST:url parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         NSError *error = nil;
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:&error];
         if (error) DLog(@"JSON Parsing Error: %@", error);
@@ -105,13 +101,11 @@ static HDMApi *hdmApi;
     NSDictionary *params = @{@"password" : [password base64EncodedString], @"start" : @(start), @"end" : @(end),
             @"pub_hot" : [self connect:pubHots], @"pub_cold" : [self connect:pubColds]};
     NSString *url = [NSString stringWithFormat:@"https://hdm.bither.net/api/v1/%@/hdm/address/create", hdmBid];
-    [manager POST:url parameters:params progress:^(NSProgress * _Nonnull uploadProgress) {
-        
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager POST:url parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         NSError *error = nil;
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:&error];
-//                NSArray *pubRemotes = [self split:operation.responseString];
-
+        //                NSArray *pubRemotes = [self split:operation.responseString];
+        
         if (error) DLog(@"JSON Parsing Error: %@", error);
         
         if (dict != nil && [dict[@"result"] isEqualToString:@"ok"]) {
@@ -128,6 +122,7 @@ static HDMApi *hdmApi;
             errorCallback(error, error);
         }
     }];
+    
 //    [manager POST:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
 //        NSArray *pubRemotes = [self split:operation.responseString];
 //        if (callback != nil) {
@@ -145,9 +140,7 @@ static HDMApi *hdmApi;
                            callback:(ArrayResponseBlock)callback andErrorCallBack:(ErrorHandler)errorCallback; {
     NSDictionary *params = @{@"password" : [password base64EncodedString], @"unsign" : [self connect:unsignHashes]};
     NSString *url = [NSString stringWithFormat:@"https://hdm.bither.net/api/v1/%@/hdm/address/%d/signature", hdmBid, index];
-    [manager POST:url parameters:params progress:^(NSProgress * _Nonnull uploadProgress) {
-        
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager POST:url parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         NSError *error = nil;
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:&error];
         //                NSArray *pubRemotes = [self split:operation.responseString];
@@ -168,6 +161,7 @@ static HDMApi *hdmApi;
             errorCallback(error, error);
         }
     }];
+    
 //    [manager POST:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
 //        NSArray *signatures = [self split:operation.responseString];
 //        if (callback != nil) {
@@ -185,9 +179,7 @@ static HDMApi *hdmApi;
                            callback:(DictResponseBlock)callback andErrorCallBack:(ErrorHandler)errorCallback; {
     NSDictionary *params = @{@"password" : [password base64EncodedString], @"signature" : signature};
     NSString *url = [NSString stringWithFormat:@"https://hdm.bither.net/api/v1/%@/hdm/recovery", hdmBid];
-    [manager POST:url parameters:params progress:^(NSProgress * _Nonnull uploadProgress) {
-        
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager POST:url parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         NSError *error = nil;
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:&error];
         //                NSArray *pubRemotes = [self split:operation.responseString];
@@ -208,6 +200,7 @@ static HDMApi *hdmApi;
             errorCallback(error, error);
         }
     }];
+    
 //    [manager POST:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
 //        NSError *error = nil;
 //        NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary:[NSJSONSerialization JSONObjectWithData:operation.responseData options:0 error:&error]];

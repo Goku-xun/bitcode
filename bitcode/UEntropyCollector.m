@@ -43,11 +43,11 @@
         shouldCollectData = NO;
         [[NSNotificationCenter defaultCenter] addObserver:self
                                                  selector:@selector(onResignActive)
-                                                     name:UIApplicationWillResignActiveNotification
+                                                     name:NSExtensionHostWillResignActiveNotification
                                                    object:nil];
         [[NSNotificationCenter defaultCenter] addObserver:self
                                                  selector:@selector(onBecomeActive)
-                                                     name:UIApplicationDidBecomeActiveNotification
+                                                     name:NSExtensionHostDidBecomeActiveNotification
                                                    object:nil];
     }
     return self;

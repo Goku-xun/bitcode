@@ -32,7 +32,6 @@
 #import "MessageSigningSetting.h"
 #import "HDMRecoverSetting.h"
 #import "HDMResetServerPasswordUtil.h"
-#import "AppDelegate.h"
 #import "PaymentAddressSetting.h"
 #import "GetSplitSetting.h"
 @implementation Setting

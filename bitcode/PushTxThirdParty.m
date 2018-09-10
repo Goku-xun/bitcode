@@ -10,7 +10,6 @@
 #import "NSString+Base58.h"
 //#import "AFHTTPRequestOperationManager.h"
 #import "AFNetworking.h"
-#import "KKNetwork.h"
 static PushTxThirdParty* instance;
 
 @implementation PushTxThirdParty{
@@ -58,9 +57,7 @@ static PushTxThirdParty* instance;
 
 -(void)pushToUrl:(NSString*)url key:(NSString*)key rawTx:(NSString*)rawTx tag:(NSString*)tag {
     NSLog(@"begin push tx to %@  key=%@   rawTx = %@", tag,key,rawTx);
-    [manager POST:url parameters:@{key:rawTx} progress:^(NSProgress * _Nonnull uploadProgress) {
-        
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager POST:url parameters:@{key:rawTx} success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         NSLog(@"push tx to %@ success responseObject %@", tag,responseObject);
         if (_myblock) _myblock(responseObject,YES);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {

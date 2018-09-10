@@ -25,7 +25,6 @@
 #import "StringUtil.h"
 #import "BTQRCodeUtil.h"
 #import "PeerUtil.h"
-#import "AppDelegate.h"
 #import "BTQRCodeUtil.h"
 #import "BTHDAccount.h"
 

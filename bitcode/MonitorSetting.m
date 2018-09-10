@@ -29,9 +29,6 @@
 
 #import "StringUtil.h"
 #import "KeyUtil.h"
-
-
-#import "AppDelegate.h"
 #import "PeerUtil.h"
 
 

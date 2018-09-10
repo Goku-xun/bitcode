@@ -929,7 +929,7 @@ NSComparator const unspentOutComparator = ^NSComparisonResult(id obj1, id obj2) 
     fees = feeRate * size;
 
 //缓存fees
-    [[NSUserDefaults standardUserDefaults]setInteger:fees forKey:KuarkPayBTCFees];
+    [[NSUserDefaults standardUserDefaults]setInteger:fees forKey:@"KuarkPayBTCFees"];
     // note : like bitcoinj, empty wallet will not check min output
     if (fees > 0) {
         BTTx *newTx = [BTTx new];

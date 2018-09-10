@@ -24,8 +24,6 @@
 #import "ImportHDMCold.h"
 #import "PeerUtil.h"
 
-
-#import "AppDelegate.h"
 #import "BTWordsTypeManager.h"
 
 @interface CheckPasswordDelegate : NSObject
@@ -176,7 +174,6 @@ static Setting *importPrivateKeySetting;
 }
 
 - (void)importHDMColdSeedFormQRCode:(NSString *)keyStr password:(NSString *)password dp:(id)dp {
-    [dp dismiss];
     ImportHDMCold *importPrivateKey = [[ImportHDMCold alloc] initWithController:self.controller content:keyStr worldList:nil passwrod:password importHDSeedType:HDMColdSeedQRCode];
     [importPrivateKey importHDSeed];
 }

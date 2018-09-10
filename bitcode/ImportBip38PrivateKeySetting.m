@@ -19,7 +19,6 @@
 #import "ImportBip38PrivateKeySetting.h"
 #import "BTPasswordSeed.h"
 #import "BTKey+BIP38.h"
-#import "AppDelegate.h"
 #import "PeerUtil.h"
 
 @interface CheckPasswordBip38Delegate : NSObject

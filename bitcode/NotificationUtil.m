@@ -20,7 +20,6 @@
 #import "NotificationUtil.h"
 #import "BTAddressManager.h"
 #import "UnitUtil.h"
-#import "AppDelegate.h"
 
 @implementation NotificationUtil
 + (void)notificationTx:(NSArray *)array {
@@ -49,7 +48,7 @@
         [infoDic setValue:[array objectAtIndex:3] forKey:@"TxNotificationType"];
     }
     UIApplicationState state = [UIApplication sharedApplication].applicationState;
-    [infoDic setValue:[NSNumber numberWithBool:state == UIApplicationStateActive] forKey:ApplicationForeground];
+    [infoDic setValue:[NSNumber numberWithBool:state == UIApplicationStateActive] forKey:@"ApplicationForeground"];
     [infoDic setValue:[NSNumber numberWithLongLong:diff] forKey:@"diff"];
     DDLogDebug(@"notify:%@", infoDic);
     if (txNotificationType == txReceive || txNotificationType == txSend) {

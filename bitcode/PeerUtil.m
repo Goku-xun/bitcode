@@ -24,7 +24,6 @@
 #import "BTPeerManager.h"
 #import "BlockUtil.h"
 #import "NetworkUtil.h"
-#import "AppDelegate.h"
 #import "UserDefaultsUtil.h"
 
 static BOOL isRunning = NO;

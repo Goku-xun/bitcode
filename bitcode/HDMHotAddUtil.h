@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HDMSingular.h"
+#import <UIKit/UIKit.h>
 
 @protocol HDMHotAddUtilDelegate
 - (void)moveToHot:(BOOL)anim andCompletion:(void (^)(void))completion;

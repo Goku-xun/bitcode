@@ -17,6 +17,7 @@
 //  limitations under the License.
 
 #import "UEntropyCollector.h"
+#import <UIKit/UIKit.h>
 
 @interface UEntropyCamera : NSObject <UEntropySource>
 - (instancetype)initWithViewController:(UIView *)view andCollector:(UEntropyCollector *)collector;

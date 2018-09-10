@@ -7,6 +7,8 @@
 //
 
 #import "UIView+Extension.h"
+#define ScreenWidthB [UIScreen mainScreen].bounds.size.width
+#define scaleTo375B (ScreenWidthB/375.0)
 
 @implementation UIView (Extension)
 
@@ -27,7 +29,7 @@
 - (void)DashPattern:(NSArray<NSNumber *>*)pattern radius:(CGFloat)radius borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor{
     CAShapeLayer *borderLayer = [CAShapeLayer layer];
     //    self.constraints
-    CGFloat width = self.bounds.size.width * scaleTo375;
+    CGFloat width = self.bounds.size.width * scaleTo375B;
     CGFloat height = width * (430.0 / 688);//(430.0 / 688)宽高比
     
     CGRect bounds = self.bounds;

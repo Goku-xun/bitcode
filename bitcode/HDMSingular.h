@@ -20,6 +20,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @protocol HDMSingularDelegate <NSObject>
 - (void)setSingularModeAvailable:(BOOL)available;

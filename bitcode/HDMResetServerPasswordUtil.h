@@ -20,6 +20,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 @interface HDMResetServerPasswordUtil : NSObject
 - (instancetype)initWithViewController:(UIViewController *)vc;
 

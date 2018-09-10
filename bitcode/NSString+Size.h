@@ -17,7 +17,7 @@
 //  limitations under the License.
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface NSString (Size)
 - (CGSize)sizeWithRestrict:(CGSize)restr font:(UIFont *)font;
 @end

@@ -1310,7 +1310,7 @@
             //            1BTC = 100000000
             //            coinomi   low = 336  normal = 453  high = 761
             //              return 453;
-            NSUInteger feesBase = [[NSUserDefaults standardUserDefaults] integerForKey:BTCFeesBase];
+            NSUInteger feesBase = [[NSUserDefaults standardUserDefaults] integerForKey:@"BTCFeesBase"];
             NSUInteger fees = feesBase ==0? 800 : feesBase*400;
             return fees;
         }
@@ -1327,7 +1327,7 @@
 + (u_int64_t)getSplitFeeRateForCoin:(Coin)coin; {
     switch (coin) {
         case BTC:{
-            NSUInteger feesBase = [[NSUserDefaults standardUserDefaults] integerForKey:BTCFeesBase];
+            NSUInteger feesBase = [[NSUserDefaults standardUserDefaults] integerForKey:@"BTCFeesBase"];
             return feesBase ==0? 2 : feesBase;
         }
         case BTW:

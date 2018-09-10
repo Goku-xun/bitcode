@@ -20,7 +20,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 
 typedef enum {
     PasswordStrengthWeak = 0, PasswordStrengthNormal = 1, PasswordStrengthMedium = 2, PasswordStrengthStrong = 3, PasswordStrengthVeryStrong = 4
