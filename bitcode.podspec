@@ -92,8 +92,6 @@ bitcode是一个很简单的比特币钱包模块，我们可以使用它来开�
   #
 
   spec.source_files  = "bitcode/*"
-  spec.exclude_files = "Classes/Resouces/Sound/*"
-
   spec.public_header_files = "bitcode/*.h"
 
 
@@ -106,7 +104,9 @@ bitcode是一个很简单的比特币钱包模块，我们可以使用它来开�
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "bitcode/Resouces/*"
+
+
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

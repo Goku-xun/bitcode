@@ -56,7 +56,6 @@
 		EA5D781421465CF000217635 /* NetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D76E621465CF000217635 /* NetworkUtil.m */; };
 		EA5D781521465CF000217635 /* BTPrivateKeyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D76E721465CF000217635 /* BTPrivateKeyUtil.h */; };
 		EA5D781621465CF000217635 /* HDMRecoverSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D76E821465CF000217635 /* HDMRecoverSetting.m */; };
-		EA5D781721465CF000217635 /* FixedPeers.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5D76E921465CF000217635 /* FixedPeers.plist */; };
 		EA5D781821465CF000217635 /* BTHDAccountAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D76EA21465CF000217635 /* BTHDAccountAddress.h */; };
 		EA5D781921465CF000217635 /* HDMSingular.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D76EB21465CF000217635 /* HDMSingular.h */; };
 		EA5D781A21465CF000217635 /* BTOut.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D76EC21465CF000217635 /* BTOut.m */; };
@@ -122,7 +121,6 @@
 		EA5D785621465CF000217635 /* UpgradeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D772821465CF000217635 /* UpgradeUtil.h */; };
 		EA5D785721465CF000217635 /* ImportPrivateKey.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D772921465CF000217635 /* ImportPrivateKey.h */; };
 		EA5D785821465CF000217635 /* XRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D772A21465CF000217635 /* XRandom.m */; };
-		EA5D785921465CF000217635 /* BIP39ZhCNWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5D772B21465CF000217635 /* BIP39ZhCNWords.plist */; };
 		EA5D785A21465CF000217635 /* SensorVisualizerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D772C21465CF000217635 /* SensorVisualizerView.h */; };
 		EA5D785B21465CF000217635 /* BTScriptOpCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D772D21465CF000217635 /* BTScriptOpCodes.m */; };
 		EA5D785C21465CF000217635 /* BTPasswordSeed.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D772E21465CF000217635 /* BTPasswordSeed.h */; };
@@ -178,7 +176,6 @@
 		EA5D788E21465CF100217635 /* BTBIP32Key.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D776021465CF000217635 /* BTBIP32Key.h */; };
 		EA5D788F21465CF100217635 /* PlaySoundUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D776121465CF000217635 /* PlaySoundUtil.m */; };
 		EA5D789021465CF100217635 /* BTQRCodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D776221465CF000217635 /* BTQRCodeUtil.m */; };
-		EA5D789121465CF100217635 /* BIP39EnglishWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5D776321465CF000217635 /* BIP39EnglishWords.plist */; };
 		EA5D789221465CF100217635 /* BTHDAccountCold.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D776421465CF000217635 /* BTHDAccountCold.h */; };
 		EA5D789321465CF100217635 /* TotalBalanceHideUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D776521465CF000217635 /* TotalBalanceHideUtil.m */; };
 		EA5D789421465CF100217635 /* MarketUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D776621465CF000217635 /* MarketUtil.m */; };
@@ -198,10 +195,6 @@
 		EA5D78A221465CF100217635 /* BitherEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D777421465CF000217635 /* BitherEngine.m */; };
 		EA5D78A321465CF100217635 /* AudioVisualizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D777521465CF000217635 /* AudioVisualizerView.m */; };
 		EA5D78A421465CF100217635 /* UploadAndDowloadFileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D777621465CF000217635 /* UploadAndDowloadFileFactory.m */; };
-		EA5D78A521465CF100217635 /* coins_received.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA5D777921465CF000217635 /* coins_received.wav */; };
-		EA5D78A621465CF100217635 /* xrandom_close_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA5D777A21465CF000217635 /* xrandom_close_sound.mp3 */; };
-		EA5D78A721465CF100217635 /* qr_code_scanned.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA5D777B21465CF000217635 /* qr_code_scanned.mp3 */; };
-		EA5D78A821465CF100217635 /* xrandom_open_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA5D777C21465CF000217635 /* xrandom_open_sound.mp3 */; };
 		EA5D78A921465CF100217635 /* GCCrashReportFilterTrim.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D777D21465CF000217635 /* GCCrashReportFilterTrim.h */; };
 		EA5D78AA21465CF100217635 /* BTScriptBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D777E21465CF000217635 /* BTScriptBuilder.m */; };
 		EA5D78AB21465CF100217635 /* BTPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D777F21465CF000217635 /* BTPeer.m */; };
@@ -212,7 +205,6 @@
 		EA5D78B021465CF100217635 /* PeerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D778421465CF000217635 /* PeerUtil.m */; };
 		EA5D78B121465CF100217635 /* SplitCoinUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D778521465CF000217635 /* SplitCoinUtil.m */; };
 		EA5D78B221465CF100217635 /* ImportHDMCold.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D778621465CF000217635 /* ImportHDMCold.h */; };
-		EA5D78B321465CF100217635 /* BIP39ZhTWWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5D778721465CF000217635 /* BIP39ZhTWWords.plist */; };
 		EA5D78B421465CF100217635 /* BTHDAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D778821465CF000217635 /* BTHDAccount.h */; };
 		EA5D78B521465CF100217635 /* BTVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D778921465CF000217635 /* BTVersion.h */; };
 		EA5D78B621465CF100217635 /* UnitUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D778A21465CF000217635 /* UnitUtil.h */; };
@@ -287,7 +279,6 @@
 		EA5D78FB21465CF100217635 /* BTBIP39.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D77CF21465CF000217635 /* BTBIP39.m */; };
 		EA5D78FC21465CF100217635 /* CloneQrCodeSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D77D021465CF000217635 /* CloneQrCodeSetting.h */; };
 		EA5D78FD21465CF100217635 /* CacheUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D77D121465CF000217635 /* CacheUtil.m */; };
-		EA5D78FE21465CF100217635 /* hdm.bither.net.cer in Resources */ = {isa = PBXBuildFile; fileRef = EA5D77D221465CF000217635 /* hdm.bither.net.cer */; };
 		EA5D78FF21465CF100217635 /* Setting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D77D321465CF000217635 /* Setting.h */; };
 		EA5D790021465CF100217635 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D77D421465CF000217635 /* NSString+Size.m */; };
 		EA5D790121465CF100217635 /* PinCodeSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D77D521465CF000217635 /* PinCodeSetting.h */; };
@@ -308,6 +299,10 @@
 		EA5D791021465CF100217635 /* BTPasswordSeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D77E421465CF000217635 /* BTPasswordSeed.m */; };
 		EA5D791121465CF100217635 /* BTIn.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D77E521465CF000217635 /* BTIn.h */; };
 		EA5D791221465CF100217635 /* XRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D77E621465CF000217635 /* XRandom.h */; };
+		EA7795352153A1D200E948B0 /* BIP39EnglishWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA7795312153A1D100E948B0 /* BIP39EnglishWords.plist */; };
+		EA7795362153A1D200E948B0 /* FixedPeers.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA7795322153A1D200E948B0 /* FixedPeers.plist */; };
+		EA7795372153A1D200E948B0 /* BIP39ZhCNWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA7795332153A1D200E948B0 /* BIP39ZhCNWords.plist */; };
+		EA7795382153A1D200E948B0 /* BIP39ZhTWWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA7795342153A1D200E948B0 /* BIP39ZhTWWords.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -362,7 +357,6 @@
 		EA5D76E621465CF000217635 /* NetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtil.m; sourceTree = "<group>"; };
 		EA5D76E721465CF000217635 /* BTPrivateKeyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPrivateKeyUtil.h; sourceTree = "<group>"; };
 		EA5D76E821465CF000217635 /* HDMRecoverSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMRecoverSetting.m; sourceTree = "<group>"; };
-		EA5D76E921465CF000217635 /* FixedPeers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FixedPeers.plist; sourceTree = "<group>"; };
 		EA5D76EA21465CF000217635 /* BTHDAccountAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountAddress.h; sourceTree = "<group>"; };
 		EA5D76EB21465CF000217635 /* HDMSingular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMSingular.h; sourceTree = "<group>"; };
 		EA5D76EC21465CF000217635 /* BTOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTOut.m; sourceTree = "<group>"; };
@@ -428,7 +422,6 @@
 		EA5D772821465CF000217635 /* UpgradeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpgradeUtil.h; sourceTree = "<group>"; };
 		EA5D772921465CF000217635 /* ImportPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportPrivateKey.h; sourceTree = "<group>"; };
 		EA5D772A21465CF000217635 /* XRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRandom.m; sourceTree = "<group>"; };
-		EA5D772B21465CF000217635 /* BIP39ZhCNWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39ZhCNWords.plist; sourceTree = "<group>"; };
 		EA5D772C21465CF000217635 /* SensorVisualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorVisualizerView.h; sourceTree = "<group>"; };
 		EA5D772D21465CF000217635 /* BTScriptOpCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptOpCodes.m; sourceTree = "<group>"; };
 		EA5D772E21465CF000217635 /* BTPasswordSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPasswordSeed.h; sourceTree = "<group>"; };
@@ -484,7 +477,6 @@
 		EA5D776021465CF000217635 /* BTBIP32Key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBIP32Key.h; sourceTree = "<group>"; };
 		EA5D776121465CF000217635 /* PlaySoundUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaySoundUtil.m; sourceTree = "<group>"; };
 		EA5D776221465CF000217635 /* BTQRCodeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTQRCodeUtil.m; sourceTree = "<group>"; };
-		EA5D776321465CF000217635 /* BIP39EnglishWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39EnglishWords.plist; sourceTree = "<group>"; };
 		EA5D776421465CF000217635 /* BTHDAccountCold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccountCold.h; sourceTree = "<group>"; };
 		EA5D776521465CF000217635 /* TotalBalanceHideUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalBalanceHideUtil.m; sourceTree = "<group>"; };
 		EA5D776621465CF000217635 /* MarketUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketUtil.m; sourceTree = "<group>"; };
@@ -504,10 +496,6 @@
 		EA5D777421465CF000217635 /* BitherEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitherEngine.m; sourceTree = "<group>"; };
 		EA5D777521465CF000217635 /* AudioVisualizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioVisualizerView.m; sourceTree = "<group>"; };
 		EA5D777621465CF000217635 /* UploadAndDowloadFileFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadAndDowloadFileFactory.m; sourceTree = "<group>"; };
-		EA5D777921465CF000217635 /* coins_received.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coins_received.wav; sourceTree = "<group>"; };
-		EA5D777A21465CF000217635 /* xrandom_close_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xrandom_close_sound.mp3; sourceTree = "<group>"; };
-		EA5D777B21465CF000217635 /* qr_code_scanned.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qr_code_scanned.mp3; sourceTree = "<group>"; };
-		EA5D777C21465CF000217635 /* xrandom_open_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xrandom_open_sound.mp3; sourceTree = "<group>"; };
 		EA5D777D21465CF000217635 /* GCCrashReportFilterTrim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCrashReportFilterTrim.h; sourceTree = "<group>"; };
 		EA5D777E21465CF000217635 /* BTScriptBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScriptBuilder.m; sourceTree = "<group>"; };
 		EA5D777F21465CF000217635 /* BTPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeer.m; sourceTree = "<group>"; };
@@ -518,7 +506,6 @@
 		EA5D778421465CF000217635 /* PeerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeerUtil.m; sourceTree = "<group>"; };
 		EA5D778521465CF000217635 /* SplitCoinUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitCoinUtil.m; sourceTree = "<group>"; };
 		EA5D778621465CF000217635 /* ImportHDMCold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportHDMCold.h; sourceTree = "<group>"; };
-		EA5D778721465CF000217635 /* BIP39ZhTWWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39ZhTWWords.plist; sourceTree = "<group>"; };
 		EA5D778821465CF000217635 /* BTHDAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTHDAccount.h; sourceTree = "<group>"; };
 		EA5D778921465CF000217635 /* BTVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTVersion.h; sourceTree = "<group>"; };
 		EA5D778A21465CF000217635 /* UnitUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitUtil.h; sourceTree = "<group>"; };
@@ -593,7 +580,6 @@
 		EA5D77CF21465CF000217635 /* BTBIP39.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBIP39.m; sourceTree = "<group>"; };
 		EA5D77D021465CF000217635 /* CloneQrCodeSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloneQrCodeSetting.h; sourceTree = "<group>"; };
 		EA5D77D121465CF000217635 /* CacheUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheUtil.m; sourceTree = "<group>"; };
-		EA5D77D221465CF000217635 /* hdm.bither.net.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = hdm.bither.net.cer; sourceTree = "<group>"; };
 		EA5D77D321465CF000217635 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
 		EA5D77D421465CF000217635 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
 		EA5D77D521465CF000217635 /* PinCodeSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinCodeSetting.h; sourceTree = "<group>"; };
@@ -614,6 +600,10 @@
 		EA5D77E421465CF000217635 /* BTPasswordSeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPasswordSeed.m; sourceTree = "<group>"; };
 		EA5D77E521465CF000217635 /* BTIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIn.h; sourceTree = "<group>"; };
 		EA5D77E621465CF000217635 /* XRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRandom.h; sourceTree = "<group>"; };
+		EA7795312153A1D100E948B0 /* BIP39EnglishWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39EnglishWords.plist; sourceTree = "<group>"; };
+		EA7795322153A1D200E948B0 /* FixedPeers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FixedPeers.plist; sourceTree = "<group>"; };
+		EA7795332153A1D200E948B0 /* BIP39ZhCNWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39ZhCNWords.plist; sourceTree = "<group>"; };
+		EA7795342153A1D200E948B0 /* BIP39ZhTWWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39ZhTWWords.plist; sourceTree = "<group>"; };
 		FA7DC931C5A2A228BA24C0A3 /* Pods-bitcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcode.release.xcconfig"; path = "Target Support Files/Pods-bitcode/Pods-bitcode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -707,7 +697,6 @@
 				EA5D76E621465CF000217635 /* NetworkUtil.m */,
 				EA5D76E721465CF000217635 /* BTPrivateKeyUtil.h */,
 				EA5D76E821465CF000217635 /* HDMRecoverSetting.m */,
-				EA5D76E921465CF000217635 /* FixedPeers.plist */,
 				EA5D76EA21465CF000217635 /* BTHDAccountAddress.h */,
 				EA5D76EB21465CF000217635 /* HDMSingular.h */,
 				EA5D76EC21465CF000217635 /* BTOut.m */,
@@ -773,7 +762,6 @@
 				EA5D772821465CF000217635 /* UpgradeUtil.h */,
 				EA5D772921465CF000217635 /* ImportPrivateKey.h */,
 				EA5D772A21465CF000217635 /* XRandom.m */,
-				EA5D772B21465CF000217635 /* BIP39ZhCNWords.plist */,
 				EA5D772C21465CF000217635 /* SensorVisualizerView.h */,
 				EA5D772D21465CF000217635 /* BTScriptOpCodes.m */,
 				EA5D772E21465CF000217635 /* BTPasswordSeed.h */,
@@ -829,7 +817,6 @@
 				EA5D776021465CF000217635 /* BTBIP32Key.h */,
 				EA5D776121465CF000217635 /* PlaySoundUtil.m */,
 				EA5D776221465CF000217635 /* BTQRCodeUtil.m */,
-				EA5D776321465CF000217635 /* BIP39EnglishWords.plist */,
 				EA5D776421465CF000217635 /* BTHDAccountCold.h */,
 				EA5D776521465CF000217635 /* TotalBalanceHideUtil.m */,
 				EA5D776621465CF000217635 /* MarketUtil.m */,
@@ -860,7 +847,6 @@
 				EA5D778421465CF000217635 /* PeerUtil.m */,
 				EA5D778521465CF000217635 /* SplitCoinUtil.m */,
 				EA5D778621465CF000217635 /* ImportHDMCold.h */,
-				EA5D778721465CF000217635 /* BIP39ZhTWWords.plist */,
 				EA5D778821465CF000217635 /* BTHDAccount.h */,
 				EA5D778921465CF000217635 /* BTVersion.h */,
 				EA5D778A21465CF000217635 /* UnitUtil.h */,
@@ -935,7 +921,6 @@
 				EA5D77CF21465CF000217635 /* BTBIP39.m */,
 				EA5D77D021465CF000217635 /* CloneQrCodeSetting.h */,
 				EA5D77D121465CF000217635 /* CacheUtil.m */,
-				EA5D77D221465CF000217635 /* hdm.bither.net.cer */,
 				EA5D77D321465CF000217635 /* Setting.h */,
 				EA5D77D421465CF000217635 /* NSString+Size.m */,
 				EA5D77D521465CF000217635 /* PinCodeSetting.h */,
@@ -963,20 +948,12 @@
 		EA5D777721465CF000217635 /* Resouces */ = {
 			isa = PBXGroup;
 			children = (
-				EA5D777821465CF000217635 /* Sound */,
+				EA7795312153A1D100E948B0 /* BIP39EnglishWords.plist */,
+				EA7795332153A1D200E948B0 /* BIP39ZhCNWords.plist */,
+				EA7795342153A1D200E948B0 /* BIP39ZhTWWords.plist */,
+				EA7795322153A1D200E948B0 /* FixedPeers.plist */,
 			);
 			path = Resouces;
-			sourceTree = "<group>";
-		};
-		EA5D777821465CF000217635 /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-				EA5D777921465CF000217635 /* coins_received.wav */,
-				EA5D777A21465CF000217635 /* xrandom_close_sound.mp3 */,
-				EA5D777B21465CF000217635 /* qr_code_scanned.mp3 */,
-				EA5D777C21465CF000217635 /* xrandom_open_sound.mp3 */,
-			);
-			path = Sound;
 			sourceTree = "<group>";
 		};
 		FEF0DD1E991A65E2D137CECF /* Frameworks */ = {
@@ -1202,16 +1179,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA5D78A521465CF100217635 /* coins_received.wav in Resources */,
-				EA5D78B321465CF100217635 /* BIP39ZhTWWords.plist in Resources */,
-				EA5D78A721465CF100217635 /* qr_code_scanned.mp3 in Resources */,
-				EA5D789121465CF100217635 /* BIP39EnglishWords.plist in Resources */,
-				EA5D781721465CF000217635 /* FixedPeers.plist in Resources */,
-				EA5D78A821465CF100217635 /* xrandom_open_sound.mp3 in Resources */,
-				EA5D78FE21465CF100217635 /* hdm.bither.net.cer in Resources */,
-				EA5D78A621465CF100217635 /* xrandom_close_sound.mp3 in Resources */,
+				EA7795362153A1D200E948B0 /* FixedPeers.plist in Resources */,
+				EA7795382153A1D200E948B0 /* BIP39ZhTWWords.plist in Resources */,
+				EA7795352153A1D200E948B0 /* BIP39EnglishWords.plist in Resources */,
 				EA5D790221465CF100217635 /* Info.plist in Resources */,
-				EA5D785921465CF000217635 /* BIP39ZhCNWords.plist in Resources */,
+				EA7795372153A1D200E948B0 /* BIP39ZhCNWords.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
