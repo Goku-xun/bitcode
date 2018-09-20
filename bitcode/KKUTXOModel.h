@@ -28,6 +28,8 @@
 /*顺序*/
 @property (nonatomic) NSInteger index;
 
--(void)getUTXOWith:(NSString *)btcAdress success:(void(^)(id respectObj))success failure:(void(^)(NSError *error))failure;
-
+/*
+ *传入url
+ */
+-(void)getUTXOUrl:(NSString *)url btcAdress:(NSString *)btcAdress success:(void(^)(id respectObj))success failure:(void(^)(NSError *error))failure;
 @end
